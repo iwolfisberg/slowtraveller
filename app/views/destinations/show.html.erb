@@ -1,2 +1,29 @@
 <h1><%= @destination.name %> (<%= @destination.country %>)</h1>
-<p><%= @destination.description %></p>
+<p>Description: <%= @destination.description %></p>
+<p>Lieu d'origine: <%= @origin %></p>
+<p>Lieu d'arrivée: <%= @arrival %></p>
+<p>Durée totale: <%= @duration %></p>
+<p>Distance totale: <%= @distance %></p>
+
+<br>
+<br>
+<br>
+
+<div class="card">
+  <% @steps.each do |step| %>
+    <%= step["distance"]["text"] %>
+    <%= step["duration"]["text"] %>
+    <% unless step["travel_mode"] == "WALKING" %>
+      <%= step["html_instructions"] %>
+      <%= step["transit_details"]["departure_stop"]["name"] %>
+      <%= step["transit_details"]["departure_time"]["text"] %>
+      <%= step["transit_details"]["arrival_stop"]["name"] %>
+      <%= step["transit_details"]["arrival_time"]["text"] %>
+      <%= link_to step["transit_details"]["line"]["agencies"][0]["url"] do %>
+        <%= step["transit_details"]["line"]["agencies"][0]["name"] %>
+      <% end %>
+      <%= image_tag (step["transit_details"]["vehicle"]["icon"]) %>
+      <br>
+    <% end %>
+  <% end %>
+</div>
