@@ -16,10 +16,8 @@ cities = ["Bangkok", "London", "Paris", "Singapour", "New York", "Istanbul", "Du
 countries = ["Thailand", "England", "France", "Singapour", "USA", "Turkey", "Dubaï", "Malaysia", "Italy", "Portugal", "Czech Republic", "China", "Switzerland", "Spain", "Spain", "Russia", "Hongary", "Germany", "Austria", "Germany"]
 lorem = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ratione nam velit, a eveniet earum, fugit laudantium voluptates suscipit qui quisquam aspernatur officia repellat quaerat provident. Hic, nisi voluptates ducimus."
 
-cities.each do |name|
-  i = 0
-  destination = Destination.new(name: name, description: lorem, country: country[i])
-  # destination.remote_photo_url = url
-  # destination.save
-  i = i+1
+cities.each_with_index do |name, index|
+  destination = Destination.new(name: name, description: lorem, country: countries[index])
+  destination.photo_url = "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,h_500/v1558965633/slowtraveller/london_rrwf7y.jpg"
+  destination.save
 end
