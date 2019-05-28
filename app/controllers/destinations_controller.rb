@@ -10,7 +10,7 @@ class DestinationsController < ApplicationController
     @destination = Destination.find(params[:id])
 
     # Au final, on aura besoin de ça ----------------->
-    # url = "https://maps.googleapis.com/maps/api/directions/json?origin=Lausanne&destination=#{@destination.name}&mode=transit&key=GOOGLE_API_KEY"
+    # url = "https://maps.googleapis.com/maps/api/directions/json?origin=Lausanne&destination=#{@destination.name}&mode=transit&key=#{ENV['GOOGLE_API_KEY']}"
     # route_serialized = open(url).read
 
 
