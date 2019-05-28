@@ -7,7 +7,11 @@ User.destroy_all
 
 puts "Getting destinations from API"
 
-url = 'https://www.triposo.com/api/20181213/location.json?part_of=France&tag_labels=city&count=10&order_by=-score&fields=name,coordinates,snippet,country_id,score,type,images&account=7PI47CYF&token=554jn6k69kxp8zs8myvd9qoiwqr7pi47'
+def url(country)
+ "https://www.triposo.com/api/20181213/location.json?part_of=#{country}&tag_labels=city&count=10&order_by=-score&fields=name,coordinates,snippet,country_id,score,type,images#{ENV['TRIPOSO_API_KEY']}"
+end
+
+url = url("France".downcase)
 destinations_json = open(url).read
 destinations = JSON.parse(destinations_json)["results"]
 
@@ -25,3 +29,4 @@ destinations.each do |destination|
     country: destination["country_id"]
   )
 end
+
