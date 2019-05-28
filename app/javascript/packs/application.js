@@ -1,5 +1,7 @@
 import "bootstrap";
 
+import "../plugins/flatpickr"
+
 import { initCardDetailsOnClick } from '../components/card_click'
 initCardDetailsOnClick();
 
