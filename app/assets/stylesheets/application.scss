@@ -23,6 +23,15 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
 @media(max-width: 992px) {
   .main-container {
     width: 100%;
