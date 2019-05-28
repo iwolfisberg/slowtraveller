@@ -1,6 +1,4 @@
-<h1>Destinations#index</h1>
-<p>Find me in app/views/destinations/index.html.erb</p>
-
+<div class="main-container">
   <div class="form">
     <div class="col-sm-12">
       <div id="destinations">
@@ -9,11 +7,12 @@
       </div>
     </div>
   </div>
-
-  <div position:relative top: 175px left: 300px>
-    <ul>
-      <% @destinations.each do |destination| %>
-        <li><%= "#{destination.name}" %></li>
-      <% end %>
-    </ul>
+  <div class="results">
+    <% @destinations.each do |destination| %>
+      <div class="result">
+        <p><%= "#{destination.name}" %></p>
+      </div>
+    <% end %>
   </div>
+</div>
+
