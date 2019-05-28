@@ -1,2 +1,57 @@
-<h1>Destinations#show</h1>
-<p>Find me in app/views/destinations/show.html.erb</p>
+<div class="main-container">
+  <div class="destination">
+    <div class="destination-description">
+      <h1><%= @destination.name %> (<%= @destination.country %>)</h1>
+      <p><%= @destination.description %></p>
+    </div>
+    <%= image_tag @destination.photo_url, alt: @destination.name, class: "destination-image" %>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="card-destination">
+    <div class="card-destination-carbon">
+      <% @distance %>
+      <i class="fas fa-leaf"></i>
+    </div>
+    <div class="card-destination-transit-icon">
+      <% @steps.each do |step| %>
+        <% unless step["travel_mode"] == "WALKING" %>
+          <%= image_tag (step["transit_details"]["line"]["vehicle"]["icon"]), width: 20, crop: :scale %>
+          <p> + </p>
+        <% end %>
+      <% end %>
+    </div>
+    <div class="card-destination-info">
+      <p>From <%= @origin %></p>
+      <p>At <%= @departure_time %></p>
+      <p>To <%= @arrival %></p>
+      <p>At <%= @arrival_time %></p>
+    </div>
+    <div class="card-destination-price">
+      <p>$$$</p>
+    </div>
+  </div>
+  <div class="card card-destination-details">
+    <% @steps.each do |step| %>
+      <%#= step["distance"]["text"] %>
+      <% unless step["travel_mode"] == "WALKING" %>
+        <%#= step["html_instructions"] %>
+        <div class="card-destination-details-icon">
+          <%= image_tag (step["transit_details"]["line"]["vehicle"]["icon"]), width: 30, crop: :scale %>
+        </div>
+        <div class="card-destination-details-connections">
+          <p><%= step["transit_details"]["departure_time"]["text"] %> - <%= step["transit_details"]["departure_stop"]["name"] %></p>
+          <%= step["duration"]["text"] %>
+          <p><%= step["transit_details"]["arrival_time"]["text"] %> - <%= step["transit_details"]["arrival_stop"]["name"] %></p>
+        </div>
+        <div class="card-destination-details-link">
+          <%= link_to step["transit_details"]["line"]["agencies"][0]["url"] do %>
+            <%= step["transit_details"]["line"]["agencies"][0]["name"] %>
+          <% end %>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
