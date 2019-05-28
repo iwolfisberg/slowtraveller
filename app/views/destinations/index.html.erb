@@ -6,6 +6,11 @@
       <div id="destinations">
         <h3>You are a slow traveller</h3>
         <%= render 'shared/form_research' %>
+        <ul>
+          <% @destinations.each do |destination| %>
+            <li><%= "#{destination.name} #{destination.longitude} #{destination.latitude}" %></li>
+          <% end %>
+        </ul>
       </div>
     </div>
   </div>
