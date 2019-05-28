@@ -1,18 +1,23 @@
 <div class="main-container">
-  <div class="form">
-    <div class="col-sm-12">
-      <div id="destinations">
-        <h3>You are a slow traveller</h3>
-        <%= render 'shared/form_research' %>
+    <h1>Destinations#index</h1>
+    <p>Find me in app/views/destinations/index.html.erb</p>
+
+    <div class="form">
+      <div class="col-sm-12">
+        <div id="destinations">
+          <h3>You are a slow traveller</h3>
+          <%= render 'shared/form_research' %>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="results">
-    <% @destinations.each do |destination| %>
+
+
+    <div class="results">
+        <% @destinations.each do |destination| %>
       <div class="result">
-        <p><%= "#{destination.name}" %></p>
+        <p><%= link_to destination.name, destination_path(destination) %></p>
       </div>
-    <% end %>
-  </div>
+        <% end %>
+    </div>
 </div>
 
