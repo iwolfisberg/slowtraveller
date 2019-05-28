@@ -1,0 +1,100 @@
+.destination {
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-column-gap: 10px;
+}
+
+.destination-image {
+  width: 100%;
+}
+
+// layout cards
+
+.cards-destination-show {
+  width:800px;
+  margin: 0 auto;
+}
+
+.card-destination-show-general, .card-destination-show-details {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+  display: grid;
+  padding: 10px;
+}
+
+.card-destination-show-general {
+  grid-template-columns: 15% 30% 40% 15%;
+  justify-items: center;
+  align-items: center;
+  .card-destination-transit-icon {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.card-destination-show-details {
+  background-color: rgba(255, 255, 255, .7);
+  grid-template-columns: 5% 70% 25%;
+  align-items: center;
+  grid-row-gap: 10px;
+  display: none;
+  position: relative;
+  .card-destination-details-icon {
+    z-index: 20;
+    .icon {
+      background-color: white;
+    }
+  }
+}
+
+.in-between {
+  display: inline-block;
+  margin-left: 15px;
+  .duration-in-between {
+    font-size: 10px;
+    color: $gray;
+    opacity: .7;
+    margin-right: 15px;
+  }
+}
+
+.vertical-line {
+  width: 3px; /* Line width */
+  background-color: black; /* Line color */
+  height: 92%;
+  position: absolute;
+  top: 11px;
+  left: 23px;
+  z-index: 1;
+}
+
+.circle-top {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 7px;
+  left: 21px;
+  z-index: 1;
+}
+
+.circle-bottom {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  bottom: 7px;
+  left: 21px;
+  z-index: 1;
+}
+
+@media(max-width: 992px) {
+
+}
+
+@media(max-width: 768px) {
+
+}

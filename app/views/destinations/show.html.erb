@@ -1,2 +1,13 @@
-<h1>Destinations#show</h1>
-<p>Find me in app/views/destinations/show.html.erb</p>
+<div class="main-container">
+  <div class="destination">
+    <div class="destination-description">
+      <h1><%= @destination.name %> (<%= @destination.country %>)</h1>
+      <p><%= @destination.description %></p>
+    </div>
+    <%= image_tag @destination.photo_url, alt: @destination.name, class: "destination-image" %>
+  </div>
+
+  <br>
+  <br>
+  <%= render 'shared/card-destination' %>
+</div>
