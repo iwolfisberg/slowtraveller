@@ -1,5 +1,6 @@
 require 'json'
 require 'open-uri'
+require_relative 'countries'
 
 puts "Destroy all"
 Destination.destroy_all
@@ -28,14 +29,7 @@ def create_destination(country)
   end
 end
 
-create_destination("Switzerland")
-create_destination("France")
-create_destination("Germany")
-create_destination("Italy")
-create_destination("Austria")
-create_destination("Belgium")
-create_destination("Russia")
-create_destination("Spain")
-create_destination("Portugal")
-create_destination("Poland")
-create_destination("Greece")
+COUNTRIES.each do |country|
+  create_destination(country)
+end
+
