@@ -29,7 +29,7 @@ def create_destination(country)
   end
 end
 
-countries_test = COUNTRIES.take(20)
-countries_test.each do |country|
+COUNTRIES.each do |country|
   create_destination(country)
 end
+
