@@ -1,0 +1,36 @@
+.destination {
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-column-gap: 10px;
+}
+
+.destination-image {
+  width: 100%;
+}
+
+
+.card-destination {
+  display: grid;
+  grid-template-columns: 15% 30% 40% 15%;
+  justify-items: center;
+  align-items: center;
+  .card-destination-transit-icon {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.card-destination-details {
+  display: grid;
+  grid-template-columns: 5% 70% 25%;
+  align-items: center;
+  grid-row-gap: 10px;
+}
+
+@media(max-width: 992px) {
+
+}
+
+@media(max-width: 768px) {
+
+}
