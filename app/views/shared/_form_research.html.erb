@@ -1,0 +1,6 @@
+<%= simple_form_for @destinations do |f| %>
+  <%= f.input :name, label: "Current position" %>
+  <%= f.input :name, label: "Day of departure" %>
+  <%= f.input :name, label: "Departure time" %>
+  <%= f.submit "Submit", class: "btn-primary" %>
+<% end %>
