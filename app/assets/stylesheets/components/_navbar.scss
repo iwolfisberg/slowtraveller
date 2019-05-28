@@ -1,6 +1,11 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background-color: transparent;
+  transition: 0.3s background-color ease;
+}
+
+.navbar-lewagon-white {
+  background-color: white;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +14,14 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.logo {
+  font-family: $logo-traveller;
+  color: $gray;
+  opacity: .8;
+  #logo-slow {
+    font-family: $logo-slow;
+    color: #52d87a;
+  }
 }
