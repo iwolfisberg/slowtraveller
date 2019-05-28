@@ -1,0 +1,3966 @@
+{
+results: [
+{
+name: "Paris",
+country_id: "France",
+coordinates: {
+latitude: 48.86172794214757,
+longitude: 2.3319654
+},
+snippet: "The "City of Light" and one of the most visited places on Earth: romance, cuisine, the Eiffel Tower and a surprising amount of green await you.",
+score: 9.98356064395233,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/2.0/",
+attribution_link: "http://www.flickr.com/photos/henry_marion",
+attribution_text: "Henry_Marion",
+license_text: "CC BY-SA 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX6qPnBR7dovGo9G-l7Aq6GSCMeRmldtZrQsOglmX6WkfZX5x0rOIYbZES4aWhbfaWjhd5ECiLM82DJxOGsctb2z8WTtk8PSV8uHPIVYDz0DpOb08fU7HZn8PojmrC80E-phJPVJVDpDqVOYoVu9xhboU6UGmYeoSxJdxwObuE8amOchlq20RU-VCHTVTP6RDokBBRhLev5SUn08E_qGZ0rGt98TBskfXaGM1XcDXIDfvm4eI0eocKyaNrMJ9SJNy1MNZvlEW5x3Xzu_d8zncqePi7SrL_XAcBFua_CuAJC60=",
+width: 640,
+format: "jpg",
+bytes: 41720,
+height: 426
+},
+original: {
+url: "https://farm8.staticflickr.com/7165/6694717875_f1f7e7ed84_b.jpg",
+width: 1024,
+format: "jpg",
+bytes: 382627,
+height: 683
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXA0kjEdP3PqkWyR-tkgw7X8kKSCwRxgwfnYUySf9iboB1mVmqH5CxDP0PxnrWe1HB0hU1CKs0lTNOgJUyqGBxU8Phcg2bNsb6Gmt1XlFe--fzthwIX1DparxKgyC66-ouxK9s6bc1Y6mXrLSZWbrA9gw4dZ_a51FUu6r0lRpibmPSgEcwB4cMqdrlS38UjVSC8aZQTAiWwmzhycBJk9FOcf1-czrIe7EHG5C3U7RAOoQ1lpcaq3jtxcD0gB4WMKUnID334bUTfVq94BUqaKj8zA==",
+width: 192,
+format: "jpg",
+bytes: 7093,
+height: 128
+}
+},
+owner: "Henry_Marion",
+source_url: "https://farm8.staticflickr.com/7165/6694717875_f1f7e7ed84_b.jpg",
+caption: "Concorde [22FP]",
+source_id: "flickr",
+owner_url: "http://www.flickr.com/photos/henry_marion"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Paris,_France.jpg",
+attribution_text: "Skyguy414 at English Wikipedia",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXW3oteJ8KuMGA06-Jl_VnEZjdUJQJGA8r_RVWaS8W6UDmsWtKQPKcpBq6f-iJjxAwkJF4xHyFR5JaD0LaqcqDWSocWEUzpAvlXGbnCgMwCr1kTKsi87OZkqaDQ6ZDcHlvL94O1uKPoE749uk30aseo9YBilcxuGmWNGO_CbmG-r1g3tdpOsYrMxZ1pr8KIjbCvA04mGCOQPN28CEeVLz8Jm7JStknUlPIkS4b07FeRUeZlZ64TeAujqYamTykK7lC14AZyOGmAI-gauP40a0o2STFaiUUAG0Sz_HrvEZWmm8=",
+width: 640,
+format: "jpg",
+bytes: 45006,
+height: 473
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Paris%2C_France.jpg",
+width: 1376,
+format: "jpg",
+bytes: 1621105,
+height: 1019
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXN0Uqijnal8ui86S9V4u7BrVvhpyHLjm7qw39D4FeSlDBcu85bJDmmCJnVL8GPtUg577mbO8g9RnvKbnrSypUIGAvycFoJJeiM7n_rAQK8x2yCFwr5iBxNmj0VAPYrM8srch1dypy2EkVEntPJj4xLqabN32lzYCOumWEEufaQ7pSThLAGNVDXf0Z63Sq68CNcz3kgyVOvRZu7LVA3cvR-zGmVzu2dMqlvEH4leBtY_wk7-wPl6ijB6ZTI3YlKnRUuDY-nHyiMNYf1XfGlp9WCg==",
+width: 192,
+format: "jpg",
+bytes: 6527,
+height: 142
+}
+},
+owner: "Skyguy414 at English Wikipedia",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Paris%2C_France.jpg",
+caption: "Paris and the river Seine",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Paris,_France.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+attribution_text: "Benh LIEU SONG",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXWsPI3pwwwFHyawAyh-qN6KnzzmBQ7FqrMnl2u6Jx1c70aHeQyALdk52qNpguZzUxZGswQ-q8voMwKm1Y84lDKBkYa8V1Crh2VBla4qr5N4p_LbtkBQZ5nLRChfOaqCT9C95a83uD36_Hf9fQr74s52X_A9qWY8T3FeJeOvVyH4tcRPJZ9p9O5MKrHmk5YNKOB2Kb5V2Dsw8yIOfWvISc6_fAiujhC_xAKAt-x1ITs8BOM7oknxMh1UALfasUJ8dlC2CKkWk21qRZEpSKVqMXp8QFPVAvBNynHcgUWuis05s=",
+width: 345,
+format: "jpg",
+bytes: 23200,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg",
+width: 2900,
+format: "jpg",
+bytes: 5279797,
+height: 5367
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX9yzYPsYoEfZ3ksvncBrljaNa-J17OMy2DwjxcQiC7qrcCTKHOZ63LnULmChkfYpAwgUu2_8OzVoIlkjZmGggDa9xbP9obT6mdQ0E2Tov-sXy-bQbowJ7aCekf2P4shNxMqkXtunXmSensT3r116KnK-JC-mCNaaz2LH1wXHJQ-bwY5Nes8BRf6XoHKmMxUXqYxow7X7XGYlCzCrAeEqb_EwI8wgqxUp5_hVaUljEsoW2ir1NOEA3BayhUVWSkvdjv2ruaAmF7ZYCCCo3pSmcIw==",
+width: 103,
+format: "jpg",
+bytes: 3371,
+height: 192
+}
+},
+owner: "Benh LIEU SONG",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg",
+caption: "The Eiffel Tower",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+},
+{
+attribution: {
+license_link: "https://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Pont_des_Arts,_Paris.jpg",
+attribution_text: "Benh LIEU SONG",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXBMVo2-zEZQB-hSpl4SS5AcYWQD4_LwJdfg_Pr9ewTqLAxz_mznEVUaVyb3dTfW8AVKKGs4MCHeJTpd95NwN-Qge6LWdRjdFq4A5dDBJANWrwGb2IGgMICukl-YP7yll7TvGGb3FBWUzHCfn6L9pUEK79GA84ywPKFXTfT0N3aoDrCXlXE7AaOk5ltqUjce36WEBZ4XzYTVtdHWJxMbV31foOEPiHIooZasTPVlZJw_RJy6LtzsGvrJnh-2vXZwQyBRtyc2yIGCR2oVIKu1CgP_1xy00YUgcbHv_h1om-W-w=",
+width: 640,
+format: "jpg",
+bytes: 22886,
+height: 196
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Pont_des_Arts%2C_Paris.jpg",
+width: 11661,
+format: "jpg",
+bytes: 14027556,
+height: 3581
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXkdoU_Jy5Tz-wJU8oPoI9lv84sAAjWjmPxHYfMyLFFZaXsqAnG6EVtzxZGQRupoFddc0Vj8o1eUxVw6nLVJCrIGVRNr-s4LgA6WO5gu4iWfsrp62S7iEUaJT7EDqt-XUL35kdSWngYlIewdGuCDqzz_m4SUQMkEjeMXBmkcfrHKGsNg5t8L3oVTUeftZ3fQh_KbP5frn6SB7Qne8FsLP3KgMb2PSQ3cGcDg4_G1r-4Mt5TYph8KtA4bBdC7sxRgUjvlKXFo18KswR6_wTYkNacw==",
+width: 192,
+format: "jpg",
+bytes: 3762,
+height: 58
+}
+},
+owner: "Benh LIEU SONG",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Pont_des_Arts%2C_Paris.jpg",
+caption: "Il Pont des Arts in una fotografia notturna, sullo sfondo, nella metà di sinistra: la Île de la Cité, il centro cittadino, con le torri della Cattedrale di Notre-Dame e la guglia della Sainte-Chapelle (visibili al centro).",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Pont_des_Arts,_Paris.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris,_South_view_20140131_1.jpg",
+attribution_text: "DXR / Daniel Vorndran",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX7Qlt0gQqmvYidxi2F75jprCxsrZxAiU6Lxa5QoA6Wqbh82dx1vVd41M-_q_ZwCjehvxCmt1Vc8aGVbPVxjWwXP-NbMdqxdtbRGcbyuyo3Qpqpktv7dqTJLTCPVYVHTSvdUJSAXgh-sY_hFERfm0bMZ8vpsazCL6uibKJFyAJePrk8MimspPFofS8Da9zrBSHegdq8LOiv_2k5kUZpJJt02N2p_BPY7EDxrQ8HqiVa4J2OvpCOWjZ66zzGhGwf3cNgUFEW8cfWxp33xCl3T6YN-JVD251DBBiDGOVpCPa10g=",
+width: 640,
+format: "jpg",
+bytes: 40487,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Notre-Dame_de_Paris%2C_South_view_20140131_1.jpg",
+width: 5817,
+format: "jpg",
+bytes: 13677332,
+height: 4363
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXzVdpDcGEkXwtKA-kqkv2U-MUBXqv-GTAsxCHwVTSLmK7Fgtd4UZ1YiA-260WYq_SE8hJoVm25jclRuyUn3XzaHakPtG2X8GC1FN0O2uOkTBy3AicN1KoZ3QsN_vYN42l5TrZibhdCTqR2IcNsiLXKy6BEbxugb0pU2FDikHEEhktK4uZxtTsM_rrabnfydgA0DRX5-D8Sf0TP_eS2cXqO10R9tUC7hcBJo4K8KcKnnHxkcaG5vZ7IiTYncmXvjQv8xogdIFqqLZ8NzOTwyy1Og==",
+width: 192,
+format: "jpg",
+bytes: 5850,
+height: 144
+}
+},
+owner: "DXR / Daniel Vorndran",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Notre-Dame_de_Paris%2C_South_view_20140131_1.jpg",
+caption: "Notre Dame de Paris",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris,_South_view_20140131_1.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:The_white_church_Sacre_Coeur_at_the_Montmartre_hill_in_northern_Paris.jpg",
+attribution_text: "User: (WT-shared) Ypsilonatshared at wts wikivoyage",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXNMuLNhTgjKBMvT42jj6-WW3f8ruysYxULGpmLv65auy47lxY4SmOwLqYpelzOoT7gA8D0gy80C_ZwjKNPUawL51ImTRJ0hkVMh3yS49SFetiJfxFm-E3LyFD_5X2V2LsgcpLimpL0uW0atLXl2sa6d4Kyo4csnVzJMMqZFau1D3hGWQpjV7Fa3rZMYnY3aU-e8SlneWl9FzAOYqYoJ84i06wXhwWty0XgQaGISWclJGDnbdr2mlecWVpj03hCwVo9zVIJBiiaHwPF38eXt6xH9TVye4nK6D19C-Wj1ip_Zk=",
+width: 360,
+format: "jpg",
+bytes: 43329,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/c/cb/The_white_church_Sacre_Coeur_at_the_Montmartre_hill_in_northern_Paris.jpg",
+width: 720,
+format: "jpg",
+bytes: 214259,
+height: 1280
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXnvQwq7kjNfCWcWc1FUFSFrv741_fbLF1d0WZmwoMsrJmn4tGPiFkVSg0r71oIEDbhtW3QEvHP3m372zyMatwLKOCx2iMqP4c8yQzi9ZjDFNm7pLQBDi1Tn162agvOWnCR93ydcaHEEPejceT9-G542CLGEVKd-d6H8lkKTiMDXgwudGw-xCy4T1W6cPlif_gCDVniQmnMSsMUHxvdMClEOlIg3uRUXxwPE0wMMEsHmAhRK19_uOHfKiZAtexuCGXUB7YEVHbjxGFLuFLOKNIlg==",
+width: 108,
+format: "jpg",
+bytes: 6218,
+height: 192
+}
+},
+owner: "User: (WT-shared) Ypsilonatshared at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/c/cb/The_white_church_Sacre_Coeur_at_the_Montmartre_hill_in_northern_Paris.jpg",
+caption: "Sacré Coeur",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:The_white_church_Sacre_Coeur_at_the_Montmartre_hill_in_northern_Paris.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:DJJ_1_Catacombes_de_Paris.jpg",
+attribution_text: "Djtox",
+license_text: "Attribution",
+format: "{attribution} / {license}"
+},
+license: "Attribution",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXsCuu6RtRCpXgIEL_Ztm418Hf__Ug7yjlxELtKKjHpZJ4bmYVGOTVH73dlfAmFpRtujN0tWqytXenP1cD9rWz2zu2xeFCSSZ3Z7mai6f8py0gzXe2hlG1jipGepxHEOWgwXIFdsV5cSK-D5FM5AKfEVb3rASCmNVVuW2fM4sewdaCr7Bf5BiB574WSQtAyopvY9axCmxSn2R00gHFZbiYrjLXQxL3aTVXZsCjVlPpED3I9wEKQ3nCGkqDttdDc9ZG1nLpUkSkb0rwGQ80Nw087x3viRlbWSzPLDnKigH1VFs=",
+width: 640,
+format: "jpg",
+bytes: 53256,
+height: 359
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/db/DJJ_1_Catacombes_de_Paris.jpg",
+width: 2592,
+format: "jpg",
+bytes: 2147170,
+height: 1456
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX1AS5h1GSTtM0NSZdv7cUR7l9hi8RGHZFRBtJlQnMrqxYYNBHqKA4wrGID0JeoEUCtqJV5ikGFBaVxhJQzKifzCCgUici268EyNVtj_QY9WFi3yrUTDBk_XJKU_XYme_2NJ_2uhseTmb8JTXTd5SkjMiURSesjYvmjENM_3oL-b1OlhYGiSLNZKB0a-4kKBKQkoIm3zBWGdiYwKkSuG0oWe5bGueHe_QO4-XXsHtZMOPAOou6S2jgiJcITtrwVp_dX5oaJIk7WxoqgxCX3-w8Nw==",
+width: 192,
+format: "jpg",
+bytes: 8173,
+height: 107
+}
+},
+owner: "Djtox",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/db/DJJ_1_Catacombes_de_Paris.jpg",
+caption: "right",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:DJJ_1_Catacombes_de_Paris.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:LouvreParis.jpg",
+attribution_text: "Jssprout",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXhL6eTlPoKgyH-1F2ZtTMyNlqKo-Fdo6BG5Swk0uct9xWoJ9FzYl5pcU5AsVfDewBTrj1Fkc4whPgd5qFEsgDCjvp_EETveEMZCKNKh4C76lF7kd4zG3EFVUv8sQEkYmbsUwJfordVcfZ4zQG8cPN_-k9DwF-XIjlskrdgOUsOeFNAlKN7_eEk_zVKLD0nAor5uK0h5FJYvyAjDgW5zf7NK2chszvq_FobvjDnkjBUhgjB-MOJtm36yYZTwJgXqZyqjuECdq06eNDSlQsRGXqjGpZX8O8WLKx5yrbnxGJvWc=",
+width: 640,
+format: "jpg",
+bytes: 56529,
+height: 588
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/a/ab/LouvreParis.jpg",
+width: 1175,
+format: "jpg",
+bytes: 151456,
+height: 1080
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXdUd81RIFXDyrDge2FYlGQDjYlRf-yR4F4a3AFRzOup6Pj4dgA-x1t4p06fi_lAbkR2sfoaJf1oNI_E7olW9RoSCaTm-TvWLofjRP4GexydWAssUZ5rPmo8EfLArPbz6kjmNmaVLjBnxUDscQF85ObS4kkMO_PqJKdZ7noJYQE-CUWIBjAtWOXqmA4GzzPe6E_aRZSIqZXo95qfffbuHgRRGiidErjzoSm9dzc1AY_1BuC8rZZHBy7w_BxIIgcwKhzJbBNXRpWwnWpOJr-ycaow==",
+width: 192,
+format: "jpg",
+bytes: 7834,
+height: 176
+}
+},
+owner: "Jssprout",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/a/ab/LouvreParis.jpg",
+caption: "Louvre Museum, and the Pyramid by architect I.M. Pei",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:LouvreParis.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/1.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:L%27Eglise_du_Dome.JPG",
+attribution_text: "User: (WT-shared) Jtesla16 at wts wikivoyage",
+license_text: "CC BY-SA 1.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 1.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXQUsQYXl8Q7BieiRK3-q5TsNLwLN3kRn2ZxwyFuxN1SLtmqG9cUNHg2PqHzItZ8bGTjGfO8EMdh7a74zchnc-a5ko4RtPxqepQNMfXwamYORSvBO1g5HSf9qaQN1mI3SKA8WUEGW72LLcgYNHImCrAMnzBX1tye6tmQPM6S_qsol3BVlLNffrmi5ke3IqhLd8pxaidHTAZ3L-OFtmdsLgXcc7i5rqRSxmEdGijVn5wLyc-tfmYgYPruigwQofILkL3RKnnbkVDxEHeBThNAigeGowdPfaZKoPL46gpzLDNxk=",
+width: 480,
+format: "jpg",
+bytes: 39337,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/3/3a/L%27Eglise_du_Dome.JPG",
+width: 2304,
+format: "jpg",
+bytes: 1590637,
+height: 3072
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX_HSDQPIx1ROPa_5qMQ5EC_TBDkMCq9yE4rrXc_FL_6ZKlkMiWBX7k4Wv0KUVb9HwvYm3ZTEsFaeL3ubm_v_MNfWi5AEHBqYoV8YdmWhtkMFYPaa_KV19Iv_QdONJPlMByxFKrIetzm-JKaodXG8MzVmT3RY2VXyGitYan3QudG1rOPMIRy79ODwnqptjhCoLns_nL0WaOd6v8yxXHorjvar5kaHzVV1P7O3JfodQADd389Dt1IHZFt6K0ArTIUeE3GuQSI1n_EC8mHX5LRU7lg==",
+width: 144,
+format: "jpg",
+bytes: 6926,
+height: 192
+}
+},
+owner: "User: (WT-shared) Jtesla16 at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/3/3a/L%27Eglise_du_Dome.JPG",
+caption: "l'Eglise du Dome, church of Les Invalides, site of Napoleon's tomb",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:L%27Eglise_du_Dome.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:The_Moulin_Rouge_at_night_in_rain.jpg",
+attribution_text: "Berlinuno",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXQPpgO9LUUR_5EwbmKH88XlUB02ZtSXckN2iTaq_iHre1oQdJwI_JwvRYCIaMSu-mmVT7jOirek2KQB1b60yo1xIyRn0N4GZekzvxgBcvwXZKohPhPScdpiPGA07z5sfbDGXdT69khqMRxYsi0_gK8C3Rs8qz-eQlRNGub6ohyYqlBYBFu1ylwuwo0Zzb7a44BJGWb2vDrfgwhAJo4cIEqia-70Gjk8ODq579MD7BOjBIYEoCPI6m0J0YmFLkNTIn2qqNfFfXSj0c389WR-JEW2oPcNt50mlBefd1WbcK7E8=",
+width: 640,
+format: "jpg",
+bytes: 36430,
+height: 425
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/2/29/The_Moulin_Rouge_at_night_in_rain.jpg",
+width: 4912,
+format: "jpg",
+bytes: 4620081,
+height: 3264
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXFnli5u_Qf8_vEDXbATpg0J6uKt4nT1Uc9RXv2VjTbddpB9TXKsECVHMxPYy5yrDnY-dCeQss-kcY6G0iMoDoegCd73Au1N7uAzVVxrnzr3DB-NSqmKo2EVggNVWysCWPylNSCMOsAN8lvRo1utfGyBEbw-i6pJdUVLbc0D1_O8gadrc0BnASBLOZBqiMQwMA5Q7MogmELp5pPQYLcwalTVOfGuwEf78zUnshGaF5LS-pH-ce6qXBaqdNwAlPBG49lHpEqkZQj9jQs2I0zvXoeg==",
+width: 192,
+format: "jpg",
+bytes: 5642,
+height: 127
+}
+},
+owner: "Berlinuno",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/2/29/The_Moulin_Rouge_at_night_in_rain.jpg",
+caption: "The Moulin Rouge at night in rain",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:The_Moulin_Rouge_at_night_in_rain.jpg"
+}
+],
+type: "city"
+},
+{
+name: "Versailles",
+country_id: "France",
+coordinates: {
+latitude: 48.805019334210904,
+longitude: 2.1220998617267672
+},
+snippet: "Known for music and shows. Recommended places to visit are Palace of Versailles, Hall of Mirrors and Grand Trianon.",
+score: 8.77461002250746,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-nd/2.0/",
+attribution_link: "http://www.flickr.com/photos/grl_schuss",
+attribution_text: "TooN LAURENT",
+license_text: "CC BY-ND 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-ND 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXSEfAdrc_F9hLd2oYk8PgsH4X_yY4Nvf3twNB_1-N5WkHAYYb7lku_XiR5K4bFgjYQSbZC3M1r2-T5CtqhnEuF3nv0ex4lEgxY8C36Q-SPIs2jDOAxEC5fu9-Ot584fPlXarqzKYrqqnpHZcKSdtvEleLXTaLzjB3_dvmAfcYYanKsGU2p8wwhcvniBnmOWMoV5uHNu5YSJ8T-4TRQP_Lu7XfDxoV3Bcr9UdtH-sfuks1BiLj8feJJzsNEElzhSchctshHw3FLWjfCOCUiV3QljIXNSZ4AOrSn2KiIwCHwuc=",
+width: 640,
+format: "jpg",
+bytes: 55173,
+height: 426
+},
+original: {
+url: "https://farm9.staticflickr.com/8434/7874061312_b142993c3a_h.jpg",
+width: 1600,
+format: "jpg",
+bytes: 825688,
+height: 1066
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXkkOxeMjGmvkUpWnEKbkrsCKTRedCHcivT4RNR51RtgJHxIZPcUBWsg0WLg7Gh8BF2us2DLl0F5qry4X2BVDnBV6vS8qaBM3GJ-43sTad1s_Zxew7uy9cVeMzHtSLXLiMWseccLMcT-IF7DWaaJ8v_V_Wp3a3YN7wgosHtZDXOd5Gi8oh_Y_F6pk1GKKw_q_B7sIs2mQzvrvfgk-TLBXm7Wmd9jwJlKl0AAr5MIxcoKA2Ve4uQZN-fMVpV60LJ6S0UTRVtVgtjpqF8C8if15m1w==",
+width: 192,
+format: "jpg",
+bytes: 8413,
+height: 127
+}
+},
+owner: "TooN LAURENT",
+source_url: "https://farm9.staticflickr.com/8434/7874061312_b142993c3a_h.jpg",
+caption: "Orangerie",
+source_id: "flickr",
+owner_url: "http://www.flickr.com/photos/grl_schuss"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by/2.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_October_5,_2011.jpg",
+attribution_text: "Kimberly Vardeman",
+license_text: "CC BY 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXEKT1NypNIB9b6HvjNRcnuZwF2moow-DoKpZi2DfG6HJ-lH1OMGAx4PO-HRS6OLVFEr_QPGIKUOOcHcFXj9ZVa-APRg1Tile7U8cdy812Jz3bAyXK2irx13IXn5KjbM0DVOxE45cwPxJfycJodi7K25dqrrBYb8hy-Mx_1br6cV0U-LEX8pj9xLvFmk15MPmJTSIYRIhyeuRDNDTM8S56Yr7RbGi-mYjItZm3quypptSEWRkja32YbTRG5XrlZaYtWRponEG9X17WyWoXvY8Md5m60MlSGrADPUvr9hR5JAY=",
+width: 640,
+format: "jpg",
+bytes: 60360,
+height: 425
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_October_5%2C_2011.jpg",
+width: 4288,
+format: "jpg",
+bytes: 3114061,
+height: 2848
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXv8Ng4GGpVI7up1QPm5hHFJpVIoQVxsS--smzO5GCHAftr3mbAeJvgHBiaTwiKSlgdezzSiz3FpxTLP9URnqhqpyUJZhbJ5K-nQE3-M2ad4_RHipzQiIc0mIejgfNJRjdrkKi1-rrdDHgyp1Fq6EKSQ8tJiEZFFVeOwZDossJpQGIodu3oq0eHesqBQy1akHtkRuNC7UO2XC-lJ51Vx6wePeogV8EV0bZ_JqC3dTswUIddISrbRy8YGZ_4FUIB4v8jWc8ggnV5zJHXhfK8XRoug==",
+width: 192,
+format: "jpg",
+bytes: 8411,
+height: 127
+}
+},
+owner: "Kimberly Vardeman",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_October_5%2C_2011.jpg",
+caption: "The Marble Court and facades of the first Chateau, embellished by Louis Le Vau (1661–68) and then Hardouin-Mansart in (1679–1681)",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Cour_de_Marbre_du_Ch%C3%A2teau_de_Versailles_October_5,_2011.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://en.wikipedia.org/wiki/File:Chateau_Versailles_Galerie_des_Glaces.jpg",
+attribution_text: "Myrabella",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX1jXC85qWyxEQE9_He9XI6k0TGJDhAAo-aDit3D4NXen-B2tlzgkXXFOeYewW6jZ55tSo_FuOdCRa_qnmKQAC9s5BDXJY9j1bVpX_KPe_9unFATe_PJm5AR_LW5SxDdL317-chq2EHszkIbjvpr0DcYhGNTXGCoGaKgnhvwo79nDShQtKIetbkqqVEgNaHeskeg4LilN_6F9h0Rmhc5i4u9sixtzbYu1v2g1AkvNG5nLCUWFUMgoJNMZt4dWB-qJphEkHJ9tODWetaSW86O-2qwpqmy4Bdq8WgmCycCN4ucI=",
+width: 640,
+format: "jpg",
+bytes: 63681,
+height: 424
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg",
+width: 3892,
+format: "jpg",
+bytes: 7157502,
+height: 2584
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXccC-oS7219YZujkYMFkhy-o_Ef5cQDQS6GYvOVn7pFNV4wyFUcc8zXGYRj0yCUMzkbf2mUnDDKcqw7UrY5KjVFh_cdrZnI6kBm-oeRAQZgzI1dUO9ttlIQkM1BPePiLbfEOqA3yUj4wbmEP1zPdn4qLgh6ybM4rUZQsm0vUjT9lrmEbS4ZvE1950tjaF-fPRBcY3E6mbl7IWvM3p61IKJpvAnDAFh2pCDcOzqQLapYNg6mWxh64IeT2aswuCZkC4zfRTKEpllop8UDYk5UiaDA==",
+width: 192,
+format: "jpg",
+bytes: 8619,
+height: 127
+}
+},
+owner: "Myrabella",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg",
+caption: "Hall of Mirrors, Palace of Versailles",
+source_id: "wikipedia",
+owner_url: "https://en.wikipedia.org/wiki/File:Chateau_Versailles_Galerie_des_Glaces.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Versailles_Town_Center.JPG",
+attribution_text: "User: (WT-shared) AHeneen at wts wikivoyage",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXbD8_Fw3W_cj-b3yJTAoultwJmJY9JKZZxFIVnMx7G0Zni78wOijuqIpxbnafBVfb35qL4UUTVuPuGrzf6I4EK8rPjRywitxGZG8I03_xLakZq_hpGQodMGS1B148hAcOcPEOUfUjreELaqx3upaS8o-Ydvt3PM0p8wOa-nyJEYhIKeemB6MqkHLZRv8EeqVEnJ3XiwQhxnHrzolPKgHQY4_WvYxXWBhJcsCxhAuqDADAyrlCt_WzOo5kcSMLRT3dbsGnrxjFyEe8A3zaCWgrtN4kIBbzDGdvuXpXVM8Hmfg=",
+width: 640,
+format: "jpg",
+bytes: 55661,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Versailles_Town_Center.JPG",
+width: 2592,
+format: "jpg",
+bytes: 2296847,
+height: 1944
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX_6Oev8cHlLob_KoKMcABzgWNH3_65eYc9810XAvmRfqpTMj9xwcDqINtEy9ERxrYs-PP6wtVWl1dr6T7Va6UoMTWNjlK8N65pL-B_kNCkzQf23rGFb3dJhqNEpFTMrRN0PWR9ucQYrKSxlWipbZnBPeni8dHJfguJtsFYAEz4lOqYh80WOvyGKB03EnozGzzwgGIlFGgTtai21W5IvyDYOjSuotR6gPgpAgJIwQt4Zaec04vEJVN8nLIZRq1uyd1N2vzkd5Xdep8FaXfJlAjKA==",
+width: 192,
+format: "jpg",
+bytes: 8319,
+height: 144
+}
+},
+owner: "User: (WT-shared) AHeneen at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Versailles_Town_Center.JPG",
+caption: "In the town about a kilometer from the château.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Versailles_Town_Center.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by/2.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Garden_facade_of_the_Palace_of_Versailles_April_2011_(2).jpg",
+attribution_text: "Cristian Bortes",
+license_text: "CC BY 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXhER70hA5Fc9h1on0oQ1NtuDf0EJcfNTnXEq1IkhhA6PocooXD0D6m2uZupNhTapTebWhAvKHmNx8AoY2RTuNvtYd-lhyLo4epJCUQE67-bCEWWZYNzphSubv1N1FqkNsCzkWjKmL_NIGu_MG_okOukHqplhWEbUr_38-8FT36_QWIgVRpmS3kmlbVIqT27JP0HbCjBTQjgR75Ea5mnseMFCEwI9up_GRLrP0mj9-oVhVy9XovbO2_34VGBxDZrJoY3ZHXi5tfNu_XO9wcjhlVaIFuyzbJg0D1MZAZJct1_U=",
+width: 640,
+format: "jpg",
+bytes: 29395,
+height: 303
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Garden_facade_of_the_Palace_of_Versailles_April_2011_%282%29.jpg",
+width: 4731,
+format: "jpg",
+bytes: 3381879,
+height: 2243
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXQAmCEqBfTdf5wTXOeJFPId9exspYshTcvwB9EqCW9Wy2MqiCTdBzLOdc8l2NCdJu0lvJGaX_g92iLpFF-685ZFHX4zX4Dx8dS9OzPl7x6dGqPcxoAq322KB-emMm47-k1XKc5DriafCvlvPgFkklLfRxxDpEX69C9aOmDW0UUyQTqnqMfHLZZJ7fblgs_PWQjF_5goxpYZMNkgeaf38RR2dAhqGLjhE9XPYoIMteSdvfKMGOFWMYHHzHP-BxtJ7xxzanA_eEpcS1jnXvRud9aA==",
+width: 192,
+format: "jpg",
+bytes: 4414,
+height: 91
+}
+},
+owner: "Cristian Bortes",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Garden_facade_of_the_Palace_of_Versailles_April_2011_%282%29.jpg",
+caption: "Palace from the back",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Garden_facade_of_the_Palace_of_Versailles_April_2011_(2).jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by/2.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Parc_du_Ch%C3%A2teau_de_Versailles_-_Les_Jardins.jpg",
+attribution_text: "Gilles Messian",
+license_text: "CC BY 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX2ZibacdTQImOKPCnKr_y3_QbXCuIM0JWOS29EGxs_C6nwTLG7H-wXnWscMppdK2P7EcvY0mgKtHYkT1xs65g7MWDFkHtEcuXF7bvyw4m9tFxYC-wnA6Xaux9yC-9wfDUIegiDoX57hMZAiO1s78L-GWu4VRjxbnFgNAecV1l0KPOggtV_RvqwE5jUPkFFT07FvDPdtMVwBUlLBJtohaeksUBiiDtt1f7a6Qpc37I6VSYfNRop9BgT9JQbcUEIChZ5uYAt1k54L8d_K1Aw_in-leXgk3Q9vldA2v70YD2bmU=",
+width: 640,
+format: "jpg",
+bytes: 48740,
+height: 386
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/3/37/Parc_du_Ch%C3%A2teau_de_Versailles_-_Les_Jardins.jpg",
+width: 2960,
+format: "jpg",
+bytes: 5834418,
+height: 1788
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX0MsWTSV5VwUC9i1MVyQnVguQY9rkl5gdMeJDpVMxGWmXZs3w9HnwFnlJ6QzMKyZ2jAut4H3Gu0O7oCtWiO89uEQAKOBwJDGvlvcpp5ybyvNANBPi_jeBhqaRlswdWq8Vcoiysp-eI8-bJKvG028ut6-IwE_SeP339WYpWTpih-WZPi2ekyXEc-nQAqJ3xk7SDy_jKWAOcm8GChrPjPHkRZbdsS04Aa-UzximNcOCFH33HJ4OOkY-m7K-ZpdLfqOOKeO_-4_nQADaIcxI3KKA6w==",
+width: 192,
+format: "jpg",
+bytes: 7174,
+height: 115
+}
+},
+owner: "Gilles Messian",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/3/37/Parc_du_Ch%C3%A2teau_de_Versailles_-_Les_Jardins.jpg",
+caption: "Some of the gardens",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Parc_du_Ch%C3%A2teau_de_Versailles_-_Les_Jardins.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Versailles_collage.jpg",
+attribution_text: "Monsieur W",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXFIlQ7ETt9fpRxQU-Nw0UBcDzUQ78jX_0GO1tqwNY5MBQvvYPqvTV2fpM5pZBEDx-_0QOV_SDgI_P_EviqgSuHHPMzACZG_xcT75oYs8qDzhXCaXHL06niGTtQ8TS4kW2-vBp0ZMcm0D5yiPJ5V00PtoAdcqpVoddd-IPA0ke7eZHU39SzYMyfuyt7y4nUVTFafgyEy8rd_XM0m0-cRGgVfrm2MGAc-OMQDcA-BejyPSqnIer5F6mZpjBzx-kWm2prttoczJVxmXB1TNGvRo7_HJxfvwZFaqePlEKwv9CSDc=",
+width: 591,
+format: "jpg",
+bytes: 81682,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Versailles_collage.jpg",
+width: 840,
+format: "jpg",
+bytes: 263317,
+height: 909
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX4lPuOGBN_AAZWGLL_zYcDFc--W_QEN45MCdNRVKHMERNb867Gis45O1EF4V8CyD_l8ono_YisxmIDADB26T-kf6S_gW8yN4AsNylHow8HhsAuPyFqyYpMWC7AcCyY_QKHuDqgB3p4WjlI6ZEVZjVBQ027M16pMJhyYEl3yE-XjCuT_S9ASlcDH-yEdagppcJlyTxrl9zRGtLycpx-0MJsckPl40bImja7-6R7ewMFqI91TnJzmAJxud_q47YkKMNiwKiauifxIDhOKBNHQJHnQ==",
+width: 178,
+format: "jpg",
+bytes: 12921,
+height: 192
+}
+},
+owner: "Monsieur W",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Versailles_collage.jpg",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Versailles_collage.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://en.wikipedia.org/wiki/File:Logo_Ville_de_Versailles_2012.jpg",
+attribution_text: "Monsieur W",
+license_text: null,
+format: "{attribution}"
+},
+license: null,
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXIck-esZrxI9PR44PApiQJnLtzfHmqUxSUEWrRTza_ZUhM9hJeOgstVhaTnOWu7N7teVowQasYM9oEvqudD-C59hqfPR77ioKe8xIDm9FFyifxdhFheC-A4blapDfKios6qe7CRuQWKnMUNeZbIuag84z9QYyyYWY6ZGJKNBEIEEjCqBt9KHzWtrVYxn1-XhWm7emPsKp-AC2gGvGWPjcm4a4Ql62N4EGOXPiETlcwPxE-SZVZ8z5VEaSt30nOhU3dS3KLvNu1vY0IQvAQBaXLQ==",
+width: 640,
+format: "jpg",
+bytes: 9717,
+height: 128
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/en/f/f1/Logo_Ville_de_Versailles_2012.jpg",
+width: 1015,
+format: "jpg",
+bytes: 102170,
+height: 203
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXV36eYbarOt6fvY57FOVknsZQHuePFYM7KwMr2juFOQyl61k7h-aq8cyX6cN0TP76ZJO81llIPniWmrpX_GWPH2lpYwWBKZCLxS1FFViu_vyuI3WtFAFI2WNVQMhTbod49XWixI6wSvcbCxSI_ILVtoUsAkq3Z1jhNDIkNHNzTtLe8SDBRcOaKRvINg1VmHFvjzuRBJs8Dakdku_LvaLFmawOhNBVrTCxYHxz57Nc-nrTYCHZlqu4rRcgDO79MNNcaQSbX8vzsFUwrguqddUAtA==",
+width: 192,
+format: "jpg",
+bytes: 2801,
+height: 38
+}
+},
+owner: "Monsieur W",
+source_url: "https://upload.wikimedia.org/wikipedia/en/f/f1/Logo_Ville_de_Versailles_2012.jpg",
+caption: "image flag",
+source_id: "wikipedia",
+owner_url: "https://en.wikipedia.org/wiki/File:Logo_Ville_de_Versailles_2012.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Versailles_Cour_Royale_Sud.jpg",
+attribution_text: "Michael Shade",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXuRiMowIrDbbu8gDU0-XBNgVHtcjHO0YVjfDXDoddfs3QQsEJc5s4iAJnmbYuo1MDFP4L6xjcKtiYw-Cdfp4RnG-wFk-gHryZuQHg2LhzeTWoEJcjxxzSp31ViqegcR1DyQMi3ICg6U9x4OIKd_5fA0irlfFulVoj9BSnMcMvG6CzlH0IhVnzwYlnQH_gz55LqYjJDKqY-mURScY5CKxgNgSdxTIkNgVBA2r2tyOIWaSuGTqEmpW2OKxM9zOD9gbtN2KZkZMRdvSU6JgAfjfQ5dK8BuJtw8f-q6oRBQ7NWO0=",
+width: 640,
+format: "jpg",
+bytes: 30538,
+height: 435
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/9/95/Versailles_Cour_Royale_Sud.jpg",
+width: 1504,
+format: "jpg",
+bytes: 338211,
+height: 1024
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXhRj92_8wrtjwceMZj4vZaF_T2AtXl0wFy3264mvr9UYzA95hRK_taDEy5Xf5aFWBITgdgSJ5Dsnyl2pqePgL0vQ51pimw_GOzFEMmpkTRctUfggj53nnb0F7H79EVVCJbBVfBc-_pVZMO4EDTMDYGLEH1CtShEXyc0y4fZ1OsTAZeKQZK-h6_ttC6CQUF7Q39nHzkoTuY7-eYooXRkTyLjn6fLz8_WeqR1qV_kPUFe4zhtleCVZuB2kWc0r_1BBqSIXR2kaq7zcO0lTyJNgInQ==",
+width: 192,
+format: "jpg",
+bytes: 5437,
+height: 130
+}
+},
+owner: "Michael Shade",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/9/95/Versailles_Cour_Royale_Sud.jpg",
+caption: "The Château de Versailles (Pavillon Dufour) in the spring of 2006.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Versailles_Cour_Royale_Sud.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Map_of_Versailles_in_1789_by_William_R_Shepherd_(died_1934).jpg",
+attribution_text: "William Robert Shepherd",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXAjX021gTexmJ7K8pDX7As1gcAMoZD2YJmzxFO-6KzqMiQOpkk3ESZQ4-dp3u36cNWakn8sIOi3rPfoM9F2xaajFIblb8u2Cm_nGmeeJsl4tibUH1TM-0jnjNXfIQe8QL_dPeax78YpsAzbQoXmtlVnLR7mwDJrEwvQbTg_EULfEeFUG9wrdzkl_l4yjk-BklapDqWsXFYisTcWCxS0ZHsg6y2BEpOaR_jP3-QbfSijlzqxe5a8scBN6hh1fgj5eJF83XUHENtCl4Z3FYAg3cKkKfAuJz6OeVoAT2OampJmE=",
+width: 640,
+format: "jpg",
+bytes: 89226,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/3/37/Map_of_Versailles_in_1789_by_William_R_Shepherd_%28died_1934%29.jpg",
+width: 771,
+format: "jpg",
+bytes: 178352,
+height: 579
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXud8Ob0pCik5jXaEVHxxHeR2CT2wo2XfoKOLPea3HyXkUDNTFvTRPHrms4i1aom1HnfC9rtOlNZRrBRV_lUJls72GXD31Dz6gkW948cDjhMqeoRBakdTmF1efYaU8qT1RDEIyzsbqDA0ShBWcyAAsmDDqWRsdwRXpQOrbEaMqf-Z_j_SmoOhbIVoedqj7T6SrRJXPkcSHIP3x0AZ734G-ogqMaSQAYJZMpkLiggBfNhBkgmnSdK7gJdHgRKMiwWaS4C7cq20oA05srV3GSOAPqw==",
+width: 192,
+format: "jpg",
+bytes: 10428,
+height: 144
+}
+},
+owner: "William Robert Shepherd",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/3/37/Map_of_Versailles_in_1789_by_William_R_Shepherd_%28died_1934%29.jpg",
+caption: "Versailles in 1789.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Map_of_Versailles_in_1789_by_William_R_Shepherd_(died_1934).jpg"
+}
+],
+type: "city"
+},
+{
+name: "Strasbourg",
+country_id: "France",
+coordinates: {
+latitude: 48.583284036045946,
+longitude: 7.752271360651733
+},
+snippet: "Known for music and shows. Recommended places to visit are Strasbourg Cathedral, Palais Rohan and Musée de l’Œuvre Notre-Dame.",
+score: 8.68205208273144,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/2.0/",
+attribution_link: "http://www.flickr.com/photos/patrick_nouhailler",
+attribution_text: "Patrick Nouhailler",
+license_text: "CC BY-SA 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXbudFXPi1O0-LvF1H8mLqVaaOljPXCXgR-G-cYb7TqCe3A1BrXdnp30HmaZjWCzIs_31yStvJprDAj5iPPnpDXQWHMqEB7SDfyDAoN5Dz4Z3qb8kgdO-7eSZm5pHxxX96osFkcsNzH_-wosHHmUhwnFBI36Z_vx6anzqrq6n4VEqKu2Oe-rMxaAJLyLHXv5cwQP8W2bLT7sr9CkdPO4qfcCHHbln5s1xDBUuA0c-G3CNbBQ_RwL_uHdtLcAqcpudAuxvSMXTpQGUWBooQ5Bezxnc8lRbnGcGva3i3YI-KC2w=",
+width: 640,
+format: "jpg",
+bytes: 40432,
+height: 426
+},
+original: {
+url: "https://farm9.staticflickr.com/8375/8399182720_a82b10ca80_o.jpg",
+width: 4272,
+format: "jpg",
+bytes: 3396521,
+height: 2848
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXpc3NC1qDT5OerpovAKz2vV93CY9HAXCb-01_AY1louN0-CyalbwEL8oK0Yeu5MpWK7D2QIfCbKo59ZC-7427lP_4k2tbaBgiGY4b8ajs3UNsYd3ddAeSNVzFyBMHR2qTcbM8O7b_iH9D4qj8QNeFsV4Mwx7agt2q1jZzMy4Me3QLbHdzTkp6r-SRVgMICmNt2-C7a9AhdZzCfUfgpVJ78ZEaNSdXqk6W96-N2I5Q6remw_mxcekT0lOHqtH61A_j6PLWwm5FT0PSkuuxNDemlg==",
+width: 192,
+format: "jpg",
+bytes: 5837,
+height: 128
+}
+},
+owner: "Patrick Nouhailler",
+source_url: "https://farm9.staticflickr.com/8375/8399182720_a82b10ca80_o.jpg",
+caption: "Strasbourg",
+source_id: "flickr",
+owner_url: "http://www.flickr.com/photos/patrick_nouhailler"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Garedestrasbourg.jpg",
+attribution_text: "User: (WT-shared) Timo at wts wikivoyage aka. Timo Heuer at https://www.flickr.com/people/upim/",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXqSXeYJjrFQMQDbJJ5jgQ8K93daTesuk6GNqPiZ3AePeiCdj75iihw-7x-c6faKQt1rg5s_76kayQABZD5ps581_bSyhqLvpZkwRlhNfqN-0vY_1mZyNhfO3zSzKstnIfcKveM9y6WWpDn9-V2mBSxGd4QPqcV0adHx3HziYhELrqTASUaeeS_5dJqz3YSy3nuawtD7ZSACKihdWIJqQ0g0S2WKOv3uCCVdUalCiSOQx9-zvXAjBohQ1OfFeNBVzbdjVuSthGxYEQSmqdz5QDpyp34BQRfgnVxHAWCRqkIfk=",
+width: 640,
+format: "jpg",
+bytes: 76052,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Garedestrasbourg.jpg",
+width: 1024,
+format: "jpg",
+bytes: 605586,
+height: 768
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXHmYDc4A5VhbUpsHhBGLbJprEZRihHeNBdXWhQFhraCjEVOszfzbOili5Rp_khzuQZKZKWTz-vLihUvTomylinoBAn-efQ65YrVd1xEuBuEtPRnL3CQlU6JHtiUDoaFYQ76yM6Ha6ze4uRcLznyx39gKx9hSejhQ1gg5T2MoqldpwceCgZbF5Sa_P3cNPE1ON2X6tlAILlMZrSgO22VDnocr9Ft0vyi70tIoE5IIJtxVLE9tcdf_ltHpB4EU6ftxJQ3TQTwX9x4cO-vPOmiEDgQ==",
+width: 192,
+format: "jpg",
+bytes: 9781,
+height: 144
+}
+},
+owner: "User: (WT-shared) Timo at wts wikivoyage aka. Timo Heuer at https://www.flickr.com/people/upim/",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Garedestrasbourg.jpg",
+caption: "Strasbourg railway station, known for the sky dome",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Garedestrasbourg.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Strasbourg_Capitainerie_NW.jpg",
+attribution_text: "User:Niko67000",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXeD3G3xZ2Cp2q9ZL1PEeR9qZiPQHSqeZ-xBUbh-mha9nupvXFTV5wn-WiKzlCetPMFAN-FkLfY8ona8APunKre1NLUCaTPcXeAILEvz0MMoxC4ymCaGtGfGcJd355_ynl9JJNMuhoMVK8rdbVo0NiI-g0l6L6gQS7LrpOr8hWK6OsFH5rPcb4CI5gEv7tdv2DTwyS5gRR1XO6nUZlcLpo58TedIHvUzUKgzU2KBRZSQa7vTIEuSatzQzP2dUiTjzh4pfPoFfUjLtVoC47uwUodTdNvZ885DxmnX6nkb47UnU=",
+width: 640,
+format: "jpg",
+bytes: 39067,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Strasbourg_Capitainerie_NW.jpg",
+width: 1440,
+format: "jpg",
+bytes: 201685,
+height: 1440
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXTBCMMw4rAIbVPy2daWLZJbFnYShyVqWBuOFidZl4xRuE3SFXjH8zVqxPDHNNeE9sCMq-uWeoDrlJUfjpl4e6z0OAD-BAghN218CEJAggge2PJOe61KIr-FAH6iYmR2OB9Novy5x_AKx1qIryHNRMNrA96SF8l9IyipJvFbzJ4pUDRGjmi-_WnjEe7ctET9oQpL12mjtdse33qyw9HCgQoqgqP2sXyJ-AxWsnAr8uqrvkThCw6hLn5o8xekRPrFBr5iCEoODSVxkPO4_XWL-Fcg==",
+width: 192,
+format: "jpg",
+bytes: 6912,
+height: 192
+}
+},
+owner: "User:Niko67000",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Strasbourg_Capitainerie_NW.jpg",
+caption: "The former capitainerie of the Port on the Rhine in Strasbourg",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Strasbourg_Capitainerie_NW.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0/",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Passerelle_des_Deux_Rives.JPG",
+attribution_text: "--Rollerbär",
+license_text: "CC-BY-SA-3.0",
+format: "{attribution} / {license}"
+},
+license: "CC-BY-SA-3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXpYkZStAEa2AgNoRLGbxxRD8hR2ysbqP12Ez9Xzpb0WDlHYnKEMAml5kGzDL14mUuPkrkJtWUgzH33Td9BayVRMB2_zNgfaIOzGT0U-jf2o4z40uNwfvDO4RbQ-OWuc-tU-gOGzYdgeM2hjLfcfx2XOKA7cEOCUexIZpxmQmJ8G-ASdM0cgbfscKcCFgF0d-LRNZVqeP8Qsi29hZkBTt0BUr3ByfCdec4m7Kh3_KysdvMttifAl4CwzYhiy1ueraaj8SJZ2kWuRmN7ZnF4kv7INjAdPPn-1cAX1ZCoSkk2ag=",
+width: 640,
+format: "jpg",
+bytes: 83857,
+height: 479
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/3/30/Passerelle_des_Deux_Rives.JPG",
+width: 4095,
+format: "jpg",
+bytes: 3132060,
+height: 3071
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX9vEA-kjjfa7jS_iMRh4RnhHbN1NjWE-nVzSd8e3hoSD7DyyzEYUjG1bsVTdkdruWqNuj4R3jp7jf9wFlCVLC2j0_350R5V2Kl6MXCTP0NQ9zeAZRi_R5TLtj54aDcKQl2HwBgDRCfNR4jQ0SFqL0L5iBcY3t3IoFvFvAJGqRv-LIlCY1Ngvs_wyRa74nU4lpK7O48gOnjEUMa1_sE6ZsfuVVMl_kFkNEfjNQVROci1mTeK95fYso0edTv_AcaJDoZG_A2s5lvQmkEHqxF9PIJA==",
+width: 192,
+format: "jpg",
+bytes: 10173,
+height: 143
+}
+},
+owner: "--Rollerbär",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/3/30/Passerelle_des_Deux_Rives.JPG",
+caption: "Aerial view of the Rhine, showing the Passerelle des Deux Rives crossing the river from Strasbourg to the German side in Kehl",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Passerelle_des_Deux_Rives.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Strasbourg_Railway_Station_at_Night,_Alsace,_France_-_Diliff.jpg",
+attribution_text: "Diliff",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX3iyNdddeBpSbFUD-IOJw2Cl-wZ0w9WblxYKfGI39MgQvfR-lnczDyIfRWihGsxSKYID_dWFy2H7qrZpmv-6xyJlPTetJAhVKqWTgOkfG7XfdyaWXiNfnVg4QgK4qGaVhPOqW7jnWC4ICIco83pH0ChXpDCRlzFntY2GxcBYZCTIiFxIiCEBo9TaiL_2Dg-cegtUX-do23FB9u569pQWBG84MPmfneO2ICa6sJSXgHd4IrkQunct78kPp_7YfXLr3ewiBcSHnkt1zs-vf-U6V1uCmB_36egEYy29wKvTX5F8=",
+width: 640,
+format: "jpg",
+bytes: 24938,
+height: 246
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/43/Strasbourg_Railway_Station_at_Night%2C_Alsace%2C_France_-_Diliff.jpg",
+width: 8000,
+format: "jpg",
+bytes: 9048802,
+height: 3081
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX-RXZHc7dN4lrsR4QRzjNO7ir3toMAeaS_obC8MUSs_5MhCe8x1rqrOjSGUgZjpnr5AkuTfRCgFnXeVNUbvT6mByxiNfRgsNKpmYa_21VpxyTAR8GvKZKvYjBfwdHpVB4OXnm59UoVb2-g5hhC-uAMzebqDEQVYKpVbtitDeNJnXxZmI7vj16vhmtFzk5ZrplPn87oLROWwHSFbjwzvE8PnyO4-PhNHPnddU7wIPS-YV-D-wxyipC5w26VpDQcsrCWLXVvw7bKXWeGk-hbPLO9Q==",
+width: 192,
+format: "jpg",
+bytes: 3658,
+height: 73
+}
+},
+owner: "Diliff",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/43/Strasbourg_Railway_Station_at_Night%2C_Alsace%2C_France_-_Diliff.jpg",
+caption: "Gare de Strasbourg as viewed from Place de la Gare at dusk, showing the new and old façades",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Strasbourg_Railway_Station_at_Night,_Alsace,_France_-_Diliff.jpg"
+},
+{
+attribution: {
+license_link: "https://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral.jpg",
+attribution_text: "Jonathan Martz",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXnR_cKVMVA3hz2VAFTU5PKnJC2KVBM0mqJPm01MJPWAb6p0b7qHZsQBgDpRvwFq0gsSi2VMi32NI5W7r8Yf9NXrkf_mPkJlwLMaLimeDilq1BSmU2aTYKnIDsI-CBHrU_u3_bTFNuzmoLObdunLxxQTllE-B1t7WFiaa3rKFgeEsdvNlvboBc6wwyLSvl6FhIv-CKJyXKxg4M1dlxKW0wXQ08FwPCfxTVMaBypLkcpkTatpNbXdWWIFe4UVMvpYjidb0HWAZfnp05bqa7lzrumYdZD3-5NVYmHdkZnrb0fmM=",
+width: 640,
+format: "jpg",
+bytes: 35327,
+height: 484
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Strasbourg_Cathedral.jpg",
+width: 3790,
+format: "jpg",
+bytes: 4089473,
+height: 2868
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXK9APdpxC9YPzIJ7wSut8nc1fUWOKkAVz_S-Fe7L-Y0KeIzYQlnNYE2_jaT5GCBtRKJ4juqgMWbQ7K298MBGuCL3aysOqdLp1ADOcN5K2Bavkdoh1GFC2nMMEEzX_kOH_Xst9RRYVSNSRuJzA_PppoIx-tR1AUy6_uFwrwrbA3oAQKZyOayi6PH5bqFnUvcABUFyJuk4Y0JW_i3_gZi8SHFCXqvcTXIyT2FUEWrwBhC21AF3EXRzn8RkpQUfhcHdhjr6onrjfW8DpDf5RyRDrIQ==",
+width: 192,
+format: "jpg",
+bytes: 5872,
+height: 145
+}
+},
+owner: "Jonathan Martz",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Strasbourg_Cathedral.jpg",
+caption: "Cattedrale di Notre-Dame",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Strasbourg_Cathedral.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Absolute_ponts_couverts_02.jpg",
+attribution_text: "Jonathan Martz",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXJxO5t7IDQmNlWSJ-3jFLtppxBvgK7nVzuuhXoyBVkjuAZ-KnYH8vyacZw9kHxArDQ3O70XQNOuQoKIS2DzwIS_vDQsCIC5spajAnVMEKkKBRGvYyjfWsEwuaXOOhfYvuI-0-FS3_acBOa6HzzwhhFibL3Hp1oNb-Cu2cCWtfKDuT0F-erDzxltnI1zE-lkIyBUIIxBASCjORGavomp9yugdZG7vyIVgccF4ZlBylGsfGGnPrvTcMsdpCvX6BNcHsx2c4ylAK_yxcAOEWXtJ5gYEawGb_RoPpGEAFK1YnZRg=",
+width: 640,
+format: "jpg",
+bytes: 40521,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/3/39/Absolute_ponts_couverts_02.jpg",
+width: 2560,
+format: "jpg",
+bytes: 2253183,
+height: 1920
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXcBoUFyD1jIrYWpucMb0ZqiBekoq_hHEUq2w-1nSfjN0ASyK3_peYpZDmaNOc4WDtfi_FZOyQh5kqFCulKdfJe6W8NDTxAzWbNfNgoijTptp5E3VjcpYOnUwuW4NZqPBTmTrIfjJiValapgblxmCVyojNGbmkvgARX3pu6FlhVPi_9Q_h9L9zjJY1v2FJE2QyiBiNweqyRTx69CEcefOLBB4ioA-bBQ2TvjwRHn35vtIogrm3JETD4udJaI5h1MHHBvizCznIDAE8EYg2E807Kg==",
+width: 192,
+format: "jpg",
+bytes: 6313,
+height: 144
+}
+},
+owner: "Jonathan Martz",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/3/39/Absolute_ponts_couverts_02.jpg",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Absolute_ponts_couverts_02.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Strasbourg_seen_from_Esca_Tower_in_2014.jpg",
+attribution_text: "Dominique Philbert",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX9Kg8AqJy8sEZvIpkGQAgBbOvGdN3nqPJJQo6HypetEb7h3I3lhMFwodhkaPzIhbRFz080STJuJjx1PIqKjjU69YJD_uQi7akOc8Y0c4RgdKpaUVTva1lrRwk3gAdAJ23KDRwLtyB9fAlEvlRE7NAFvM3WjcA0dgPezuLZDDV9r4-9WvXwtZlLPA1jjfJyxxbkis5aYTR3GZ6cX0B_d2KlijRbqsMyLy7sM-1yCTTtnF-1KwJSmL8JHGOYe5XbeO9lI418GAEKyiYbWMO4YMYbscivzWEinxMNntPSCHFxx0=",
+width: 640,
+format: "jpg",
+bytes: 13429,
+height: 115
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Strasbourg_seen_from_Esca_Tower_in_2014.jpg",
+width: 5971,
+format: "jpg",
+bytes: 3873880,
+height: 1080
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXy2cAFRxumf_5BsJR8jgeDTYlBPwTtfTqyeN3iwwayGcrjXvBDmv6DlWpGuUfyeozE-AxjemN7cisVEXr0DPBMkb5GJWPV_ElJARHxEdzGya6AkfekRp2RKr-_gBK0DCsaEnjX3Hd_61wewnIaSad9Zu7aPrJXcWw6vXLUCwUq6SvVeW89mpaO5E5gOucEkkiFLmfgTz6lAUIFWYPSXXHTaq0UJDLJbS9_KdgxR818guaKC3g8g5tqEs_5nO-PkEWDSXdD6vCOBUE8N-pnL_jbQ==",
+width: 192,
+format: "jpg",
+bytes: 2157,
+height: 34
+}
+},
+owner: "Dominique Philbert",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Strasbourg_seen_from_Esca_Tower_in_2014.jpg",
+caption: "photo5a",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Strasbourg_seen_from_Esca_Tower_in_2014.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://en.wikipedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+attribution_text: "Diliff",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXZ6f62sjRGoJOHyzkXwevb5qBsxLjf8SroiYf_UlegJ8zhSk7lCTyAasW4nkuuyC2C4WZeZabH9RA8BvYbLCBRhnI4cfsolZM6aBwbih969xXF2EOXsHbMrsbgTUSHmI0HIg-3CkF3Ueogio1MLNkMM6wbtKzuNxfwKcVKgpzc0CkaIpagiGnivcQC8KMF7A2n-DlOW_PdSZ_QDkwQazYqpqd8SK5kUvVtrU-6wQo1G_qegds5mdDsffGd_RhNogAQlWy8n00LLY_kKsL3z5ITpXkqptb2CvH7RZ4u3evoNM=",
+width: 640,
+format: "jpg",
+bytes: 58822,
+height: 361
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+width: 6000,
+format: "jpg",
+bytes: 5086950,
+height: 3389
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXPfbRuWEc2UBrBJoqDIf4OTlCSk22o0XqjR_z8ptIU09Ebb41AZFeXXEURX1DsXHUJM7Ym8zdqm614uRxPNGqWOn-Mv_fmJFNR71MtcPXPX5-0fOuR6iaE7zJFeU-L6sMvXBhniYg_WEByDaWYeK5A-6jvVxfJq5sBcfdJLleFf4NQJxFWP0kYdOf-tINQcrCEU2m_vs9P_gpfEXeojRHKnNqJst0oW7HFeEPsvsY0HBt5R-oR28ZLdPaJxAt3g1U0nKE0Ps0h6a5UAytPpBaQQ==",
+width: 192,
+format: "jpg",
+bytes: 8408,
+height: 108
+}
+},
+owner: "Diliff",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+caption: "photo4b",
+source_id: "wikipedia",
+owner_url: "https://en.wikipedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Strasbourg-H%C3%B4tel_Brion_(2).jpg",
+attribution_text: "Ji-Elle",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXvrlYazTydIGz-BRXxL_3OZMia1RmkRN2iAJZbq2cCWY7A_rslyU7qstxEusV8-Aj9kloBRzhkFclbL09Js3-LShPOk0lYpegXEu6Nq-fJBOS5J9Wt8T84XdzJIB42vkQJW3fxqMOkhkZ_0FRVni9ZWBhrTFCuN-d3lI1P4f7LtDzIaQ3IOPkaep58SIxnMpmrc8zNrgEjeWWbSfvhEULrpmTJqSL_fAI2i43OyPGcVTstp75W-hB1GdGtpr92d4brhXiYII-B1Hbrd5esftQNvT-VU0-wv8kkiggX15naEM=",
+width: 640,
+format: "jpg",
+bytes: 72020,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Strasbourg-H%C3%B4tel_Brion_%282%29.jpg",
+width: 3648,
+format: "jpg",
+bytes: 2903923,
+height: 2736
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXmN7r1g6PTjlSVh1t4ZbjwKRnoW_ZtDcknEzik2dPhC-NvBq57Uj9BZis0YSBv4JrsgygFMCuE6YeLtc3u36ijA8iOIZECzSHkujdwmIpmq8yC9iMybHaEZ3WJzzsa11jT27WdKMtYuZGgHR3sEroXtjvGNq13Y-QpJuQ6anHFsu9UtFfOEF3MZKoC3GGoSExPBOgtI5j4ezToL5-WYcmFmZ2DlyJ3uVzz5MxMIsemA0ZmAE_r_wa78XbxoNpnHRB-7vjClzaJk29ZvFZXvGFuQ==",
+width: 192,
+format: "jpg",
+bytes: 9860,
+height: 144
+}
+},
+owner: "Ji-Elle",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Strasbourg-H%C3%B4tel_Brion_%282%29.jpg",
+caption: "photo4a",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Strasbourg-H%C3%B4tel_Brion_(2).jpg"
+}
+],
+type: "city"
+},
+{
+name: "Lyon",
+country_id: "France",
+coordinates: {
+latitude: 45.7627458,
+longitude: 4.8321323
+},
+snippet: "Known for cycling. Recommended places to visit are Esplanade de Fourvière, Musée des Beaux-Arts de Lyon and Parc de la Tête d'Or.",
+score: 8.67793550192464,
+images: [
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Roman_theatre_in_Lyon.jpg",
+attribution_text: "Vincent.bloch (Vincent Bloch)",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXNEiiQf2Skaa57o7tfDbDCCKd_1LUB6SKtqiJVFnEOorCVh4asgNQhGi3hfXNxtwvdVkUb_-Yn6q7PjZYlKczvFUCIKaLJ0Lzo8spj1al40yn6inBj0P0W0n4eDeRjWRDyM0RYRxk2MiiGK6dqzy9IfVZvnF_vIc8okyryPXjuI15_4DF_wyTQk7RsSVxyrhgJziw8tZWUGMGNpAVOWmJveFWzwvSM3hZwC28J49ZWVzAsvDr3hlBWQ8A88HORPFg0A7JxtEyIMOffiDdP2dkPLiiC9wS9RO0aDcD6vz6Cbo=",
+width: 640,
+format: "jpg",
+bytes: 101322,
+height: 503
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Roman_theatre_in_Lyon.jpg",
+width: 762,
+format: "jpg",
+bytes: 313173,
+height: 600
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXR2CTnIZSkmLhgFIAHDyI6loPdbfyS98BGlZBxVewMZtbrVn_lFXEdL5YHXX4u0yKzKt5diov8fm0QuXagYc-dQw7rkX4T0DmyuGeGgpUsrkWS0w1jZsSfua9Es48OZ0CydU2Ga6wd53KA7he9kRzxh09SvLboIBCmbCxGVzCHXec6qxrAxuzQQPtzRAAvLv58OP4YueVaIJbT8BiiwVDkKei6Hq2zK2RfHGco_kM1m3Fs1nmbiUKoHa6iZGl4KQIU2D0bdwINc8A1YRj0SwIhA==",
+width: 192,
+format: "jpg",
+bytes: 9380,
+height: 151
+}
+},
+owner: "Vincent.bloch (Vincent Bloch)",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Roman_theatre_in_Lyon.jpg",
+caption: "Ancient Theatre of Fourvière",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Roman_theatre_in_Lyon.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:FourviereNight.jpg",
+attribution_text: "User: (WT-shared) AntoineM at wts wikivoyage",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXrmI4J3_0uT_VlwiSvqMqtmR-C81rRjZXI_apzu4gbH0VlfibloKcczgE3v_l1Q3-YTAAEV0mT2C0LJnjuV5Z3i8Z-y3FbQyUxTkff0RAU4AWbilQZdgB-dnC0NclYmFKEMZsBXVUIempHIcJ1B7vHj34MgozuHD43cRw4fgpNcy1QpaOs4lPDfcYDLdcBPRtn7hJdOzPj-cwvTA07K5IToBtdM_cA07TQP2LlrYrg8u223K2GuiTUu-YUHJxwK3kyVqG6i0S4aNro2QIdGeAz6mgY3My0_MXStPq_wxCLeg=",
+width: 640,
+format: "jpg",
+bytes: 43841,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/5/5f/FourviereNight.jpg",
+width: 1493,
+format: "jpg",
+bytes: 563307,
+height: 1493
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXQ7N_SiZo1IT3FPOJPgEEBKvwHVewPDMGaqAcTuTlYcITEb6C-ZFzsfcRcG7DOhgF1d6Q5Fv9jzPrOtsl8o4vjqpBFhY47cvcIbtNb4Ja5Z3vEYwykcc9NVQNOZtH9xeCG28L5uVU7hPzwSPvQO4pkyJJN4FDeKcy79O-3Va4QqThkj6RgsHO5-Bi2lkawoVi_X3RtW7CnJQE5F3YbJ2-7FD3hbHlrWlJb2CJqTeifCAsvN8S9YZigIrkzeujCxIh0C0ZYaim386DZ9oTH6yuLQ==",
+width: 192,
+format: "jpg",
+bytes: 7617,
+height: 192
+}
+},
+owner: "User: (WT-shared) AntoineM at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/5/5f/FourviereNight.jpg",
+caption: "Fourvière basilica from the river Saône, illuminated at night.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:FourviereNight.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lyon_la_Saone_et_fourviere.JPG",
+attribution_text: "Jean-Baptiste Lallemand",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX-ywLbUfFFGxB6sG0aeykDlRbQB46k8hBUeDBYXDf3j1Kf4LSYQtA80z7XAHLX2N8gB-0EHLUfakf_tGz0ACps_fpICBqWDZxSK0cIdrDuVgGRv8kOOkaGwrMFNI4L1sDkvol8R_0PquZC51S1GzoVIQvEgmXfm51PoK1IDGP0so0B6Wbfg8e_Jq9Di2BrM1ItDxr5KqOJu2oX0VajkYgjE6iCj-3gJ7DWXnkfRo2kHeyd8waoar7qDLKF620t0a9Ha7xuIieftt3E3Qt6S5AOSvsCRMfZ8izhxQFC7huJCU=",
+width: 640,
+format: "jpg",
+bytes: 39706,
+height: 413
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/47/Lyon_la_Saone_et_fourviere.JPG",
+width: 3072,
+format: "jpg",
+bytes: 1009763,
+height: 1987
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX5J6c1T_z4NTR77cp8sB9RfCRNfkmiojMupF7I623BgZ77sPMnxCXEA3hg8lefm-OVa8sQdhYPBnslKpt8cBGbRwD-F43V4EfevqHrUCEzmuceX34k6STZEpajRxe-Ew4C2W6Y7h90ZGwDooWc11AOC0o8j1iaimWIYsElWeLrVVIVhuz-j0ufN5uDAVrquj2E9awkiugT0ZinmCswfh-wJ1CWcntLNpu1fVIyYA7sSXc21if29f1vldn5y8D9zvAZjIK4v7sVveqJMwKpMKHIA==",
+width: 192,
+format: "jpg",
+bytes: 6054,
+height: 124
+}
+},
+owner: "Jean-Baptiste Lallemand",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/47/Lyon_la_Saone_et_fourviere.JPG",
+caption: "Banks of the Saône river in Lyon in the 18th century",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lyon_la_Saone_et_fourviere.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lyon_Panorama_Saint-Jean_Part-Dieu_Fourvi%C3%A8re_Saone.JPG",
+attribution_text: "This picture belongs to Xavier Caré
+
+Please credit : Xavier Caré / Wikimedia Commons / CC-BY-SA
+If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.
+I'd appreciate if you could let me know about it or mail me ( xavierfamillecare.fr.eu.org) if you want to use this picture out of the Wikimedia project scope.
+
+
+
+
+
+
+
+
+
+
+This file has been released under a license which is incompatible with Facebook's licensing terms. It is not permitted to upload this file to Facebook.",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXp5cxgcFT3n0zR2Gakgbtkson1pLdeNNLKgN6L0u93S6w95LFgPpnOugXCxbYpyHekGgNhvecLQTxFZdbgi2dmcNRMvEcNB6v444YcKWNEhj06wCrpr7kGanfejk3ryYBecdKnzymS9ngGaFLtcn89QGirqjJrjc3QK5sc6t7fN9dN37ssynnT4EcEQ5i68JiiRmpGAC7PU-kzCbAMLdhHVYAWnhHAMOOM5Z7U1GX6lG9vAoXEf-CBGC8iCZ7Bvq89wrQ4Qoxh4xvZKbP3LDZSt5I1781qQrYTSlwns13eQ8=",
+width: 640,
+format: "jpg",
+bytes: 41903,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lyon_Panorama_Saint-Jean_Part-Dieu_Fourvi%C3%A8re_Saone.JPG",
+width: 4000,
+format: "jpg",
+bytes: 2685161,
+height: 3000
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXMWFDQgOcYBhaD2iPfp-7E0UvzMBp6suVEgR5Ekl5RS1xBPitT3fFkGrfmiBJ798VQcgC2fCU_bLkz8TUMepVQiwuBaFYK7eA0a2LLhiEvTher-8UyVDEhFPsLbulHF75NE4QPNcn8_c196zcGqXkBFRtEwsjrjYRBw1PewZog3VDYNtseJ-ID-5kOTEI8Nu6po3tktzR1-qH0ZhHnBhSsQ8-8PZg1LelWLhO2_M3pc2aCt960rDIbNbUwevFgEfXamhh9cDwXfpTZ_MeABqnsQ==",
+width: 192,
+format: "jpg",
+bytes: 5953,
+height: 144
+}
+},
+owner: "This picture belongs to Xavier Caré
+
+Please credit : Xavier Caré / Wikimedia Commons / CC-BY-SA
+If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.
+I'd appreciate if you could let me know about it or mail me ( xavierfamillecare.fr.eu.org) if you want to use this picture out of the Wikimedia project scope.
+
+
+
+
+
+
+
+
+
+
+This file has been released under a license which is incompatible with Facebook's licensing terms. It is not permitted to upload this file to Facebook.",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lyon_Panorama_Saint-Jean_Part-Dieu_Fourvi%C3%A8re_Saone.JPG",
+caption: "The Saint-Jean fort and Saône river.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lyon_Panorama_Saint-Jean_Part-Dieu_Fourvi%C3%A8re_Saone.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0-3.0-2.5-2.0-1.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lyon_-_La_Part-Dieu_de_nuit_-_07-12-2009.jpg",
+attribution_text: "Larry Claude",
+license_text: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXq0QB5_wEv_OyhH1lFMmTDxgVeNUvd-P4cMZFRyueIS3Q6PYVOiKOVkDvNITi9kl1qsbWGXrUwuwiFj1yV14l7JZZYMFW0Xvl_HMoh_lszZLHzpOo8ZZMv4qp9DC_XxwayvqWWWdZ0GeSYtI_PEqelho7ybO7br4Xbz8r7i4YWEPgvu-rDEooTJUn1h4kIdhU1ySp21mmpkCVswQRqCAMTTE5J4Btu2UE3Nc_eowJ7a9DdXTGaYxLQUc2_8VM-Rn4WA1HEh8ovePz0Zs0SrR-4vG7meH4BlAJBNQ043ofijM=",
+width: 604,
+format: "jpg",
+bytes: 36163,
+height: 448
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lyon_-_La_Part-Dieu_de_nuit_-_07-12-2009.jpg",
+width: 604,
+format: "jpg",
+bytes: 47926,
+height: 448
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXPj02npnfwpuQ3Aif7HoW2YoM5Yx6O0vJcbOsyvgVfr_FZHTm-JfQXTECai9fzcbHPzHzB224nrIL49LlEwt7vEqm4S-p2JMMhbnZDsdJ4Nlx-I5UMRZgEG9kmDZyAgPf05Dx6HAoDocye-XTzs1sbnQZIQsiOysGCw1PMlVNwwzjB_cq4cHlmfuoLAYfSp0KLaK2t8ySFQHB0PbZrHAoUO030D9a3kCSmAe2sDHZH3aeNTqrVUjhY8cWLVGRX6-gheqByKLNWd3J1Dqj3XYDYw==",
+width: 192,
+format: "jpg",
+bytes: 5843,
+height: 142
+}
+},
+owner: "Larry Claude",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Lyon_-_La_Part-Dieu_de_nuit_-_07-12-2009.jpg",
+caption: "Skyline of the Part-Dieu business district.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lyon_-_La_Part-Dieu_de_nuit_-_07-12-2009.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lyon_-_Cath%C3%A9drale_Saint_Jean..JPG",
+attribution_text: "Gérald Martinez",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX66dTvZIErnHfK2LIcP_AYwitHsr1W7Orb--Kg8fhMNtaLJfCgRRaJjk2pOTJJiGt0eAL3bLAzGFt--SJ0hHFGtVMn5g6N2LaCqggd3C-bnphxcER3dnbevUyiwxgmTyCbo2zo5U8rJwEGfGjztKtRml2fi8pdkfwe4HC1RDACyoWyx-3q3c3kqZO7rRi1wDYqyrHbef0vleCpgYgUDMYNP7g_jMvxC77C1YYQLKeQCcgSPUd10_bI-y8p-5RYCrdz2NbDoWGH8OBndycowD7-t7RpQNWFGiVj-UJ8YqJjwM=",
+width: 640,
+format: "jpg",
+bytes: 40952,
+height: 436
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/0/04/Lyon_-_Cath%C3%A9drale_Saint_Jean..JPG",
+width: 3722,
+format: "jpg",
+bytes: 4144521,
+height: 2536
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXJD4kqNGC2yI2dSW5uAmFYm5FLau3HVUClk64DkiJfUKl2cFtL_dugqQCzMde3QdidxxFaeIVZ-fTOXpiiwRkXac7-fbztarm7nSHIUuVmYum3mITDPbYj0bO6AEWcXTbv2jul3XAssjOBWibGn1Pp2Q6jYkZLJf7rxQdiFqp52KAC4bmlK9zlreG12MMUsUeMAAco8IDIajrYUKYO2R_gCynSuS2ORKnTQ9_5sicws_LPVrcSMp4thnaUuYtKGKHzEPcbahSOC4C6gnLfhY6ug==",
+width: 192,
+format: "jpg",
+bytes: 7616,
+height: 130
+}
+},
+owner: "Gérald Martinez",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/0/04/Lyon_-_Cath%C3%A9drale_Saint_Jean..JPG",
+caption: "Festival of Lights.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lyon_-_Cath%C3%A9drale_Saint_Jean..JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:LyonII.jpg",
+attribution_text: "User: (WT-shared) AntoineM at wts wikivoyage",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXPpkh2FhdYKPyG-wyG_-ZTDg6evga_PRYImD70tvbZX-3C1Yz-cRm6kh8j_1wWoWbu3Bsni--0QdqgxLM8-E_nsiq53r6ARKqIc9tmEexUpAmIYJdU4QFqcqhqDEcCek-9FTSraw2VenTLBJakLWoswCVO7gtqt1e8sBRjP07UR9dBlBRUAubc2G6oZwZZHvwDBTIj9hbi95KpOprf5mbeakP1zKDQry0iwoblX-vBwIxd3vEs9OoVWBx1Z2YMWrxxFxQJf92EbgEs1smHVxHk0sni0n-WygzXaCx2Y3xqU4=",
+width: 640,
+format: "jpg",
+bytes: 45545,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/LyonII.jpg",
+width: 1024,
+format: "jpg",
+bytes: 287304,
+height: 768
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXtAoUQKyr-nhHfEuCQno9buXlKEB7NA7DfDEHKKydc2iXiWxbMIf1qNy4lozuhzxKaP7mDOdVl-FrJWguLZ7s9HD7gsgdHuykwJM0m7VLF9cntbdOaspSPk14M4qMKu2ze5dA9ypOoOae9mN27oYKggQTKvZrlXyL2oNeyZ6_t-2twCyWk_ge_E9R-TjLvmY272_10RAlGvPG92cWSQ_r64BpiiU1WdDkEnzUvdolML_pic_Ff7VIRzFwJ2BxA8q2juzG-1VBme1-9k-wfuuERg==",
+width: 192,
+format: "jpg",
+bytes: 7362,
+height: 144
+}
+},
+owner: "User: (WT-shared) AntoineM at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/LyonII.jpg",
+caption: "The Lyon II university building illuminated at night.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:LyonII.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Traboule_in_Lyon,_France_1.jpg",
+attribution_text: "Victor Grigas",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXBSZj1jTDxOlX3FngIeMHyLQhS-9GsCQUAZ_vWwnSCXkrHPqR_3ZZDC30jRMyOc2pWW-XcSCmdyF4YRazxKwqEJBaofwqy1Dk3qAlUL4idu5_L-YmyTgivOnT1LkwAu_fvrZYpbO9llTGUzLJZJ2LnP98frgjBZN70aXDvn1vOWTh22-InkY8cUyA3lKVl6WXFLbr5ZYbOs3ldRgj9pvkY4Q3_x60PwYq2xl2picv7WH_Hh12xXi7ijtCprMo7jNsPYRa4mH4FE6ePK4YXeg2SgKub5DWyj_4Pb6n1q38Eck=",
+width: 426,
+format: "jpg",
+bytes: 43658,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Traboule_in_Lyon%2C_France_1.jpg",
+width: 3840,
+format: "jpg",
+bytes: 4625850,
+height: 5760
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXiSSzXIbdKmuZPen_aJHh97n-HWpf12EFYcG-kvj72NWfJWfrkB2QcryLCRVFVyvVC1znub2FSefRU9USy6SOjsGU_HDh2S4NulFpzWBRMn6E-tX_A3ayU3lmGbMFaEWngnR5brL1woR5ozZErXxFMAQ17vwSyYqcKX3KaRFFIrLzNilE-VD50n30NT8xfx82yv6fhXRGdWaN4IekV_2-2NAIddcQ2s3ST2t8O8ioFfYb0e-IJ0WuT5EzeYeEQzdOhCxuVzUdMxaOTMIbWI2l6Q==",
+width: 128,
+format: "jpg",
+bytes: 7144,
+height: 192
+}
+},
+owner: "Victor Grigas",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Traboule_in_Lyon%2C_France_1.jpg",
+caption: "Traboule in Lyon",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Traboule_in_Lyon,_France_1.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Rue_de_la_Fronde_%C3%A0_Lyon.JPG",
+attribution_text: "Philippe Alès",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXTGJE9AwqMAquVoCkYQmrv1hPzXqLh_aMiD7naZt5rf3vpzrH0t9Ahz0vQ-xhPpcC79qQIyuBZl2Ady5iy10S3RMNoJUE_RHXjI7HDUdX_gEf4wQZQmug2tcTjcauoqJ7bKtOsi5LGFciLFpwTMw7Kr18j1KcNGiP9Vjw_VAk5v9Go3kfkz7X9CA9ShIV_T0qWqVVB-eVP9-oHgOxIPgHF7BUWc8qxIMNSpRvdnN4LHRanA3uN9ZadgeajDgPnLfyFfq7aW_nWRxTLhHmujcRU9ea7CrwU66hWJ5d2OvQqW0=",
+width: 640,
+format: "jpg",
+bytes: 53845,
+height: 425
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/8/83/Rue_de_la_Fronde_%C3%A0_Lyon.JPG",
+width: 4288,
+format: "jpg",
+bytes: 6163838,
+height: 2848
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXJ3O3aGky5ALqGQxQ3Dkk9BK2qdUz0du7iNDYILtAMrY60EQ5-Xb0tgcmz-vPR5rQW-yz4wvDXGjz7HCHqn1G87NEF2Sa1kGsJiJTMr51bVbd43cKqzttn7dU0Tg8UibDNwk0oPyhsgjjD-KO8txOr1CG_O2Orv3y5CrWv0nFG2jR7fxieOy0Lr8PiqqPw0Nh_FyzlV3k6T0lZNj3ERkQ2aIaQaWtpYdruOCqzEwjgxM1cMDYTh0CzIwirCM9r4UsOMxdNuzCV3IOG8w6MqO9KQ==",
+width: 192,
+format: "jpg",
+bytes: 8546,
+height: 127
+}
+},
+owner: "Philippe Alès",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/8/83/Rue_de_la_Fronde_%C3%A0_Lyon.JPG",
+caption: "Old Lyon",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Rue_de_la_Fronde_%C3%A0_Lyon.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Cathedrale_Saint_Jean_Lyon_Astronomical_clock.jpg",
+attribution_text: "Chris 73 / Wikimedia Commons",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX9_TKjXzge6SjHjO-LcvM14qnqhGk6NHyNOcQEDINTmEApyjva5UHJQnVuWNrUZUIsNEN1xUpWD91kwMmeRwaxt63GMtPdfD1OUn4e_7S_P3clux7TYY0uwKNM8d2eB14vZ418bdSgrLZBheya7GGByM3x15Y-w34NO9g2WDFVT5Vz5nmcn-D_1YJZeClUsB14p0xwnVfwBZX7lgY4GbeJVT1AEOaWcCxwW8aJ_8opBsx7tlWcXQIEz0Dz05xSs2kuVWu9xT8s9BuVgrGQvhq_QLcoy0Aau4w-ObXa1w7PxY=",
+width: 242,
+format: "jpg",
+bytes: 31423,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/1/15/Cathedrale_Saint_Jean_Lyon_Astronomical_clock.jpg",
+width: 1742,
+format: "jpg",
+bytes: 2608633,
+height: 4600
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXbmG_ZWEX-najoqgdqQOxOm5OZ06y_SERCXpEO3MtJgGiCkhsk5kJhV3lPND20f6J3I33IIBDpK1WhCVIre6nSw3irbX0y7S3tKDiTwPzBXoO4QmTMMSN0bsxx6voQ-P7XidC6oeqotO7B5cKJYc54Uu1cbNmgEBP3QMs2kkajEADPxE3iJte1mUmQsJ71nh0CB2XyU9W-PSdwRMCCEJJiYMJsyq6nnUwgATPgYXHSMHqwEMKy6qk2LHpJvPjbFfbQH4rPnMBNyfNQ5locaIgrg==",
+width: 72,
+format: "jpg",
+bytes: 4551,
+height: 192
+}
+},
+owner: "Chris 73 / Wikimedia Commons",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/1/15/Cathedrale_Saint_Jean_Lyon_Astronomical_clock.jpg",
+caption: "The astronomical clock in St Jean cathedral.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Cathedrale_Saint_Jean_Lyon_Astronomical_clock.jpg"
+}
+],
+type: "city"
+},
+{
+name: "Avignon",
+country_id: "France",
+coordinates: {
+latitude: 43.9493936,
+longitude: 4.8061963
+},
+snippet: "Known for dinner. Recommended places to visit are Palais des Papes, Pont Saint-Bénézet and Musée du Petit Palais.",
+score: 8.6458398438192,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Stadtzentrum_Avignon.jpg",
+attribution_text: "Christoph Radtke",
+license_text: "CC BY 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXzSAkJISy4bRT5bBLFcxkr-g5fSnEo81l0x3lZ-W7UowpHWNOsCIOO8xgD0s_Zn_8j2-H3TGY4w-5exe-C7q9uGfjgKA8YPD1Mkq7a_9AmyUfkDpx_J8V7U63Z8io14_JYwaEjeE75Bq8AEqtYCWYZG5uMo1Qu3OlJb287n1IwOq_BRioIP2niFvURFIUPo_2lZfuGvG1WclKl2ocL7Bw8x8QOk-gBLpyFZfrCUxCg0e9A84GRYKQOjGwslWcxGwW4nhAvsc31o_EYuaAO3TIL7PFSQSYpCYYfO6RnOCH668=",
+width: 640,
+format: "jpg",
+bytes: 49476,
+height: 425
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/0/08/Stadtzentrum_Avignon.jpg",
+width: 3248,
+format: "jpg",
+bytes: 1670227,
+height: 2160
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXn_jYNAh5Vk7dsLJMI__gmKbcRP_RiohtRjLRPISihXArSERKrpvTbk6foEw_Am_Aj7GSLUTDTwS6zclLfypCrQwmNbqF1hogFe3FRTaRBOQ5EC8Mwl0lXp3KtfypQXqI_soO5VIiPnySDm7lRq3N16xwWwS5aMGzIb4-jf0mVazwYT4CrnfFNfqhPrnVqgH9Ja9Un-0rljACh11_ZkDd3GQ_z1i-YcmU0DXsYS2AEHetI4TAs-6LmjSIM0jscOat33npn3SaQAgwx8zYgaURNA==",
+width: 192,
+format: "jpg",
+bytes: 6744,
+height: 127
+}
+},
+owner: "Christoph Radtke",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/0/08/Stadtzentrum_Avignon.jpg",
+caption: "The Papal Palace and the cathedral",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Stadtzentrum_Avignon.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/1.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Popes_palace_inside.jpg",
+attribution_text: "User: (WT-shared) SoyDan at wts wikivoyage",
+license_text: "CC BY-SA 1.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 1.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXfzx6RCxlgdxP25tHrjtZsvFRXNpUiu3nAEE1EA3AhwEJ1xuAuhvVMr1tsnRNuzBtrd0eGpNvz066f29ZJoT3xdapX_tnzXMUf0tydK3nIX7uUkF1GYNDGgmsMI3GD5B-2BxVEtoTXsRlanR2-emKS0Yl5BtxDwTyX0lEXhwOGlw2GoPz2xpf9IEH45My2chr18oKFlLd5ZkLKifZpGyPtF7UB4SuRpw0Zt0GDfJddm0Vd_0HJ23Q9s6_8DVmdjT6v0qxO3KA8GRjay8Xu8GA5dka0l-F7BkZ2GzD-t___1E=",
+width: 640,
+format: "jpg",
+bytes: 33626,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Popes_palace_inside.jpg",
+width: 640,
+format: "jpg",
+bytes: 42756,
+height: 480
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXb-42qVaOkTw3B2wSth9mJ2MeVkmqvLrKXBSPmzamN6xaGiyl0FlFEK2WTBA1PRc_M8d-zpkeNsS4e1JMU8EoSHEM2KJxrAVuJxx5c0Hhie7ac-pjWgA7dqaHFq2hS7dEslB67fKhsz0UvN3zduDBOIPdDDp0IecBQrlvzKrHsxVQ6VNConvezJwEb0wRQK2NyCBSMbDpP5uxEmsEPblHNrGZekQSfX8WYj2Lvv4APSVuJniegiJYDkW6jl0ZSeeJPQyUo9wtRSCfKl0b6cBjDQ==",
+width: 192,
+format: "jpg",
+bytes: 7182,
+height: 144
+}
+},
+owner: "User: (WT-shared) SoyDan at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Popes_palace_inside.jpg",
+caption: "The decoration of a window inside the Papal Palace",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Popes_palace_inside.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_2_JP_Campomar.jpg",
+attribution_text: "OT Avignon",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX4PXGhDO91VTd9jfgdZcNq7lL1FaxjR4qrTl3L5m2uQr7eoC9qzL2ptTtiFjZD1MA6N6b4frNKtwscQ2YDxBuatHLGqVfi_t85Lsnt5TiOQ-NBrR5qz1jcPjJoUsPMVjF14xAQqoNMwDJx56xgf1h_-cvz84FHXyJdEinDMjYv5FMnzYu0nXPVkgieFE9TvAU0nHzZ7Y74OasMFcHSeziYgDciKCutvX4ccf3fsma74lnqYFrSZuQqWc6JVdGtnyyt73HyHS62BmSIaYvhEmdstWL1HmTQ4QKyG7Op79Su_4=",
+width: 640,
+format: "jpg",
+bytes: 54300,
+height: 417
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Vue_a%C3%A9rienne_2_JP_Campomar.jpg",
+width: 3008,
+format: "jpg",
+bytes: 1572699,
+height: 1960
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXvOiUJU-JSNICxsjP7We3BSAM8sT9q03ENAoy3tzfftjUpy9G-8RyCPY6bOLHFe3GoGesLMUQJjOoYHRYpkRCWC0H4DtOBySXXbH79Y8vlDquJyElxWM2MQo4QqfrJEYzMIlYj8dae_LJjtxcmvGk8tYebsFHzS8L0GRNnu4KV2vUtn0PgP0cDPVah-wJsvvjQwX8RUx2ar74SdY8taw82TVhOFXTIr5PYAInYL2zctvWcdAD08M5Wqi24nK1zsqMcxA-xZf-ETRfc58z1zCAfA==",
+width: 192,
+format: "jpg",
+bytes: 7398,
+height: 125
+}
+},
+owner: "OT Avignon",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Vue_a%C3%A9rienne_2_JP_Campomar.jpg",
+caption: "photo1a",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_2_JP_Campomar.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0-3.0-2.5-2.0-1.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Park_beim_Papstpalast_in_Avignon01_(cropped).jpg",
+attribution_text: "Félix Charpentier (1858 — 1924), Nikater",
+license_text: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXLzWr4v8STpkakzvCBt-rQH6AOwQNwGE2r9y7EQrjCE9sMmt3epICMn1qjZW5utbFEeVFw2L2XI3Cgi9i6vS-VF2aSVVOLiHhxUALFXbwjlOP0T-Wr-23uQ4jQv3O8m6C9YA3zImdeTYbwTUyRJaCqIjECKVe6CufR2vZWOvZ1nOu4Ptv3T5wHDx6fogEOeD7iXVdSfvBEeoT_OCLvGSH7i4X3XsqfOSaQQ2YNZwMnExVMyToGVij-um-YJTKhmRImZHbY2C1YKCaVxfrzn4GUDwUnQvaKBHiR4KJElT3xTs=",
+width: 640,
+format: "jpg",
+bytes: 64196,
+height: 426
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Park_beim_Papstpalast_in_Avignon01_%28cropped%29.jpg",
+width: 2371,
+format: "jpg",
+bytes: 3211527,
+height: 1579
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXVRNCaZO1Qm4ZetrpiyXJXHxvXSMJmVpvztEOzJwWyLWAvhZIyS-2qUjkrYBfOQHv4Sn9b3kgR0yjrU5tVRDjQorDvCsdD6TSI5g_YFTeXkoFxfBSzizT3Xqc9Parg3YB3ZQlAek7ZEVdokC-FHGNuFxnin1ru_McLW6OPah0AHCUwIYwqE3l9k6zzLtJZFau216pDds8UpXdc5QrAi0sXT3UoGbO-2MpvXvhgB3U-_PO_Zew8nAGEFf8xcHe5sVAw_3OhZebJN5zrqH9iROidw==",
+width: 192,
+format: "jpg",
+bytes: 8232,
+height: 127
+}
+},
+owner: "Félix Charpentier (1858 — 1924), Nikater",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Park_beim_Papstpalast_in_Avignon01_%28cropped%29.jpg",
+caption: "photo2a",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Park_beim_Papstpalast_in_Avignon01_(cropped).jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Avignon,_Palais_des_Papes_depuis_Tour_Philippe_le_Bel_by_JM_Rosier_(cropped).jpg",
+attribution_text: "Jean-Marc Rosier from http://www.rosier.pro",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXU8C6XjNKPhMRUghq33yFwJawnms-oT4C1A6VFEeMdvwstwMmJg8m6z9XrWcD6gAfFZNRiflvI9oCpvxVtblfi9V6UTgpm4yqQlwLcuGyLSBxmjYf_03QQsofrrEubP5c9KSa3bXDvJlRfhAqZ0hR4SANzJ_982MWvORs_5EuFmgbDbpshymO_ntBOg24v0OpP5FBiUmdoBA3UO3e7VbIRYo6stzQfib1qWOoA0JPGdbyIgXkI9uW-hLy41wvkCk_XZNSqUXK8KiWHKNyB7H9Z4hCqnEwiFkEDfmRyTAjvJY=",
+width: 640,
+format: "jpg",
+bytes: 50820,
+height: 426
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Avignon%2C_Palais_des_Papes_depuis_Tour_Philippe_le_Bel_by_JM_Rosier_%28cropped%29.jpg",
+width: 3920,
+format: "jpg",
+bytes: 4502109,
+height: 2614
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXMkbxskf7PFzEOjCkWzBPQD1zTm55kJ-An0Qv_RUYbfqikDgnM6D2i5OkuePtN0BV4QvNL6GaO7z5Ye4Ye6xYm1KbETB6CQGVxs5Cr25aDuWhNxaTDB0JlWkx1SRxk9dp91Dsf8XnH7ZWKq3VmFUOzLWRfXXAod_YOJxvip-n8UOBLlJ81QDIbLLDIu9Tyrcd_YgkMrHD0cjHbv1f1VIhp-GnkTcgWQxYTNegokqZZt7Dl7MhQqpGTgK5dTQ_v-hWaV3q2saXlvcYpw3sHIJwAg==",
+width: 192,
+format: "jpg",
+bytes: 6939,
+height: 128
+}
+},
+owner: "Jean-Marc Rosier from http://www.rosier.pro",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Avignon%2C_Palais_des_Papes_depuis_Tour_Philippe_le_Bel_by_JM_Rosier_%28cropped%29.jpg",
+caption: "photo2b",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Avignon,_Palais_des_Papes_depuis_Tour_Philippe_le_Bel_by_JM_Rosier_(cropped).jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Le_Pont_d%27Avignon_(cropped).jpg",
+attribution_text: "Charles Greenhough",
+license_text: "CC BY 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXyYfvrrDmBeodQsme_LX2d9UcXBE99pC1Qc6G-qelUWJsggSm1CrEjvSx7H2NMxKxZ8Airsb1s0cM0jJdZ0iIt52dV1ah7CqDWMFFwK_rMp51sO4Lrd3Jj_335mnpjN5KpnAsuF64ZLX1B368AUQme1b93uhmOA_ut4WXBQXkZAbArf67cQzKbtpEmrlgddGB7J0Ptpu_3Xq1tFUaXjfH2UGhBAWpmL4-A4YU_7c03e1P8a8su7dhPcsQVpc37VFFYpMT-2aMgRpv6scLaMg5gepLjEK2T90qLbEgDBbSnUo=",
+width: 640,
+format: "jpg",
+bytes: 28281,
+height: 260
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Le_Pont_d%27Avignon_%28cropped%29.jpg",
+width: 3775,
+format: "jpg",
+bytes: 1598326,
+height: 1539
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXObS3xsNvKqGmSpRAJJltYgIOzGcPX1rrxSe4ufimymQ189Iqum1jtogHtaGonGR6qwbdV1HL0811IpJtmM-97WqkJ7cphtXVcOQ5f48zk7ipNHnQHC1EuMdZShfuLupTNytIH8QYQvFtQF5p6lGI4EB9MYNzAcggX_uoUJJ-a9YeEYoj0-8mx9X_D54lIUOY6L1r4J1X30sykCwRaJuawqtOu9wtkkBOZu7gKaAPAeQrENIISIACLKb38JZ87qILCHfDIZZxwz3NxxRPXaqiKQ==",
+width: 192,
+format: "jpg",
+bytes: 4489,
+height: 78
+}
+},
+owner: "Charles Greenhough",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Le_Pont_d%27Avignon_%28cropped%29.jpg",
+caption: "photo4a",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Le_Pont_d%27Avignon_(cropped).jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0/",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Avignon_festival_2006_asobu_popes_palace.jpg",
+attribution_text: "Jialiang Gao www.peace-on-earth.org",
+license_text: "CC-BY-SA-3.0",
+format: "{attribution} / {license}"
+},
+license: "CC-BY-SA-3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX6amg4YnEmfztyaURcooX85m8b6Cua_yr1u_dN2SZCaPMCsxd0NIoReADuVNv4bQMdwQi-NGPHLXlQoekTOoysBKMiQPgnbs4Ke_1eyNfQNYwqvIsPDiPOIDayauU_b6l0xsKRyphnq9beKcYrEbHNjGVu2V7vsMSFrxtfR0pSJCTm60gT0x-mmM_7duleopvYT9gDE6njSSEBQDwUuqLz0uik08jyJ0KSsZ2suDpNM_EgWgYT7FtKjLkQ6fXuCK32kOMR0TEKqzM05ZeTjSRuV3dQiOeh1x31r4Sd166jVw=",
+width: 640,
+format: "jpg",
+bytes: 48798,
+height: 435
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Avignon_festival_2006_asobu_popes_palace.jpg",
+width: 1071,
+format: "jpg",
+bytes: 182665,
+height: 728
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX5Q8TvewVzJJLTwb-KQ6UWk_1_W3u0O9nLctLdEvtikva84U-xek_rNq5LVWV3BkxCunh0xhCs-OZTjO4GKATOom6l2NzRtH3862MGqSSdGiphOCMdcePdZ547Nwguk9F7-pEHaavdvtmDDbfmklkWB4bkY9SfQYFmycmUYUHul0f8INxGl7wJxcZGGBvKJo2HlZOehHWz7hFPucCHK0IlxgKH4Oh2-sWwLmOjf5EFr4zs2Oebb9IAowkQQcQoJkGTydngiA0w1QCRHvb5HlJ8A==",
+width: 192,
+format: "jpg",
+bytes: 7296,
+height: 130
+}
+},
+owner: "Jialiang Gao www.peace-on-earth.org",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Avignon_festival_2006_asobu_popes_palace.jpg",
+caption: "photo3b",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Avignon_festival_2006_asobu_popes_palace.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/2.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_des_Doms_d%27Avignon_sous_l%27orage.jpg",
+attribution_text: "kruuscht",
+license_text: "CC BY-SA 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXjB7NQeRML4MiNQB-5WF57XZjDtcYmpbaX_1irxiqed9YVZK4vknn2dyQyM4HDVuNVxASDL-Asgsa4ihvBMgrHraklSJR_NAI4n_G4qkv7jwbyT-Wao0mw8fN3KvsE7t6IaHXnZL3ywc9oTUp2AkA0DGFyg1HS-UYe5o34eZEOo6SpV2iT4X6-0uVXuMQaPLvOjOQqS8FRLkmWHdMyAyKW97VMLkOj9eoHB6aAtfn98bn_57AUwmdDUgrX9BNO6Wu1uFWZs8fApu_JFYidqT05pYanKBsrW_gqU0rbLOmx-s=",
+width: 640,
+format: "jpg",
+bytes: 26128,
+height: 423
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/6/60/Cath%C3%A9drale_Notre-Dame_des_Doms_d%27Avignon_sous_l%27orage.jpg",
+width: 1024,
+format: "jpg",
+bytes: 272721,
+height: 677
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX1mwGxK7OfHO5_i_ooO7F_z6SUkEKBEM52oeLOX47BBByShgIeFzbTV3QaqAuSpPJdf0d0YKEag9f-5RMGI2GZ-uV1KK2VMpNPvmPhcMpWpiVbdKgAsR7G20BF10Pf6xGg_yvQRy6IjYZ9ZBDpLFz6fchyobo8WpTemj9fZ2Dgy_g5Bwx7HCdDx0Qmjglwv96m-82y1I_xg1aGpXtB8KWgqwcGk7tu_B1OuQz6yfZDsQWZylcwLFpgn1YW2H65mRd1LHju2XGpLhKjgU1QpEZ7w==",
+width: 192,
+format: "jpg",
+bytes: 4028,
+height: 126
+}
+},
+owner: "kruuscht",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/6/60/Cath%C3%A9drale_Notre-Dame_des_Doms_d%27Avignon_sous_l%27orage.jpg",
+caption: "photo3a",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_des_Doms_d%27Avignon_sous_l%27orage.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:P1280052_-_Avignon.JPG",
+attribution_text: "Esby (talk) 20:02, 6 April 2010 (UTC)",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX-l9vo_UqdLCB9zAhNtNMbUhTdgvDdMbjwtpkQq1uqi6xykZV3rs9PH_MFlg4L4ZYANlFUtXO8ufpeRxt-F5tRchD7DZYmdGxwdR5nxLk0rAbVe_nO74MpIOmE6gLODyQCbcl3NHtyJqq2Fv3HomJJPfCBe0rKURr2jrHm-X5T-VvXxsoFaQLXTPGPxlVMXWFaY3N0UesjoixZoMr9DxCVf2UdDo_2p7h4LclzB8fLjCwse1yL5bexg-SRoNBOtQoa5bg4UHgN6D1tNPohbTTZJrFLNt7K5Tktj5SMEwvBgM=",
+width: 640,
+format: "jpg",
+bytes: 68247,
+height: 430
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/c/c0/P1280052_-_Avignon.JPG",
+width: 3968,
+format: "jpg",
+bytes: 7880047,
+height: 2667
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXP9KefoM7LDJ60dHqdgwUxsU4eHQ6g1icq_LlkKq5tI-RZOJGTpU20GYd6WlohTuiOz-dDTlzHBhEHJ44gA6GB_mw7hXobC9gpz0ILa_9uAqSAzHhD34JDq4sB34_R9cSsXaKvqiBZXKNSsq3jV1mkEyAo7ZZCnkwGVFle5HGwcyqp3kelG-0i0lDRZJ06JON5fn0YVIBMX6JM622R5zFUARs8Sm7U5SndCwmrQVhBY388Q8w3TYPLk9plCQbrQviopGh-kO_Wf6xoSENbUjosA==",
+width: 192,
+format: "jpg",
+bytes: 8452,
+height: 129
+}
+},
+owner: "Esby (talk) 20:02, 6 April 2010 (UTC)",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/c/c0/P1280052_-_Avignon.JPG",
+caption: "Aerial view of Avignon",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:P1280052_-_Avignon.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Vue_des_ponts_d%27Avignon_par_JM_Rosier.JPG",
+attribution_text: "Jean-Marc Rosier from http://www.rosier.pro",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXve-eRqkkx4sTgtMvQf7kZ-7FczblvjFcjPNjZMD1d45o4j7DzhK76yM18pT5Cmjvi24Agbir7NYwn8dl1eK4ZxzomF6DPOX1wpCVgRmyoCLCVSYB7CfIhwI92c03WruZtzEVK_Lu3A_IUnvlm9uQQ285vDhtQDA-h7ev7cpSrDf_yQDjvXhB5R76n5nFGV0lF546roIy0IwhpKNq8YZ7fdcOvd12tjhtngJdUDC3vojSQRO4aPHNOvYoSg4yhYFWYwPRYZM3562va12N57krdapmMzylrJLqjE7aIz8bpog=",
+width: 640,
+format: "jpg",
+bytes: 21615,
+height: 426
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/2/28/Vue_des_ponts_d%27Avignon_par_JM_Rosier.JPG",
+width: 4368,
+format: "jpg",
+bytes: 5676518,
+height: 2912
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXY0fbNoyARZzfptV9wglbereKq5n5KPouYWr-_hafte9faS83u024RrA8yc7chFOZb-ZkjN9H2xH0JvANK8DmatXBR8flVXT9tqV01bbJMykHVbgI2T-o88F2LGDYrdCkP7qT54hlNM0gSi1I1aSDzbNehpB-6sOWl0808p2gvXCNEaBtbgE8c0t5-ETeKnOQOA_ikhrr29SHzLptr7nXz29UaFFRAfM_TDZFKqUHfuRW5reJb7Qz9K7ABc8qmxKo8o0voajagUzMHQU8kC7iQw==",
+width: 192,
+format: "jpg",
+bytes: 3466,
+height: 128
+}
+},
+owner: "Jean-Marc Rosier from http://www.rosier.pro",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/2/28/Vue_des_ponts_d%27Avignon_par_JM_Rosier.JPG",
+caption: "Bridges on the Grand Rhône.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Vue_des_ponts_d%27Avignon_par_JM_Rosier.JPG"
+}
+],
+type: "city"
+},
+{
+name: "Nice",
+country_id: "France",
+coordinates: {
+latitude: 43.699749074592845,
+longitude: 7.2730033
+},
+snippet: "Known for dinner. Recommended places to visit are MAMAC, Villa Ephrussi de Rothschild and Villa Kerylos.",
+score: 8.6076620562695,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:NicePromenadeAnglais.jpg",
+attribution_text: "Niels Elgaard Larsen",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXh2_PSenvvtTqlmr1Xzdkt_U5lMTeCnOH7ndKoPxBrOE-WrPxPPc8xfgXimFvAqFW-L6M4hmQLX8bwx_PXYhl3Kot1-2cylMfLqCLKoCf35ETScLtYdfkGJ6I97QKU4-NfYtWeN0wCwqtotD8QTdRlnt2PfKw5zFyyMt3jQl6IlxIdo1RauMDgsjz6oRFEGQgBRxRYH2FstHxhGF8Pb6OOcb4LF6MheiM37qWsMLeALgY_lapW1GPDyw5T_VSxPl_0yV1xGDMtzOcL1eIbwYXA8sdgw3IPqWy0RBWLrO3jD8=",
+width: 640,
+format: "jpg",
+bytes: 60939,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/7/77/NicePromenadeAnglais.jpg",
+width: 2576,
+format: "jpg",
+bytes: 1397602,
+height: 1932
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXvo3bSz2gtk56-NA4e3N-vVj6LjmcnEI8GMcxUew4JzD1JX67eelwx1umGk6E1zyu_XrWFQE3oNBdO5iDKwQOzVeMri7Jj0sJfQBgEiDc4_Je_8SiX-R0kl9icTqlHCXXytBGLUqdB63T3yYze-KTXX604yWNkRVl83D-ovLXeFDc0Hqar3FVSP5ALx1NFDexiHKKMbeZvyTu7hqeweTZb2xSVOWOBgddhl7JjOxMJMB0k0Hq3JY5GdRhwnbLGHInU92IcQxXNn7wCQzNWI2wOg==",
+width: 192,
+format: "jpg",
+bytes: 8025,
+height: 144
+}
+},
+owner: "Niels Elgaard Larsen",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/7/77/NicePromenadeAnglais.jpg",
+caption: "Nice",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:NicePromenadeAnglais.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:NiceColline.JPG",
+attribution_text: "Niels Elgaard Larsen",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXjFHMa2zCHT3Q7Vu8Xi2DMH8_5XZ79ZVJ5rIfFmoMuIA3MeFMFbabbLPu49Bu_35XHaJor-B3W--jM5GPBYf3wEw0jbaUPW4kbog72S6q14PGtIS8bK0ce0EwJyimwR_xUHAC7efX6CFEuR8lglzflb0IKz4ZcTj0S3c7RhBhJELCuEI7tOHZx7thFjP21M2A71Fxg8-1CWeKkY_T-RxF4Gi7wjTo9wImZTlOj7fH8rBFwMsfDpboAJ5YeIuPsPNiSLkVaoClhqOfzn_uPXxCSsUI83WtuJS0KU_8Uh6Ohs8=",
+width: 640,
+format: "jpg",
+bytes: 67228,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/c/cb/NiceColline.JPG",
+width: 2576,
+format: "jpg",
+bytes: 1457478,
+height: 1932
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXQH9uCxIs2r_EhG2OROrxLDLVJkMR_srorQNb5mOHVGGBfpCvbemmlLPOQwkKZQLUHO7Dkj8-fWgsoTOqZmr4DNreQfwrYK8rkSsoiTcINcjJWTKzAAc4RWUb9SX1U5dgvENHjfj9vH9xXfP8OyyWJr4xvPZGpPOwyLXVE4ZHHbd3Ah795Ddq0lAeHdHxmCRP9YrJcqXALcB5BV6mMUdj6T-2Rqt8xqsWGmxCUIZMHb6uZ0vfacjYMd-LTJr45rCZB1m84TWaiivikCxKMj0nCQ==",
+width: 192,
+format: "jpg",
+bytes: 9228,
+height: 144
+}
+},
+owner: "Niels Elgaard Larsen",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/c/cb/NiceColline.JPG",
+caption: "Colline du chateau",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:NiceColline.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0-3.0-2.5-2.0-1.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:NiceAsianMuseum.jpg",
+attribution_text: "User: (WT-shared) Elgaard at wts wikivoyage",
+license_text: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX9CZmXku_yj5gm_Vi58Y6rQtStFRkdMXtw5cXOmlPNNRDLJlSO8DuV9Q4KRWol8xwr2Y3sz3sw5ErHLNNT3AZsBYwI4wCZfFDzKB03cFW6jq-iNqnhapKoMhNttH0lJz_Hqcsvhz0s9YeMWB_2-P4iyeYQVMdpSEPI5RqdazXoEKYnpQM1fKn_aSPNNQhbbY8ya4B4OC-dNyhz2r2NjZFR3FIgvwunY1U1vw7OLv9jOga4gPBMuZEeIBe1nEf4_xMOJSHjaQo0TDEP9fkBlFnlYJ2jXf0o7864_iYzXPBRns=",
+width: 640,
+format: "jpg",
+bytes: 77404,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/9/9f/NiceAsianMuseum.jpg",
+width: 2576,
+format: "jpg",
+bytes: 1330750,
+height: 1932
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXZo5wbQa1Sv7I8SSPCb_P8JMNM4UhY6hQA7y_wIuZmnU4mk4HtpodDrVnwHTtKTramXuUCeZMJS4ePvti-Nh46-hhJj9s_KveS93MAedp6aoeU4l-DvOxa1vRY-LRK5GPo65gc8TfDHilbtT_dIdAXcrtGR2v9XajuwCPloW8SOtNHUDDd-54H3-5l-vskwMLHX7r1-Ai5MQO4SYgato4kyRAvLKqSRRiQOnxs7GOFqqndir4t0_tVLdV6_h9nPXkb0zKM8ge1U9XVwKsPb_GBQ==",
+width: 192,
+format: "jpg",
+bytes: 9576,
+height: 144
+}
+},
+owner: "User: (WT-shared) Elgaard at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/9/9f/NiceAsianMuseum.jpg",
+caption: "Museum of Asian Art",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:NiceAsianMuseum.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0-3.0-2.5-2.0-1.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Niceww1Monument.jpg",
+attribution_text: "User: (WT-shared) Elgaard at wts wikivoyage",
+license_text: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXRnUnlvuq4RR_6IIncCBqLB3__5h31_UAN5C10ltfzskX3CXOGEj8vdr4xDOEU2BdVjmC2QQgXWw9LwvxKITysPLHitN3zYL7WCPEtSbBfc0Slygn0hQa2xvQAKCOXXCu5sUMDhemS4akCFAxm0zNWZ9V0kdsbR7UW8TglPTjgiYsf-0gHT-MNGMJ2icXcCtgj3Q2VJ1gQlzx2I_lnJKt9Ri2VmnFNEUZp1VGvz0RY-Moa_51yEsHWS29MbGwQAFxTJsWJyZOLo0zPBBTBKnQ8clJtOhqFyaQnb2y8RhF9O8=",
+width: 640,
+format: "jpg",
+bytes: 52756,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/7/74/Niceww1Monument.jpg",
+width: 2576,
+format: "jpg",
+bytes: 1235295,
+height: 1932
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX_dJ0gZ2Cr59PLoUZEqad3Nac-qmbFG2vxDoTHg38zFj49jevYdyah1ivqLDyuU-aRU5-aCJ9hBm9QPbd340nGoWLxz1PR2pdsASuQeJnABNGNiRDIpuBkkuA3AxqBQ7oxJenZ_rLRIkJKP4kq0W1Xa1X4Y-RA1OuvdK28F1Ox-Vzpg3WwplI_ykcnOvl8hckhJ2xmDvfkt9mxbVLU2FW-x2b8AukmEIKxbMQx53uYZy42_gW0UUxNHpPUsL9dsz7DfPrHM_PagZMJ8jGCRlMIA==",
+width: 192,
+format: "jpg",
+bytes: 7198,
+height: 144
+}
+},
+owner: "User: (WT-shared) Elgaard at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/7/74/Niceww1Monument.jpg",
+caption: "WW1 monument",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Niceww1Monument.jpg"
+},
+{
+attribution: {
+license_link: "https://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Hafen_von_Nizza.jpg",
+attribution_text: "Tobi 87",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXxsivzFiCyT8agNcSvRaCdZ6zrDSXfkaW2EOdrLBH0tQUap-Z0Y-FYaC9mKLD8NxO60WJC8YK0M_M1LLcxEw6r25SkFpVuJdC-m8j_DXxXxQGKQl090FtexMt3VAHbRvDKphsKMdzk0EBou3qTzQq5a3E0wqRsxKZWgevkL4N8LwG3_xTrZKDUh4J294MbgR3ekxVf94yLF0rqMuJDEGo1T_o7EVS0_egACD9TzmHzj89mrwu0uyDjxm-7AXpaMx0XX7EoMd0qhYIATen9QV4mnKUF_qIc8WccEjaIz4j9Mw=",
+width: 640,
+format: "jpg",
+bytes: 54267,
+height: 315
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hafen_von_Nizza.jpg",
+width: 6806,
+format: "jpg",
+bytes: 15146694,
+height: 3355
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXEh-w3Ydv0EE-H-KNhkS8W488pWMwbNYcII9vArLtzRDezQn4Dn_pUhtJreA4oR2QT0w4CCMj_D0GWtYtJokrSgDM3pDivd_ArQvk8YD-nm7gCbN5wqU6QZ3EKJ1VGjsZLqxRHBUFR_Spg3Xuf8UCMUnx-BKV9uiwW2D5kjCqoNjsksxrdsvEhjHJYlnNj5w9CzxdlJTo3iMtgP8tjvAG8TcXgSlDAukiJtpoGr079fy7cSV6IeVJEA-yLxxy83icHrXrR2XQjChcEFU1W-Af5Q==",
+width: 192,
+format: "jpg",
+bytes: 7206,
+height: 94
+}
+},
+owner: "Tobi 87",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Hafen_von_Nizza.jpg",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Hafen_von_Nizza.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Nice_tour_Saint-Francois.jpg",
+attribution_text: "Myrabella",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX8e_HJdLeE62BGsGHedWXqJ1K2J4ZKd3aQzmOV1s7GhGAnXRH3xRffhQyG7eYIg-4-StjB4JbDlyrXAzkXg_wxC4kZ9CeScWexjrU-S6RMrKNTHhFspmfMnNLtgvS4NF0ZEY45OpnLT4UwgJyFe_3uSffW2xvtcj6_qdMtNXDRQJm-ktJ6BTsO1pmo_KJXVp1Ss0_UObrwhuAHcAIsKnUR5NvY6_Fl-VSvZclbgoSfUv5K1oK-I-p4jTXj1l6yEHHa9nGQHxtqDk5VoxO92giaee1DeEA6NaZIaVLbYQ8a-U=",
+width: 425,
+format: "jpg",
+bytes: 39234,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Nice_tour_Saint-Francois.jpg",
+width: 2673,
+format: "jpg",
+bytes: 5949948,
+height: 4024
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXLFOrn4Gc3Lr0820Rg3EVrgj5X29uZn6oT5C8IcWcgWPMSNTvtYKsUMzGnn4UMufpIi5lNQfcnZRccotgQbJoC10OcjfmVUCRr-X0PQrgkPZBF_6E-1agbgDl2MY0yJsyL0lhU3Hk2Jc2uCR-zJLBH1lr60Ny4MoTXYaBmTDMzEr-D0QE5Fa9WeyQ72K_TVpU-TJo9R7Yd_wL1xw9dfAyTa9_trW956K1vVXX7o-E1gzjuKtUTY1j2s-AzS2Yqayhg8wOsKo1GARblkiBOaYp2A==",
+width: 127,
+format: "jpg",
+bytes: 5775,
+height: 192
+}
+},
+owner: "Myrabella",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Nice_tour_Saint-Francois.jpg",
+caption: "The Tower of St François",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Nice_tour_Saint-Francois.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Plan-Nice-1624.jpg",
+attribution_text: "Nataraja~commonswiki",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXPdfZvA7qllmJKwoSQfu4ihps_AdI-7EYSnT-cOd-PVxq_WK1ALVTRiweep8Wc7ForTrPBuy0vofS6Whn4DobTl4JMIowFWP3-uWiy5N86QrCsFqkJgtGFPLhMaCQBX2oAdG920Gr5pjbQzzqY0FFwp8_BssE6V_oBHbR0Vai1kkakpLBBSSzevDdXErSDGcWsko7xwC1yDwFQsXHkXXz9P36C_k4Khi4bKTKoAaPvvVo5z14BOi9iOqyQQ3Ac21YIe6ifpvxx1KL99b2PYKoj3DGsojgmfQ-hZiXbbTVak8=",
+width: 640,
+format: "jpg",
+bytes: 97505,
+height: 496
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plan-Nice-1624.jpg",
+width: 1974,
+format: "jpg",
+bytes: 1294004,
+height: 1530
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXIpoA1KLR1VNRCuqqpd5cwLPaPu2nECs4sPXGu46jdXPJ7Zs0P80rEL972DvLZowhpYEVgypkffQqZslNACPp4MekUbayML9wFSrK1kQ1RrM6xABlRwINxuClNLlbA6FS5nDEJVcbT7VcHDWeZKpG1rbk0ZwWll94qRpu9vT9be8VEHAAjcCNZAfTH-BavCjx-AuzJ5FAQ_ygfwb54DobP_WlEQMoeyTDruqwJD-dtU-JJihpFrrzIOSsyPzK25BFgFTIBnH0M8uxsTWfzo_LvA==",
+width: 192,
+format: "jpg",
+bytes: 11502,
+height: 148
+}
+},
+owner: "Nataraja~commonswiki",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plan-Nice-1624.jpg",
+caption: "Nice in 1624",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Plan-Nice-1624.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Colline_du_chateau_waterfall.jpg",
+attribution_text: "Fraselpantz at en.wikipedia",
+license_text: "CC0",
+format: "{attribution} / {license}"
+},
+license: "CC0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX1TKysC2lTT8zazIMA8d9mcPoJ0Ix6_3PM25f9A8uJA-0Nm9W0X5syiowBcnktSGl6PkZYgSuWxcxdLWqvN1un1yzbjmaFcN9c0GXmCN5w4lvVbRz99dc_u1xayH4wytt7UEAgiK882KXQ80dqTRX8WCIQ6F5yBrczHnvN-WIqU3JZ9elRE2cK8a6I0uQ-SRFx5rrmZGVdrjKV48PjJ93VrHU_IzU5ymcd5jF_ERbpcsiOdUrdHrcBREyRUljLngGTZHLOzkChXpXUDzGnFwsdPGOrrOv4aFcPpOfOUyuZQc=",
+width: 640,
+format: "jpg",
+bytes: 68745,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/49/Colline_du_chateau_waterfall.jpg",
+width: 2816,
+format: "jpg",
+bytes: 2881019,
+height: 2112
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXuCxHvDekcfC0aoThb0GsE6UUMVHUdH-fELfHqa3VF9ZpK8iirvjF_vvpNQSEJHN6--eejZ19txMkdioNDKLTTercu6eOZGkUznuMQtTekXhg_4eoq1JvHHTnM1uJgO4ZX5A99vvqCHVXijb-SxH_3Z2mjA0H7k1u_LmMbZNlFjxqcTUrw3sd9bundw-bdEmMaJiheP1eWFyYu12z7QZlfKiRvTgNzxtYI4L7jU-Ohm_WXs8T0aO-810uUrUMEn5pfRI5JknP-jsUj-4JMtw4kQ==",
+width: 192,
+format: "jpg",
+bytes: 8595,
+height: 144
+}
+},
+owner: "Fraselpantz at en.wikipedia",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/49/Colline_du_chateau_waterfall.jpg",
+caption: "The waterfall on the Colline du Château (Castle Hill)",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Colline_du_chateau_waterfall.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Palais_de_justice_nice.jpg",
+attribution_text: "Fraselpantz at en.wikipedia",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXF0iQkPgA41kPG5nLmAZC8bpR-sRvzZZxO-qCk9B41Tvh20SaYK6fttSaTXOAFEXdgWkxTtLAyR_2CAVlV70XC85P7nrHuQYLT0VNWaOV1CJ-VqO2H7tkBQkStO4nr2WPZk1nCOnhb3mLlB9U6sd5NVJ-1rG4r9RhM2OSZFeUZAGPo-AOFib5vjIVZN1SUfRNGaM6j8HYV4AV6IY1-469E-7eCoFos1U936w63U_qDJIwWo3WhaQ-kuEnrifgvi0hzK9EbhLtZFtDwtrSINwh-jWhjO31ySBISif72gsANIs=",
+width: 478,
+format: "jpg",
+bytes: 52392,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/1/14/Palais_de_justice_nice.jpg",
+width: 1936,
+format: "jpg",
+bytes: 2040962,
+height: 2592
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXLmvSBTE4yk3Niwb6kU0FIjRoLQMzyaMj7UmkgLq_G5V-_aEtBosat7vbgUuxUROpz_n_u3ymDLVywFTgieq9iNg3V_67IN2M-jYGYpIAD6Vs0O7vmHaBTIEUccjwDOwbDSw6grRvYyVA5c7oYdzpvVejBGpJYMdMJS73-TuV3Rv8tOLIiR4aFR5tyRl-cmHYd89USxLcrSiTcHwxdwhC9a93c4vP4NxulrCvC9nTIJ3VGBjr9LUzsDDLxSwHndexo6aID1Mbr6kBTpgErKdgdw==",
+width: 143,
+format: "jpg",
+bytes: 8396,
+height: 192
+}
+},
+owner: "Fraselpantz at en.wikipedia",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/1/14/Palais_de_justice_nice.jpg",
+caption: "The Palais de Justice",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Palais_de_justice_nice.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Nice_SPOT_1161.jpg",
+attribution_text: "Cnes - Spot Image",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXTM9cljEH3O6X1COtHYiNpmmhjQVFp--5v8Z1ygj8m0ZpzX6Y1ivJR7H0iaCAAWjJMWAH1Vv3VuHO90PS5eE5_I3eDHsTMqls3LedHFq-UmGgTcN5h6tOsmxh-x64YFywsWLGnrSDPbeoTTL6IYq2DtU_RoChOJwGsNWq1FIIpLcqqeKaoc0kVCU6NDAFf00mCK9GmO2USBtajMeWaHcfr3JQTJHAGOu4-EtChWdeZjXhZNC7_jZ1qbdnmbObZJ_qZWnZxI98hvqql8YeT0Dj2nKDskCOdjMWD_ATQAnyk9E=",
+width: 500,
+format: "jpg",
+bytes: 66201,
+height: 500
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Nice_SPOT_1161.jpg",
+width: 500,
+format: "jpg",
+bytes: 115744,
+height: 500
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXk5MxYMQTuUf-pdQj6Dh7kgDgdYKSuFBk_PIGeCJgzmNx7dj6pgXJv5mVEOqwnnCnuIBta3TIwloABgAiXb-CKb1qukxBhS-MsV-q14upp3dZdhWKHWOy0YLJbBAnjVs6NZoz87i070L4wQyMVmwTwOUiQxLuAVh_rWYzFi5D8w5okwy0bbWNUFoprGK-s_MqK1trBeirgZS9eU_1OB-XdOB7XEq1RaU6E_2dJVXItTNehgh6Z8I4wZbX-nBUOKHMGjgJSpCueQ5RJxidXFPz5Q==",
+width: 192,
+format: "jpg",
+bytes: 12491,
+height: 192
+}
+},
+owner: "Cnes - Spot Image",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Nice_SPOT_1161.jpg",
+caption: "Nice seen from Spot Satellite",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Nice_SPOT_1161.jpg"
+}
+],
+type: "city"
+},
+{
+name: "Marseille",
+country_id: "France",
+coordinates: {
+latitude: 43.2949554,
+longitude: 5.37587664592792
+},
+snippet: "Known for cycling. Recommended places to visit are Notre-Dame de la Garde, Marseille Cathedral and Mucem.",
+score: 8.59294602332073,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Notre_Dame_de_la_Garde.jpg",
+attribution_text: "Benh LIEU SONG",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXbYDrNEAoEpItlUNBQRpEAEM65RdTRlwcAE-AUHjpcDbB84T9CIOYIGmaKUykgqiRb7rLtm7LR9uj2QUfCCRymSu7BvDyoiaEbkcIENM_EyZU1BZ2yDFYw8nld-SjN2FNGXFK_438GU221KRIpwreztq6TwR-8yHZVsi0X-phW7P-dOgj59iTzVHsBeUtZ0PvnO-LU4rZdm_3pvr2IoLyqHTc0LxESgKseEuWNeRnxGyZkRfiCWBqlUHbwLinL0vakzyZcln368vbRlfrQYUgif0d-oLDZbahrkOMxLY_HCk=",
+width: 640,
+format: "jpg",
+bytes: 23156,
+height: 426
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/40/Notre_Dame_de_la_Garde.jpg",
+width: 3888,
+format: "jpg",
+bytes: 2972222,
+height: 2592
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX_6WwB6nrshByU-B6LveTmhQpo6ly-2KH9SqjsYHCJE9BD7kUWjypTN-xFQOK4kh0jPHDuqohBVZHqMQPDjCimbA8IOCHT1oU4Kc1IPMPt--mWKeg_mJnIZ0yI-bKcwdfgDxH_zDf2HSAW_41D1EWreUGzchFgTDuAua0alm3QCsZ-oWsVyLMBWFZQbR88enEfhdPfkjol7fgZm18RNm8Xo0R3EWZe-yGgS5TD2ui5pom0v_y5KZXIjdWo3cHg9TMPmA3Z6M7YCHZN0ncAHYFsw==",
+width: 192,
+format: "jpg",
+bytes: 3730,
+height: 128
+}
+},
+owner: "Benh LIEU SONG",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/40/Notre_Dame_de_la_Garde.jpg",
+caption: "Notre Dame de la Garde",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Notre_Dame_de_la_Garde.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Marseille.jpg",
+attribution_text: "Niels1974",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXxDbiLGu8dWknHP76EX5ccbQlKA3c3s8NGtwaHNmdinf-JAacygfc35wmwDvfVGmZAJSpSwnjAlzAdiU9QX67LOQ0fnIWBf0j_hPIyVaqZTZ_Pd2hpn9-QNdgS5YRPcXfSFRDZGu-SYYJdeAWK4z1MNRVNUMArg7MIgIvzcor7DS6NxxP1JtUVZDWgW1Y1U0lku118qHZZgidPefJ6nky16IGFryBOsfcDNCMwGAtrAgxoNOMhKCjKeHR0litWJP58ixRWBI-A_if4cDUDtZg11HNo_ThygNOBiPYwxg7VGQ=",
+width: 640,
+format: "jpg",
+bytes: 33925,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/1/17/Marseille.jpg",
+width: 1280,
+format: "jpg",
+bytes: 556820,
+height: 960
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXp1VFdZMcHHtmGeNS812zyH7lL4E0FYgwo1K2iwwEO5r67BY4qMlW0JJDROehXkyMemKA5y3YC0hjQ8GT_zirE3OKdElo2ncRkxsuJaWqf2aWvQy6eK_0MhiufTcT7pLkGBoPEa__pll47yrHr860A1U3HYCfUvj5NE-q2G-MpAhu-2JmAFSJufYGX3QFYrgU7N39-9o-VXtAIOF4-nNARmqRbkKW0L1q-qEPmGnN3WHyLzvQD8ijB2_t2T3LTaHKSgpovi-DFOhSvbqDVxugLA==",
+width: 192,
+format: "jpg",
+bytes: 4535,
+height: 144
+}
+},
+owner: "Niels1974",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/1/17/Marseille.jpg",
+caption: "Vieux Port",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Marseille.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0-3.0-2.5-2.0-1.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Saint-Victor-5041.JPG",
+attribution_text: "Robert Valette",
+license_text: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXx3yob0GuSj_Idu2mlfMI2tl5Lf9pRRwga7f9TelicmHnGQPX0qdGAiTUqvR1vpoEKD8YfEnJl-SRUU-VA5dm7RzAapfhpVkEdWdNRK1dy33PxvcG1qMnfqZQZSzLdfwa7vzXIkZglMM2mazgt0_nNkZQkABpA-Y_zyIXPVoy6mnUOWARlAW_X_Fo4IOMFa_o3js-GSuODmW3XY-e7aNor6-nR44YRsoiDCLeq6t3Vkkwf4PJGIZHxOvwnPpo6TZQvOvLj0OsOiKRNT2c2QExlI35GNpf_VI_gaj05YQuhrs=",
+width: 640,
+format: "jpg",
+bytes: 18728,
+height: 426
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Saint-Victor-5041.JPG",
+width: 3122,
+format: "jpg",
+bytes: 1671872,
+height: 2081
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXUjCBJM1dBDqS5cds7TS9LS8NA6GHy8KV9X2sC5YUtXm-zKZ1AuhJ37JPK8-kS6hCWL9dsHP2WGAgeiZsUdBjpRqiYCEZ4btPE7k_YEUlGvoqkyOsn19lWO7xSdmNJgvtW_LcZNAE0mgGVWUrl9L0LTu2UwZ7O6M0dqi-zZZWbh8u2ec5HTlbUifPNxTIPPp0_9yJGt8g9W1cigo9tNYlCP_XueJzpir7AAV6QIk3QyqA6wAbboFhYMnbCZMUoFQ4syA7gRMjo_E9a_6R0RbNFg==",
+width: 192,
+format: "jpg",
+bytes: 3582,
+height: 127
+}
+},
+owner: "Robert Valette",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Saint-Victor-5041.JPG",
+caption: "Abbey of Saint Victor",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Saint-Victor-5041.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0/",
+attribution_link: "https://commons.wikimedia.org/wiki/File:L%27hospice_de_La_Vieille_Charit%C3%A9_qui_abrite_le_Mus%C3%A9e_de_la_Vieille_Charit%C3%A9.jpg",
+attribution_text: "Jddmano",
+license_text: "CC-BY-SA-3.0",
+format: "{attribution} / {license}"
+},
+license: "CC-BY-SA-3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX18FoLlPKjJsxV0k4S50Fv87BFrVTmtbpyiM8BZkDxfiDgZoqrWyACXqK26DR1E9CkPfF57c41vl9_x7OYoipD_8CVLTkGnTt-pxyqRzF9q-G3jQVgFjrD6BFFzGjwwFlB3JBy-4K7Rp8IN7hQy33BPRKQdW1OYqFBLcAE9r78CjklB99T1PDhfBKQlKVV8OHHP28PMm7X2iF58OAU-hi4RyybgQGCFXEyS-rt0Lc5oAwfN8FtG18ydnXmYyFiJ83pM8t-y_iOOsNPuY_yyef3ynwRF11eFYPcsNCduTqb2E=",
+width: 640,
+format: "jpg",
+bytes: 57375,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/b/bb/L%27hospice_de_La_Vieille_Charit%C3%A9_qui_abrite_le_Mus%C3%A9e_de_la_Vieille_Charit%C3%A9.jpg",
+width: 1600,
+format: "jpg",
+bytes: 1141397,
+height: 1200
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXkklGdOEP-w8PYcayDZm6TxUobjeEtLTuIpJ_ZoEU-4lT6OYTJQ0PuK1WrUd355p02XEHLzzphUumRffbJYGtaSuPjf3HiG5GDCS0_SXiZElDJpVfaMEbzUjwp7ReUXbHPotGwFUwu-2hXX96VWwNgjTff0vhxgk4CuWHVLrboO3EpCHe59E8XXIeGkvfExUVgiJ05F6j2R5KbAUiVmp_Lh9xXkIMkqO0AqrQuwq7AdB2tuC3lRGEJRlk0-hRhqHao5h9-ceXhmPq1NLxNo8yXg==",
+width: 192,
+format: "jpg",
+bytes: 8295,
+height: 144
+}
+},
+owner: "Jddmano",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/b/bb/L%27hospice_de_La_Vieille_Charit%C3%A9_qui_abrite_le_Mus%C3%A9e_de_la_Vieille_Charit%C3%A9.jpg",
+caption: "Puget's chapel guards the entrance to La Vieille Charité, Marseille",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:L%27hospice_de_La_Vieille_Charit%C3%A9_qui_abrite_le_Mus%C3%A9e_de_la_Vieille_Charit%C3%A9.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Marseille_63.jpg",
+attribution_text: "(WT-en) Liolik at English Wikivoyage",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXNKKvoIDVaWpZOsk2cGaFUxglDzy6dg4NkRbYNz_epw81SXz91pV_m1jiT0mqfCoR05qqpquGCnidqUOdY4pVYciq5yDK6CmC74HR2uNhPTx2uXqnUa_uf-tHGaRyxwnp6TMSHVmZb0zxqOBtjsoi94NvPoNJRoK7VIg_UO2EwhnpA1fgwSvO8OA9lWVDeNeiEmsOZK7Tn3kPdayc22Z_hgheZaCMkji31Q4nWwkOADzF-ZKJPEnyfLj6xOg8-94pQEORmOqOvPfPF3adXAPatEnR3kOu_x1wkeMb5maitig=",
+width: 640,
+format: "jpg",
+bytes: 57615,
+height: 428
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/5/59/Marseille_63.jpg",
+width: 1024,
+format: "jpg",
+bytes: 232753,
+height: 685
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXAhoCuShHhNQLOeiwi-X46Yt1G4N7MrukGUwtok5aTrawp-PBHTllnaztj1KpAsDebQr4IKyACj4t6XaXAODmXgad9GTZGfFER0Oh7ANflQdxEAo_jJ_Zr-w7hqc-9ZrLSnRso9XlHr5wiwH50zXxpO2Ro2BTR6IEVDl0RLVDiAEMtuLzZ9zdkISXh1Ozqjc4_OzfwzvJPIsDX8fW0JvF4VcioFABuyPzBV0P3T6rJMV2Z0NIrgUXeT8wQEpJUa-O4c1_kcxT9IaTKOLDMeRBRA==",
+width: 192,
+format: "jpg",
+bytes: 7539,
+height: 128
+}
+},
+owner: "(WT-en) Liolik at English Wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/5/59/Marseille_63.jpg",
+caption: "Palais Longchamp",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Marseille_63.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Unit%C3%A9_d%27Habitation_de_Marseille_2.JPG",
+attribution_text: "Anapuig",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXuYEHyaE2ys8DN7b4INUExZ49peA_I4FWQDnU1IRPF7snlW62aDboP7-T6ou0YcN0TxopC8fAjdBemvtZZNmwra3WviIKiEPpOhr1CUYiRIleL8jpvIao-B0OMybbh81FJSqOCWbpFw3W6Wokxs1OqvRhAILhwyh1LF-kjZviD-h90H4n5atxYI-e-DsxOs2pw3UzjHMyE-m0oceZfTs5Btqfjk_M-bkTQmkTJx3G1lJXJQ6AWzl9BaW_herCf0qqs2b_QIzDqS4rM0vjcaiPwYjdlztyJ1l56f-3UIobb80=",
+width: 384,
+format: "jpg",
+bytes: 42104,
+height: 512
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/0/07/Unit%C3%A9_d%27Habitation_de_Marseille_2.JPG",
+width: 384,
+format: "jpg",
+bytes: 87706,
+height: 512
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX5kaJhVyvM858ogatw7MDxhdasNCEPn3x1mKNwRVnRzSN5vvwHZOtWpBuNZgTRdJT3f_DRiqT0JfnkwEo80HRpATuTNDjfX27JStH3sc3QsOSxNlKVa_3LY8f3o4b5iwrOnJJsK5XBah7OczhEx0o7n34ekCTT6LsgF9VtlPRPA0XkFHOUtlRhKdeUA9i5FpmvrU9Pap_xFGeyDvR9bDcB45gKf-Vu_-_itvp3OOBxgTdSV3-hZFgEAsQNXtvVkAkV4MWFMk8VvnJsYbFy2kJAQ==",
+width: 144,
+format: "jpg",
+bytes: 9072,
+height: 192
+}
+},
+owner: "Anapuig",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/0/07/Unit%C3%A9_d%27Habitation_de_Marseille_2.JPG",
+caption: "Le Corbusier's Unité d'habitation in Marseille, France (1952). A UNESCO World Heritage Site, the megalith arguably represents the birth of Brutalism.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Unit%C3%A9_d%27Habitation_de_Marseille_2.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Callelongue_port.jpg",
+attribution_text: "Tiia Monto",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXKEV2AI5mf2D49HZlDG-_uownn4SCr8al423QB53r3qCUw9vziSSQNpfQJdRvZVpYJb8Mp6oN5JgnOf9qbsfEAXAaC7-_3_j7M5TAGNcVhwoR0FCp6TpRDrAK9pMe6VMuW0kQLLoPW8Lb4zjTFW4xY7z1hS4kmCQ0FvUf5KklQ6TrVth_N1njlpzg7WCUP3pgsTYPDGAOZ0JKouXag0lD8SaI6LMfNjFthv9qArpNLqplCAvzWHE6pbCI-NWyC0R3cV3FMeLizPdK3SIuboLI1q0Nh1pB7jXUm8u1G1rr3wY=",
+width: 640,
+format: "jpg",
+bytes: 90524,
+height: 567
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Callelongue_port.jpg",
+width: 3948,
+format: "jpg",
+bytes: 3041536,
+height: 3503
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXKURprnr3bSKZE6VEajp3twbc2Z5tkdqrk15t3yOSSxTbIPWxq1YFOaqkKvJ1HqO-6ctRjfE6s5gw7kkScCdCZF5khBQ_SxrPNf72N8yd1fI3uhB7WZ6eaCI4d0HODGB08KICKjxWQ54cjgTN6wrIc_0AkohpdWEsEdJxqz6_KVcKZbWql8TLrsM_Npe4SHYhk4KU4KHIwjyTUq8pSNjiw2ET_1frw8tNFKeJcpf49hW89g8kMGcoSu6KxfY1qXh-Io-Ip9sUIAx5xwmtcgsohw==",
+width: 192,
+format: "jpg",
+bytes: 11796,
+height: 170
+}
+},
+owner: "Tiia Monto",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Callelongue_port.jpg",
+caption: "Callelongue port",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Callelongue_port.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Calanque_d%27En_Vau-Cassis.jpg",
+attribution_text: "Tobi 87",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX9EwT035z9_GUryV2uV0e3nxJQLDvcGwPNudRL_xHhV67pJqIFZMw58foSydzFFqlXfev9kXsIzTwZnAoJnKZvxgipuRcZym_hIGco-zrg7fCs9a8l49mo3Ko4NExwlvvXhtcTN8Nn4xL7Z1AgCbox2tkrkEFBR3mv0C5gS5oSuHPnGe_rU-c1MNDFHIj8II6iRm6qllh6ua2ezdgarFLkm0srSw24ilGn9ouSXA1T20x7DMfAY88zKF5CtrLjRefF2WA73JesVQsoja3FT0hQMyy26QukkV-GZAsch2UkVQ=",
+width: 640,
+format: "jpg",
+bytes: 43690,
+height: 377
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/2/27/Calanque_d%27En_Vau-Cassis.jpg",
+width: 6480,
+format: "jpg",
+bytes: 11675631,
+height: 3826
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXPDhFxnWaK1DXVDNzOaX9qZ02HLq83AkcGBCWk7No7rcFX9H1CBp-DLcmsGaeni2y0ytsGyE6YyOGlJCzOquUgWxXSU4SBLIdDyOIIHi5CVqDx9kKwKwQmact0WhtcEkzAKNqcAE8OjvUqgkKJPAguwqStxwP49FR1ezzRJ00Zjen4ceStR03sgpna2RghrC_FddQjU9EqartCsxV1evIylSbynhO6FeblwbtOJJ_nquOo70KvJIQuPcd-nPC3TLGIia8NUzWcK6Yg7JvaKsQig==",
+width: 192,
+format: "jpg",
+bytes: 6671,
+height: 113
+}
+},
+owner: "Tobi 87",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/2/27/Calanque_d%27En_Vau-Cassis.jpg",
+caption: "Calanque d'En Vau",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Calanque_d%27En_Vau-Cassis.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Playa_de_la_Punta_Roja,_Marsella,_Francia,_2016-06-22,_DD_10.jpg",
+attribution_text: "Diego Delso",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX327TlHRRrXg3UclPjLm6srVuMrz3pMn-ucHPY_09RYXV4TXIqcBTFW8NOHVVy6FTV-hOV5rPjZA4XAwXWHG1ffXTN-p65XrBgShT7uuNGbr24hE2bHpq8_S6bMGTsFk60gCaZMwmeZtx5Y4Bjfn8xBbNtDoKuyPw83xBFi7xcJonl47fDsgh2VA28KALKtGRc2iWDKt6Hnv5qMNyn2XcVEmUkszJljj2tnQ2XwawSrTZVv7pX2f3xpwKdGQeEfBaAnOgmRrczIyw0tN_DfVgxaPUZbr7uO1BscK4su92Ots=",
+width: 640,
+format: "jpg",
+bytes: 31558,
+height: 298
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Playa_de_la_Punta_Roja%2C_Marsella%2C_Francia%2C_2016-06-22%2C_DD_10.jpg",
+width: 8207,
+format: "jpg",
+bytes: 9542711,
+height: 3832
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXIMdtP7YVfAolVK4J_SG3E-UxlKsuVNCir65fmbuaWO0BM-mJ2DyDdo5VvyEJ3VVJx2fMN9ahVBwGoYZBHuk4bVlHnifyUPsuubLG0LgkBTwawhZfzUTv-qqMxamd4ejWTrc5TQFLyEvMK3RX2e2qXPa7WIxrMntTVexWU_510MO4ECMznbLi-lY2C7yKNevsy_9o5TfTDEWYBbwx7dtxIAy1uqwn2N0kMthFGTpvaTPzoQFl6jSc_ELP2Dp4wUSVbrYOYZDrcwlhGhv1aTETnw==",
+width: 192,
+format: "jpg",
+bytes: 4500,
+height: 89
+}
+},
+owner: "Diego Delso",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Playa_de_la_Punta_Roja%2C_Marsella%2C_Francia%2C_2016-06-22%2C_DD_10.jpg",
+caption: "Le Pointe Rouge beach",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Playa_de_la_Punta_Roja,_Marsella,_Francia,_2016-06-22,_DD_10.jpg"
+},
+{
+attribution: {
+license_link: "https://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Marseille_panorama.jpg",
+attribution_text: "Tiia Monto",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXZBfJvnWsZqG48OWiGGEAXXi0CVFCKK8xI8LRAZi0camjjs40JM4smAvVUXlW-8M8lZqtIgqV5N03e18K-1Jc5Wj13psXfqcLFR1WNQTQlmjoQvC_52RR2ZLS6na55SrxZ9AixKJta_Vy29pDxCmfgl96KvI8fqXP-rAYqFQaBxEjCnrBo_3UdrHdGvE-3nge4tAEYxtFNJGh60tWtoJusw5fTLdNsns-JMS-DWC-YOd_BM_nGFJefZN2f6dibBspWHuMLUxTJjT3TP9i7J0y7jRytvMmMNqxvm9n3GMZK1o=",
+width: 640,
+format: "jpg",
+bytes: 24641,
+height: 177
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Marseille_panorama.jpg",
+width: 10596,
+format: "jpg",
+bytes: 4767809,
+height: 2944
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXa4j6um7hUcemJB0XmST_hX1YPyc0hohgc88hiQyFxpMeyYsjfP0GbOWOW6Nj-Hajf7lkk6BN0N-wDv2IuVgyICuEiqlP7cqrFBl-_s0xf5iJ1_dCWHP9nvQMau6ZOhZNgv0yFmdY4Mofux8qrfoHJXeVyrM7HEy9RtTxGHGVjdP1liM5qT1fs--g8wEyGaPeG11wsTfsR75-NEmdVdF2O2itPESAM-bwp57iR14yjwOMsz1q2mLUhmq-PlSjnFbjwqRGE1Jt-D2SRgX5hGECmQ==",
+width: 192,
+format: "jpg",
+bytes: 3708,
+height: 53
+}
+},
+owner: "Tiia Monto",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Marseille_panorama.jpg",
+caption: "photo1a",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Marseille_panorama.jpg"
+}
+],
+type: "city"
+},
+{
+name: "Lille",
+country_id: "France",
+coordinates: {
+latitude: 50.63509023812244,
+longitude: 3.0661111111111
+},
+snippet: "Known for drinks. Recommended places to visit are Palais des Beaux-Arts de Lille, Column of the Goddess and Hospice Comtesse.",
+score: 8.46636914392802,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0-3.0-2.5-2.0-1.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lille-Place-du-General-de-Gaulle.jpg",
+attribution_text: "User: (WT-shared) Harry Wood at wts wikivoyage",
+license_text: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0-3.0-2.5-2.0-1.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXsLihpRwUZEFWayPxh__soq-zMHx828Jve6zyDjDSiz1olfAnbo8sFh1a-USPkURVrTBBenccwa8aaPn-K6XpB5qaMiWThpWcW-dNAhscY3eN2Lj8iyDnWZXGB8RZWVVz536h7f5m3VWlXDvfEzeeTrfINw7wPqSLu8P1o_3LwPM7glqlqbZBAV75ELiv2yds2ulGSr40mL_tblZFFkofGyfqTiajOS-muVhgEGhHIMhvtguP3doPL0gT2wAsUzpUeh9RTPrRp91WUNtxuru3q-87Cw_TgWKlacOc7Q9bikM=",
+width: 640,
+format: "jpg",
+bytes: 45218,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/7/77/Lille-Place-du-General-de-Gaulle.jpg",
+width: 800,
+format: "jpg",
+bytes: 119219,
+height: 600
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXduR9-M0NyuKeWKCBr84lrbgQwfQNBAXBZ_2tEHgQoyN6bA_f1kbZdR7oID8JAqDaeTMd2Lv_Cn9MMKEIot_bG1WbDfhn30ocmJaO0W-8LwuAE2aoQkt0jd9qU6ZllAToNAD9lj2_92ItyFMA8Q4-FzN8zHsQQWpWhwknWLtmM5rDAiyv9q1ll8YQjawuZJ3cvW02Ahbu3g7o8WlpWooDbEDUQsLzM4qZg65wBdIMy3-gmuxLyvCMlMl_PR9YToheD1HSkWH09RVO0yen6kC90g==",
+width: 192,
+format: "jpg",
+bytes: 7474,
+height: 144
+}
+},
+owner: "User: (WT-shared) Harry Wood at wts wikivoyage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/7/77/Lille-Place-du-General-de-Gaulle.jpg",
+caption: "Place du Général-de-Gaulle",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lille-Place-du-General-de-Gaulle.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lille_palais_rihour.jpg",
+attribution_text: "Velvet",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXAIwcUlI8c654n1YRw2WweLbVXb7luC1clkD1umozlVNwWmnNrRtlUcSSEbTgh5VILw4CjNPgqWV32U6D6ruBWWxSyWIy9K8t3_GC0yBoH-_xcbY99sTjbf3uiT_GNC4J3MrD8Ch4NOmXBkl8kHFX98pVknh5-by7qjx3WkOqxpu1L7D5aTYBQyftaG8K_dO5UQ0lLGeknz4hCrVLUXhKin9Liev4mKaTniM_ACT8huXq0ULaMDIz6W1X1mo_uhC_BlrnyYD9Si29TnfV3FueV5NwHC7j8lULvqDGFUzq0SY=",
+width: 521,
+format: "jpg",
+bytes: 57269,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Lille_palais_rihour.jpg",
+width: 2005,
+format: "jpg",
+bytes: 3721958,
+height: 2462
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXOby3ZAgZsHFlTmPuaOv-f1ShfAchTv8Y406H94cnZS80N7E--6Fl8Iq9TMJskVe2Kch65bHPw4hoOyXEPs4yMX--6EN4Q3Fh9mVyLsxF8Rd6V4ncz0c82wAm1NBrnLTmR3EqxRxnBft6dzeWh19mNhxIuooMbrvvxPdOorYaLXin8_GeUv0GXX7agscPPi1OX9euLyZ5rr-f1Yn9JwL74m-TaPb5hPfMQPeC77dyR4AxPPa-11c90ycmTQXcGjXdcu_S-7T0QCAOXplPI7u6Bg==",
+width: 156,
+format: "jpg",
+bytes: 8432,
+height: 192
+}
+},
+owner: "Velvet",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Lille_palais_rihour.jpg",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lille_palais_rihour.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lille_vieille_bourse.JPG",
+attribution_text: "Velvet",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXnYCs5v37j7CObna8vRarscXh5hFX8oaOxWsQQTHdVnmG-XSCx7zNATs1FP5WH_6CXKrQN22G5JkGwngECOK24dgAFxMo3VFfp_mjl0-Vbe-OZLHgO74gK7bWZTQIfK5NCfhGKAS39_HCAUUQxziDqOKFQMh-S1cGRAN8aeJRG71-nPidglPWSCAhnBoIzzfnKHvkbEsTt9iruGKV2yNkk__30cztgYnH6m2BcfREE0Ry8i0BZMA8yHKeZ5tsi-7NpTyyG2Lude3B8lkifrU7ksF0WhOPbEdkdPrJnB6sdLY=",
+width: 640,
+format: "jpg",
+bytes: 65500,
+height: 479
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Lille_vieille_bourse.JPG",
+width: 2003,
+format: "jpg",
+bytes: 2770896,
+height: 1500
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX-EdhFLJ9d0t21BuwPPQN98ugF3KRIX423QlhNAFdEXP3BAt4wfomT4R7mUfTZ6WjekpliYZWz9lAHqTfT78ZxwVfeVUud_0Tq8SQ9gcBJN4xQ6r4hVTbj2gkZEjPKfZyue1W7BzgzHvGqBPFXbr_hR-kJi4fhcW5-XbL4zjKAsJGgE6zd7dGQAYSwXB3B4gcuWbBNS8_WTvK9gExNHAXAC7b_WS2nAr8lG0HJx52K_mqwskWkTHe0ioPgSciiQ2YbQij2AOrTlLQiGjghsIVzw==",
+width: 192,
+format: "jpg",
+bytes: 8814,
+height: 143
+}
+},
+owner: "Velvet",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Lille_vieille_bourse.JPG",
+caption: "La Vieille Bourse",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lille_vieille_bourse.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lille_opera_face.JPG",
+attribution_text: "Velvet",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXCudlM2ilknF6DwoGzjVwN3bZZciMWMOIUiF4ITY4RMg23FfasY4fAnTcjxWzdU26wJNlyJFj1qwqZcyAwZ22Y0ZAlNnG6ukhA0bSPj5OpEVZiEg1-3H5IKeRjqUTC6HCTbzn3iCZvzmfKGhdPI03Es8i9tfpADAVqPdRmnK-Jb7M1TXELtLEOGVtSfub-IQZMi1Jy2NpJp9s1jA3wLIbWjCB_1q3v00NDVFQsWlQhACPbLbb6_29SGP3EnncOmE5tX9l5JCyk9bIL0IpzJURmNRCQu9PYXo8zNibrzr0OW0=",
+width: 640,
+format: "jpg",
+bytes: 54459,
+height: 463
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/7/74/Lille_opera_face.JPG",
+width: 2495,
+format: "jpg",
+bytes: 3654466,
+height: 1808
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX7j-R36ZRI2y5XNJMAD30b8UZTE204zbH0TkEFU03G129wwqIg4NPg-S3_IKJ7OKjpiSJS0ykeT3IBYCfCPNks4PQ7PVeux9pr63rYUJZr6x4XCzFpdvS7L0I2dW_tkHRF_YZNPkc979qfecMWiPNc1MrlWBCaKzmpHYuo7ou9iggC8bdIzD6uKoYGgYdX0oecsv366RLsksWvNMJJPPMF78oJS706gQATZ_mLednukBFBxAFNrCA9u72ZncPvHFsIvj8SljP-GeDsRXVsoHNCA==",
+width: 192,
+format: "jpg",
+bytes: 8024,
+height: 139
+}
+},
+owner: "Velvet",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/7/74/Lille_opera_face.JPG",
+caption: "Opéra de Lille",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lille_opera_face.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lille_Et%C3%A92016_Le_quai_du_Wault_et_le_couvent_des_Minimes,.jpg",
+attribution_text: "PIERRE ANDRE LECLERCQ",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXtHdhY9ZrnGhzt-kwZwZkUNavqoNjNEDwa7xf5GHHKNktIdplIEY0j4JT3j8RSoqTQuctGz8UxGgtDvvEpRb1i9Sj_HsA4XomIaTHEgVApGMO5BvJ2xSGQHjdGiw_kalmQG151BhGKrfmSh9TXb2vHYYXhC1YtBkA8UcvpWracC5uRk9oKr7-ASNZ7AO0ywMdI9rEXCpdMzbDEu5nm_ZfBRQLeQjBsdGzbqv0mw8tzCNql5b1wlCP-bgNUbBJ92sLD45vx2I3go2ObZ7S-7m8IMKQSFurmFQW3r18gitVKNY=",
+width: 640,
+format: "jpg",
+bytes: 28656,
+height: 260
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/2/29/Lille_Et%C3%A92016_Le_quai_du_Wault_et_le_couvent_des_Minimes%2C.jpg",
+width: 4705,
+format: "jpg",
+bytes: 4472863,
+height: 1915
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXH17ZABw0Lwp_ruttjES6UCIumUTyWOriHh5R5A96BFv_7NMoFz8QmltTW_wyD3JrDFdAVi6UJYDF_zosHBUQME5471K5RIODTTAJp07GceYz5BQNpxKdicwXYh3GnS5uk_fU_gi7w7yq5jDbROqGaOhJ66r_pRqoqrDcr8x_ccyCNOxu5WXuUWOdk6E4OQWWPXTNws1DX8TfyCwX4pCnQav2yk2-uN1uFra12HmBOaTzBhadGByE_4hiFur_3k0WAGdu0U0qQE7hw6C0wRatGQ==",
+width: 192,
+format: "jpg",
+bytes: 4201,
+height: 78
+}
+},
+owner: "PIERRE ANDRE LECLERCQ",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/2/29/Lille_Et%C3%A92016_Le_quai_du_Wault_et_le_couvent_des_Minimes%2C.jpg",
+caption: "Quai du Wault and Couvent (convent) des Minimes",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lille_Et%C3%A92016_Le_quai_du_Wault_et_le_couvent_des_Minimes,.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lille_vue_gd_place.JPG",
+attribution_text: "Velvet",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX5dIBqFk1xpCYGJv3L-quYS3xJxcOFfRXU5MUSi4Sduc1QF-PCasiDBd6HHQQyaWRztOXM07WhuQsC_Fo_VOylFM2t122_Muj7HdoHt7Ssq65ek6tnbHOIKgTX14WeRIleAIH4Ga0G9Pk7i8B79iD9BpMK6OcClGyFIyBnd7-ju0oqkKd91Gci3n92TqTEbXfUoPodadf43ICJxoU0j0EmoMPO10rQjHtX3TOGLHyydNZ35Pkq5Sbt-4gHAptMRV_jJI3X3z_VHjSwkxrtC3OsErhu1vebXFoE7B8X3kqoyc=",
+width: 640,
+format: "jpg",
+bytes: 58454,
+height: 436
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Lille_vue_gd_place.JPG",
+width: 2639,
+format: "jpg",
+bytes: 4108691,
+height: 1799
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXv02KIeaxcEmJCOzP9X_F11Y46YWFFu44Bkc38HywxJLJ41GJ5kDuDtjtxyGxszV61MA3TURwTQxaVXQgLMxApQBbdwqaFEpKk7CPnzgk2ZKWUuiewJiNrM9Rhf80MahP658B8AGnBu4KlpLvYjgXxngCWpCGjptNtg1FhBzaLYFmw8XwsnRh3-14nvOYm8tFpQP4qB2W3KqX9rxn6wOTMScZxmTHBbwms7XsyZkLt8vdPqJ6-CLkspZcHvrBwDC3gkVOdEReIqL8JvnzkJEEYw==",
+width: 192,
+format: "jpg",
+bytes: 8468,
+height: 130
+}
+},
+owner: "Velvet",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Lille_vue_gd_place.JPG",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lille_vue_gd_place.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Lille_bourse_profil.jpg",
+attribution_text: "Velvet",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXkRCEUcIrL8qkP19BcVjACZsV3OAPo-ArNFmqopqyh-bsEn-Zmml2pwWCVFv325ogf52eHg4cDNzJezK6pqSZx5zgTvv8pfLuDnwBJP2bM28t3uoZ7QFFklXuvG_MaPsLqrMp6GGdHlTrNq2h4KgO5VjVIdble9AvBa0H9IAZAc-9Z29dPc8gTkANY0J3MJIPmjF6IkvFOpqGAOHX2c1XzrOCNjrTKMMa-bD7pzSJBAmelPqY5mEjRLp8wf_xe4Re0AbPBPUoCzAhEC9KsbzRLOtkSOhLLGkusnd4wsf958Y=",
+width: 640,
+format: "jpg",
+bytes: 53371,
+height: 463
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/3/33/Lille_bourse_profil.jpg",
+width: 2532,
+format: "jpg",
+bytes: 2931665,
+height: 1833
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXbTpiIfz5Wrfj5nAuX9nXbHtISCEvODB5wwzM4PMn8a5aVgnHS0vf1xCMhqsMMwblEM_3Gfw-jDXzRXa4_LTmlG_uR5FxKDKzct2599cGnGM5HKgPfwhGyqjlJR-mx0M2NC3z1og3fF7vZJAUhj3j7Jp87Q3NBRXGUBbQ3L8ii3pKZvZ70yn64Oawh_lDjQFgUapnp9i2gjiXAi0FOtxCyFgnBS82lacFGOsFu6Mvi6rPOVReUYcVkf6uz5SNIx81YqWea8AgvcbhjXHaJR1_Hw==",
+width: 192,
+format: "jpg",
+bytes: 7900,
+height: 138
+}
+},
+owner: "Velvet",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/3/33/Lille_bourse_profil.jpg",
+caption: "Vue de la façade côté Grand Place. Au sommet, le Campanile et la statue dorée de Mercure.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Lille_bourse_profil.jpg"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Citadelle_de_Vauban,_Lille.JPG",
+attribution_text: "Mary Poppins",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXlqid18YwDfJubYiGpuHC4jPcjJOgG9XYzHe8iP5MEupPQXUoRFKubBQSuzuOJDNbGrh_qfvCFV5qsQ50SBGuS-tCL9GeaUobgwe6F5ZEs1ue06uZRc9r6XKih05J4KUyzmP_be5ukEp0AhcNL4h38L8b5brkKA6d7azr5JRNMOaMDpPMJ6Of5Z021C-iBol8nsL4m5FsPVvnb7WYnOHuS0v-s4M8M08cLf2kDP0yjInLWKtsMz8KVWNeFVQNLqyDjrdQFTsY6jdg20DNlZBPqo3TY_24oZ7NVKT25GQYFU8=",
+width: 640,
+format: "jpg",
+bytes: 47812,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Citadelle_de_Vauban%2C_Lille.JPG",
+width: 2816,
+format: "jpg",
+bytes: 2969957,
+height: 2112
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXmzn5Db67F18HVlYMtxGfrflhlenD7OCc-5ESPEYCd0akfIozk90eDRaQLNyjk4ZMUh7fUmA3QjaYN6vfZRozOX2pEdhcBWf9lj97e3-HO-apyRKW0o4PAj9zd9cjeqTrSnj_GOF4xDFXnsrPr9w_hOgLHUfUn-0-7YqLHG9Z7POSHoeeRr4-WFbanJ2eGpx8wGjhY1TlVmLqVlsSsQOgnumR5y0y_vpv9yqWWYnkjp2AfFtrhlYusPlCHCQmzlTMnZBUbzh2meqFNdxzSu57kA==",
+width: 192,
+format: "jpg",
+bytes: 7084,
+height: 144
+}
+},
+owner: "Mary Poppins",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Citadelle_de_Vauban%2C_Lille.JPG",
+caption: "Entrance to the 'Vauban Citadel' (17th century)",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Citadelle_de_Vauban,_Lille.JPG"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0/",
+attribution_link: "https://commons.wikimedia.org/wiki/File:France-Lille-cannonballs.jpg",
+attribution_text: "Maksim",
+license_text: "CC-BY-SA-3.0",
+format: "{attribution} / {license}"
+},
+license: "CC-BY-SA-3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX-PLgczW1kPb9ePJogObCvbPfBNFECqo9CHckjKuAflhtlpa8uVcgM6LKMDPwmivWilfwRLTkI8J9yZmk9nSni5hsiSXoTHkj9Blwuol_LepHwuKXtdWxq2dTYP4XnkhQobEinA0uxGvHaY6cOd-JlDYrXjU3mwWuquBKpmG713iLEXcOLy1mMta9bJJe8ub_E7BykiulRlzJRnTrQvRsDD4SMF3vVJKiBxiDvhNEibLxR6M9I2PAKrTlK8LMHsAW4q540mhLbONt9o6lwBEl9h1D4TA4fKJM1K1kF-dhNsY=",
+width: 381,
+format: "jpg",
+bytes: 29475,
+height: 445
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/4e/France-Lille-cannonballs.jpg",
+width: 381,
+format: "jpg",
+bytes: 59162,
+height: 445
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXrjm84l7YPju-r5KPRgc2j_4eDIyKDUN-VnEVqpqOMkf3NV17EUdHam5gUSO01W8v8WBVk29ppXIz2HcBL3K8w1ggtD0J92hlLoNxtXMFDAU0GN3qDAPfVTpEfU84kUcxrFzDgXqry8KLjmUpdkNaTdvOuClBnwU2LUtaHbgfaOuA4N2SGZr7ypEE35_E--1hAQU4Ip67o-HQLsn9H1W3R7re7fM7zsYo9QbNudElkSrVRrtgeU0bZAAyufj0X8gogHPakZDf8pn_W1lIqZVqtA==",
+width: 164,
+format: "jpg",
+bytes: 8738,
+height: 192
+}
+},
+owner: "Maksim",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/4e/France-Lille-cannonballs.jpg",
+caption: "The black dots around the windows (not the decorative cartouches) are Austrian cannonballs lodged in the façade.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:France-Lille-cannonballs.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S30293,_Frankreich,_Lille,_Milit%C3%A4rparade.jpg",
+attribution_text: "Bundesarchiv, Bild 183-S30293 / CC-BY-SA 3.0",
+license_text: "CC BY-SA 3.0 de",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0 de",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXsd5a2V81taNvlxzYPPPEOxjZWcpzJWi6AzGs1L3pj1cv-ODDUfWmOvtfz4AgWZE_dQqaqboAjBNz735Wufo5NOKMbCrCVz1wT0V_X7QOD6uqdapKdE6pX8dZuwEZejjSsR4rjIPmqGFHQbR87Q0rU6XrGi4PaIE1M_Tni6NxT_h3aPsaZ6k4CWlH3k0l-eAJer4p---R01q9jiRov93IoPSTyhxtl1l_c8XwRn9Cd5LmYQfi8iwT9ZvR6qwmkxtdUwnnUMh8rhmbIKSpIpQi-ljskXMQyWsBhFEDoY7Ls9c=",
+width: 640,
+format: "jpg",
+bytes: 38583,
+height: 435
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bundesarchiv_Bild_183-S30293%2C_Frankreich%2C_Lille%2C_Milit%C3%A4rparade.jpg",
+width: 800,
+format: "jpg",
+bytes: 59259,
+height: 544
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXKCYhOnEvjyGk5GPHX-Udn7f2qhvsG64a3_EMRjQujnKS55OqmAdQNzE3rKDXNKzcSE9BZkaoIvZamcGbAJ8OZP-CtcQERN94AZfRev2vgkitfwHAxo8v5TK9aaINB-HSFym4SUYhn_HgO8auv9deYTZ_iaNjU9GHfRXKrp-vv2xzT5VrJFGJxRrI3ehlIOp5XgxvLqREup6aRWdgE4sE37NMsWRbEnfZ8GMlaGDmspOeI7qZNb0AzrRTbHbFOofZBj8t66yNnwX-Awzl-b0LzA==",
+width: 192,
+format: "jpg",
+bytes: 6444,
+height: 130
+}
+},
+owner: "Bundesarchiv, Bild 183-S30293 / CC-BY-SA 3.0",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bundesarchiv_Bild_183-S30293%2C_Frankreich%2C_Lille%2C_Milit%C3%A4rparade.jpg",
+caption: "German military parade in Lille, 1915",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S30293,_Frankreich,_Lille,_Milit%C3%A4rparade.jpg"
+}
+],
+type: "city"
+},
+{
+name: "Bordeaux",
+country_id: "France",
+coordinates: {
+latitude: 44.8406427,
+longitude: -0.573066647628514
+},
+snippet: "Known for cycling. Recommended places to visit are Bordeaux Cathedral, Miroir d'eau and BETASOM.",
+score: 8.41047184539537,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by/2.0/",
+attribution_link: "http://www.flickr.com/photos/jimwhiteheaducsc",
+attribution_text: "Jim Whitehead",
+license_text: "CC BY 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXmQlDcAX5ejOvmSshBgiHxP9rSpDgJem8EUc4cS15GbjU1hb146QHBaZJXilrFVxxs7XRFKt2EcDEB-XoI2DnBmD1ZGT8HxFbsxHev1so9LILt2TCc0-CDi_3QQjbMzQ7G8eGSol5l-49sw0JglGvEFAcEICT6FB594P11GwHk0BaS9U_zBin8H5ZEmwG2FduF9DXIcK41dRW4pv8AFowh4W25Iy6NRhr8HOfLTgnYSz3A5SmeHSmv7-6SEaoc-COBWD9P1qd2bIzK9K_rIicAWjFFpKuGcRcJc1fG3G-tXk=",
+width: 640,
+format: "jpg",
+bytes: 36308,
+height: 425
+},
+original: {
+url: "https://farm7.staticflickr.com/6099/6339790746_6c6ec6ef31_o.jpg",
+width: 3008,
+format: "jpg",
+bytes: 1550165,
+height: 2000
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXtm8XGqJNGdRLMMMx7b90V7HjBU3b9gHNUQqlNaQJdtfZ88pxq_Sb0VQvEqx0yGDOFnFOIabjomZwU9iRtSsrUgBixb5C6SJWU7avAD6jeNSbIuGL1eKDGgjBi5UfFVhHXXK-MmBxkHAvGb3kqhhE1uKtkr59UCbgjeHcu5B7Fr5uDjyapNcfs_k_FfOK1ZWbQVNOXVr6j4nE4OdN54QFWHs61y7AusVJyrTrQiFSGZxWJEVrBhRVHQNJ7aq_9p8LrnLNlZ-VspE_2BwfwqLWjw==",
+width: 192,
+format: "jpg",
+bytes: 5490,
+height: 127
+}
+},
+owner: "Jim Whitehead",
+source_url: "https://farm7.staticflickr.com/6099/6339790746_6c6ec6ef31_o.jpg",
+caption: "Bordeaux Cathedral",
+source_id: "flickr",
+owner_url: "http://www.flickr.com/photos/jimwhiteheaducsc"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Grand_th%C3%A9%C3%A2tre_Bordeaux.JPG",
+attribution_text: "Yoann ABADIE",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXewTrZ-SJofrd5-2AQGCjgXJYw7vvJEgEepSCVaoJsz4mxZFw-3a4XzGyAfi28DRH2GNJDs1jNZSuWa_F7JOWOBMxD1Qy8_17CfRtDN_XiJYJ23W1yhIdfEX4lgojdhlxUZ29UCIOKrdzjfhs6L9fFInCgydsctIWUZPaNbiDJIgyUe-6S2nt32p1Q2ZlsmwAZz3XT3_oG0aBgncnHbQTxPJt6wI6aQndhkJV53aQaxK1Tgy4dMkidu4NcA8KE7-HqSUtSCpTPrbduHoFPrsNA8l06rGMXkY8VwU6hdKs_PQ=",
+width: 640,
+format: "jpg",
+bytes: 42614,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/2/24/Grand_th%C3%A9%C3%A2tre_Bordeaux.JPG",
+width: 2560,
+format: "jpg",
+bytes: 824501,
+height: 1920
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXqPsYnlPP-3hwLQoFpaq_G3meMlhxxlPN32rCCutBmMnOQw52RxUhCyf8ogd7eIGbljc4b8GqIGKBbeMdxI2qBdY4GHJW5lYmTm8ralnnYhkUKbN-OGXxNyLiNKUSUrkABDI2dugbaM3GNkwx-VH8s5v0J8O4SgdZeyoxpXc6sBo-2XCOQTasZQ5IgqQMNukv4aOK0h8nNBPFCKcJyaQx4iTsBHCKvRUeZqIJViCKuBBIuO3nqVAlrfxZIFB0miELbp7cA62ziUoHRWOG7RwQUA==",
+width: 192,
+format: "jpg",
+bytes: 6615,
+height: 144
+}
+},
+owner: "Yoann ABADIE",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/2/24/Grand_th%C3%A9%C3%A2tre_Bordeaux.JPG",
+caption: "Grand Théâtre",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Grand_th%C3%A9%C3%A2tre_Bordeaux.JPG"
+},
+{
+attribution: {
+license_link: null,
+attribution_link: "https://commons.wikimedia.org/wiki/File:Abbatiale_SteCroix_Bordeaux_abside.jpg",
+attribution_text: "BlR33",
+license_text: "Public domain",
+format: "{attribution} / {license}"
+},
+license: "Public domain",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXyPwlI4eKhnfdmkGMnlK0V6KusfdZNHZCHFE5MW2GjJbY92q0suk2R3D2b-nunQmDcEmXuicyzpOHR1k4N0KsRN5RQhf7aeOEzbmJadSFzkEn4HwAnE1S4tAyo2_9fpw9nma2oYSGWC4rw7sFah7DQJu70QkqSRFI0jmhHuKezLMp3SMGD_EMzImYpIcZORDoaKPpbKCGA-Sh_hpvA9vne7Xdye4jkAiJzJxWCYH7T4sx2nMrFxcfU950Sq_WGmZiYUZkdPR4c3ZaXYKF6P3Zyb9O9bo9bXeq7-6gOQjQ-uE=",
+width: 640,
+format: "jpg",
+bytes: 45470,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Abbatiale_SteCroix_Bordeaux_abside.jpg",
+width: 800,
+format: "jpg",
+bytes: 150338,
+height: 600
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXuoynzoheo3UkobyHUyaklFFASXX4V3zbwPFJnowv3hSHPkBhe2ZaP30LlXy9-oLq7DF4tNBK4gcxGKXIbDb-9JvB9BuLGwXThQIJVt3v_tqhdWKoZK6kr2WCebciqs4iAuZdHCTxkx0MvmwMW1oQHxozgy1Xo-zR0YEvzVF7lLGSDwvniQbI_8UMip3Go2MQzwAA-0VwV8BO6EKSkC70fgHBPhmCBzpZ3IOWHHqjkGPiShJT4C8C-v65sk5samWv98hF_cLtZZDHdOIfOWRUxw==",
+width: 192,
+format: "jpg",
+bytes: 6714,
+height: 144
+}
+},
+owner: "BlR33",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Abbatiale_SteCroix_Bordeaux_abside.jpg",
+caption: "Abbatiale Ste Croix",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Abbatiale_SteCroix_Bordeaux_abside.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Bordeaux_port_de_la_lune_01.jpg",
+attribution_text: "Oliwan",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXudKXBqWMxb6_UT0iXh3kxxuf6aJtTBAxs4q4e3Yu16Javdc30SeC1l2K9aScLbUM375u3JVYTCWsJ7tNeX92HbXijKUu-BCNH6NuYv0VA6Ee5ZoxK1n4a14y0rUEFDh0v3HjR4vPSS7JaLJu_xaE3Pgy9sjm8MEQvh7PHItCQ_FJgTxDt0Ld_0cn38-h9a4TS-VT7K1h0ppJ0WefnebMPbBVkNZdqPie4kHiDJaewxQoROEou3wxk8h0NJVlm797unizusppo7yObUkfF5NJvj_LFBhYHwN3BUbE0ZTtDRI=",
+width: 640,
+format: "jpg",
+bytes: 13203,
+height: 427
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bordeaux_port_de_la_lune_01.jpg",
+width: 3776,
+format: "jpg",
+bytes: 5220173,
+height: 2520
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXNIW6ARR20PPgXOBcoCzgSRYliRwvt1612MAj9L_G6OjmPHcfNBu0BOrWRqkk2uLUcuPtcyTC7HNT0AALkudznxXVwalJ-Ls8gGBf6ekCEcBTuNGh5ugzHZCik-O7Qd33EnT7hHXIx1pwCKqm0U0Fxwn5_oWyZy1x_D57GES--PMxYW2Dk2eSGdBqZjxSeel9Fl1hBmPz5AhoWPaTUXVun9b76ZefRnrgcjVO0r__zuTJGZyVTdgh_9wr7kRz6oA-AE_5A8U0BVTLVhnsS0zAIA==",
+width: 192,
+format: "jpg",
+bytes: 2790,
+height: 128
+}
+},
+owner: "Oliwan",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Bordeaux_port_de_la_lune_01.jpg",
+caption: "The port of the moon",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Bordeaux_port_de_la_lune_01.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Montage_Bordeaux_1.jpg",
+attribution_text: "En-bateau, image replacement by Alchemica (talk)",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXNSTdfQI6jg2dHxYeDlZLMR-aDXxDu8b6pfMtTuHWKjACSojylJK5NMAk9280FM2RVZzdfNHAm2G_4f1sG4jVA29xsLaiNbFkUY6UHl0ZqBedIvjyhIQ7iRDzG_ZPBQvziZL0DnJk1tPWB9XQwmN4YN3MRExxt4XCU_SONzru5UYRBKzpwcPG7ydttoSKaqLTXox1CYUTBgBnpg_WQC018m2CIOZBKGzf32H44r1j2HPJTHpZP2K8YIhpGG8POWzVMcXgaR76EYrthrQlKKMjRKRlf2Jrv-j0fqpas-ngUZM=",
+width: 468,
+format: "jpg",
+bytes: 64053,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Montage_Bordeaux_1.jpg",
+width: 1000,
+format: "jpg",
+bytes: 297649,
+height: 1366
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXggXR1o783ET9KWtQF4J8r1M_mrJIWd-rRkmb3oG5dyedW0jS0s48A7YnmQO9MwPeKzlJhCD1IRnvyjedS__GaIu4VKXEWR21oib9m7pQEMJqvT84HW6p-fOb5NZ20LG7TMjTUlUNGtS6HrK2NbM9yvE7vBW1mgF7KaFn759hYJcXrLHq0qtYl2jT_z_DvKEVN-25g6SyI0izCwRkNBzF19vFJFbCljbE4oYoYHuNGjpww2Nxp8W1sxcdKAafHpRtlawj1hyXuthwy8Xc-v986w==",
+width: 140,
+format: "jpg",
+bytes: 9629,
+height: 192
+}
+},
+owner: "En-bateau, image replacement by Alchemica (talk)",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Montage_Bordeaux_1.jpg",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Montage_Bordeaux_1.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Bituriges_Vivisci.jpg",
+attribution_text: "PHGCOM",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX3P6btO3jlmG-wjWoFjlgpvIcKknWnWNwi9PrGXm8dHzq4A2WaKIeerHxeA0tYAx30DOhFEqkROPVBN9QZknG8lilKLukX0CX5d79u8yNMDVFWW7a-b8ecs9H8iZHkYs7KHsx5W_AMr7g07sXE32vb5tLmQraaq_fJNWc7EJPKBqUXaNC6fY3ILBvr35EechhhfSms0HGpouC8UswyebfYGC9ZefT9t9nGN9SGWYiX2tQJL3DMs-ne99wjrNHxFcI8X5R9Bxt8i3Rk4QkhZOR_u3KnMKrOtVt8oQld-GkWTY=",
+width: 640,
+format: "jpg",
+bytes: 24935,
+height: 320
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bituriges_Vivisci.jpg",
+width: 4269,
+format: "jpg",
+bytes: 958017,
+height: 2139
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXr7Ud4XHw-PjjPdWjqA3SrO9nesKs8ExdfQwBmw-L8cUSLB0WzAozf3dOlsvm_4jJub38LQs4vQQ2PPsPV_zstb-bnSeEQTHy_mhnx_CqzEKTaPK01-7Sa9KVOqjS_BcoX7TiCUyJ0rhjNnrwnd-kRAUe1QA_-IQoPkUa-TnvijpLuePb0HIMckunMR6lBY4ZZDUqvzd9O4At3Bt7jAw4qzOC77HmA7xz6cOG2wQqDjnzWcypNtqpSmz7-UhAxCrRklqffaLYQNvIoCtaYr_3mA==",
+width: 192,
+format: "jpg",
+bytes: 4417,
+height: 96
+}
+},
+owner: "PHGCOM",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Bituriges_Vivisci.jpg",
+caption: "Coins of the Bituriges Vivisci, 5th–1st century BC, derived from the coin designs of Greeks in pre-Roman Gaul. Cabinet des Médailles.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Bituriges_Vivisci.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Merovingian_tremisses_minted_in_Bordeaux_by_the_Church_of_Saint_Etienne_late_6th_century.jpg",
+attribution_text: "World Imaging",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXdt5HxlVgmgJVbeWFQ8tlCo-UYHeDfPfbQMgcYkrzhnzppWdlwiZQSMkH3FvVfhWxTqeXblC8SCuJ54167jLNs65JXR377MGoz-cm1PasfVVQT26Id3CwUleIWMVPksAxR3b_UDFLmwykSuaqORnJpxMqLY9VfiuBOV4awbLIyzoVzgsgUsReDWDzggMuI4sv62qwh4fs73AwMKsXNCdgw38x4B6rWYEfqLTLN0rfThBWrPGcFBkrXAhDyZR4ZCKh3Cyt3mhkl7kD1rC69NK3HFYT-Ng1YuBSbx9he9gwj0U=",
+width: 413,
+format: "jpg",
+bytes: 35619,
+height: 420
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/7/73/Merovingian_tremisses_minted_in_Bordeaux_by_the_Church_of_Saint_Etienne_late_6th_century.jpg",
+width: 413,
+format: "jpg",
+bytes: 56815,
+height: 420
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXWi4eW-HoMzJtppFFdueRMtITZMjaht387fiVwunGq8Mi3Vo4lTtkPSgSq0kFTO1b-8kSeysTzCS-i6UoJVG7A6pW6Abrl4qSe8Cm5uzDKRW_r_0J9GKcYlhKJaJvepja3cLMotoZMiVbqvEkhrG8be5Ci6MmK_AVwgdJ8Jr3SP4zlaEmuYfu1akp5ErmPS7DffNNJZNmhOKOfESZTvLj48vxfTgrG8F9u7wu9MoZYQxuAJuezd1YspzFys6BoCd2tQzHXbaJ6Jcq_O78DV9Upg==",
+width: 189,
+format: "jpg",
+bytes: 10337,
+height: 192
+}
+},
+owner: "World Imaging",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/7/73/Merovingian_tremisses_minted_in_Bordeaux_by_the_Church_of_Saint_Etienne_late_6th_century.jpg",
+caption: "Merovingian tremisses minted in Bordeaux by the Church of Saint-Étienne, late 6th century. British Museum.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Merovingian_tremisses_minted_in_Bordeaux_by_the_Church_of_Saint_Etienne_late_6th_century.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Sauternes_04.jpg",
+attribution_text: "Olivier Aumage",
+license_text: "CC BY-SA 2.0 fr",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 2.0 fr",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXjLEjKNpXLMghCLjJrmz2MMrTQSVIkcv1qOni7yK2Bo-P-atVVJAooi1rtKMBiLaTwqs1-StM7pF_C6oprHGlZWb_yGDVkDCsTiEzipVXWu5yEZXPV0tmAfEq3UwtRgQKx3CanHb0dunGQABsFFlWCh9LkTsg3L7zYOkOA2l7690Ez0VFgUh6HK2Z1TUciNSaObv56USLUjkwAf9XAashwv3-GVxbiBsWt4Z8Up1Lt6jmsGG80EXxxaTUxXeu1FQtm20I3px1bw1lx5nugcX4yfQSu50t46cpq_7ehLsUflk=",
+width: 426,
+format: "jpg",
+bytes: 92274,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/1/18/Sauternes_04.jpg",
+width: 1168,
+format: "jpg",
+bytes: 2623893,
+height: 1752
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXzPRm8328EE_Q7cu-hEiVlnGMvaMZVT641UOuFq6SuPOeQLbMjC3bkcuqoRE4h78F4u64Q01mLHRhQdGn7G7a4zuNkeY7Y55VoVaZqev6fXp0JEUTSgvlhdg2aj3SHefDV6l2R5Ho5TqsgEwx4QecivyfuXjjtKQWD5ds1dbTwoxWqUIWsqVECNabXxgu2S893028_8BCUvT2j_HqbiHf4D0bVix_zxtgw3LvRiAnHUr6LT3RAoWSLcx9do-8jNmzidE8tGERQXZPHvq0Sp-rgA==",
+width: 128,
+format: "jpg",
+bytes: 11112,
+height: 192
+}
+},
+owner: "Olivier Aumage",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/1/18/Sauternes_04.jpg",
+caption: "Sauternes vineyard",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Sauternes_04.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Bordeaux_-_Juillet_2012_(71).JPG",
+attribution_text: "Blaue Max",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX9h7OHF9eoUzNdjfLWIdNq4Z2gTiLjLzfdakTauhvpyiB3mDas5d9D3yV4wDq-wioT7QTlyrZBeBqRO6TxLRwvphpcf1QKx6C7xNLy7Bc2XBIifvKHIeZC0jqwDhbtO5ClFRp-NHzBEbiwi6vHwnGv-6ii_TzBAyG2Mmilu0vdQcwfebP1dKy3boK87hYoeqz2o-CYNxR8ut33H_dWn80LPjlbSbmcWcdpQ_nWCT2aT8pp7g_kXwQP1M1JN2XgyyYgcaRBWNaHlOppI-ZTqCHWK-2Y91gdlStQCUzg4zZIaI=",
+width: 480,
+format: "jpg",
+bytes: 44990,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bordeaux_-_Juillet_2012_%2871%29.JPG",
+width: 2304,
+format: "jpg",
+bytes: 2833699,
+height: 3072
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXu1ycaSFcCIO-ft2hHD2ouBBSL8JltW0t1ITCLoORrJn0Ja_BPTbQ83ge59v69pVnoFM1M-u_Fq4OGRm0P4-vjtthmLNDI9wQtXX8xYnjN8GdNRE6xEaHuQCzvzLe5QjNTCn35cBHnMC_mFSiHyj1Lw6ma04niECvOkcXHhuI8fcJAQA0d-h609lrbiIFGNmefPzmZ1wasxyg0SmX9_e2AHkoSKSEB__X-mTRTX2BPuvwcvhifFA8AAEaOMQTAlFVPZp_s7JbTFn2o3kgDO7X6Q==",
+width: 144,
+format: "jpg",
+bytes: 7384,
+height: 192
+}
+},
+owner: "Blaue Max",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bordeaux_-_Juillet_2012_%2871%29.JPG",
+caption: "Porte Cailhau",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Bordeaux_-_Juillet_2012_(71).JPG"
+},
+{
+attribution: {
+license_link: "https://creativecommons.org/licenses/by-sa/2.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Bordeaux_foire_quinconces.jpg",
+attribution_text: "Alexandre Duret-Lutz",
+license_text: "CC BY-SA 2.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 2.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXkmKUqpllGydseHUyX9NAMiwG4hJyAcC8vbM9O4rLvpOTVwLPpEuG3HXpZs7HzOVBd87izh66rHwRhN2sbW5TZHUBqwWn1rUKNnz_k-yJR611SL7Stybl9Z6Mllr4BQse3Wt-5p6SAgnNSmgDD80qpcVDYftFdadbOyIy6D0VgkexS-9tI9imt1VqkT2i7eSJvgj9Ks7gozkKWHO1BFbTew9oVWh1K-O0MeUdfbtq3Mf_lFyNWgJ9HGpzYCF-Iyte5YO_dRt8-Zg2xtCKzlu9oF0xRC47Ia2xgZghttd0IlQ=",
+width: 640,
+format: "jpg",
+bytes: 39178,
+height: 514
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/de/Bordeaux_foire_quinconces.jpg",
+width: 3376,
+format: "jpg",
+bytes: 1926600,
+height: 2713
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXakjSxG25HWj1Zf7E6BFOPK8GLczE6R029uKnlek06cgCemNsMrYTvaPzCLYSKfvAtVmiYicFI-4QhiOqSQ9qJBsIFQN-ciN_x3KaAS27tEBpK7XmfU3XQmmUABzXkV9m9frQJdzWCBCu3w8WdFjSQIbIk_u6vmasF0EeNgowMqf0S3dhXwp1PkAqaZI7uxRGeDuOMjcEJy4dDMiK_CbbKTTWtn020kVV7Z7noMSph7S4Y2rLBMkgeb6cKxpR-qKaDfqwhzRwMSnU9Lcp8FJQyg==",
+width: 192,
+format: "jpg",
+bytes: 6386,
+height: 154
+}
+},
+owner: "Alexandre Duret-Lutz",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/de/Bordeaux_foire_quinconces.jpg",
+caption: "Colonne du monument aux Girondins et installations de la foire aux plaisirs",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Bordeaux_foire_quinconces.jpg"
+}
+],
+type: "city"
+},
+{
+name: "Toulouse",
+country_id: "France",
+coordinates: {
+latitude: 43.60111111,
+longitude: 1.4433602
+},
+snippet: "Known for museums. Recommended places to visit are Musée Saint-Raymond, Hôtel d'Assézat and Muséum de Toulouse.",
+score: 8.25271976816778,
+images: [
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Dieu_de_Toulouse_-_La_cour_int%C3%A9rieure.jpg",
+attribution_text: "Didier Descouens",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX7JM9KMT5066Wc9GpXqu5zaQAY9jMSngnb03oa0gyRIGA7t3l2QbDpwWJP8wfrZyYHV1k6ocHMt6JkdvTwkL2tq_rsAHL8cULwWjt2I7Sc_xdbsJa_Z6gUXpi1CluJDhMBq-O_OUcsspHP1EGN5k-naT9R6FMRfV2k43LGKhjZvkVLfPN1rOmgRb39hqAvipR0oCOcZtUK-VOJpM_86DdkLpzI9NV6Qq5e1TSx0o1lpYhQy-C3WfRt-gCeoqdB2-wDI68v5fxX7iL0_s8g71LM1bfYshihp5vjO_aSktX__k=",
+width: 640,
+format: "jpg",
+bytes: 46655,
+height: 385
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/df/H%C3%B4tel_Dieu_de_Toulouse_-_La_cour_int%C3%A9rieure.jpg",
+width: 4402,
+format: "jpg",
+bytes: 9641770,
+height: 2651
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXLDMucxA7Yd9P2gkPqJsKrq6KpL9sECMSmEr3nZHJGdzwydEk4AoykUTOc8-qyHIduXt1dISLnNxDZddJTBQa_lnbwNwjAqhVdiQGy6a2XQFvvocXnDu5En9OM_c-a1ofaiDgtGizGqWoHdjQp_xBVhmiKkn0ddPgX54wuDFOqYu0hgSE7lUKhMIL5MxFvegpTx__81ApJAXP_Y1QvV52Cv5d5cGtuacmBLmLcnldkIN_LfUHE9u8v7Jkd-6uMmCLsIRwRyQlJGw9Y1h9k48rdg==",
+width: 192,
+format: "jpg",
+bytes: 6538,
+height: 115
+}
+},
+owner: "Didier Descouens",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/df/H%C3%B4tel_Dieu_de_Toulouse_-_La_cour_int%C3%A9rieure.jpg",
+caption: "Hôtel Dieu Saint-Jacques courtyard",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Dieu_de_Toulouse_-_La_cour_int%C3%A9rieure.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_de_la_cath%C3%A9drale_Saint-%C3%89tienne_de_Toulouse.jpg",
+attribution_text: "Didier Descouens",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXXT-dIrqsQZ9CrCI_mYEk517zFe6G8FWlTWOXnVBBAkCH17RrzRhMj4A0MRnzspHdZiDxjeOMpOrJpCAaCt7mxHZI27rr0QwKNtaQl1BezTgFZFpZdXmVATR349lJTZwNhSprqeGwri_zWYlIPwHT33HNA_67OYb8YlsccBeaeFfOwimrfvbNDraufMoC6xNiQo0kU8SZEe1WWzKFa8o3N5mHlbkCmfR4YzTa8wXGSxgLUVe-16FOOVvEIdeUuvztXu5UDdgA90rNhf4ps_bgWdy1ZO22o86CdB1wc1CKnac=",
+width: 630,
+format: "jpg",
+bytes: 51956,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/de/Fa%C3%A7ade_de_la_cath%C3%A9drale_Saint-%C3%89tienne_de_Toulouse.jpg",
+width: 5506,
+format: "jpg",
+bytes: 14469830,
+height: 5599
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXWSFZdiKC8rpwivXXkt8kT1nyaWKNUUiAiBYCU7-rffCj8dKCpItXGBLHlC-tl_nkdvFL-y-ZLgv0jzqzOsGz32uqqFwjfDkr7pvaqCBFUnhB4mJRU9mAZ1W14xV7G6aI3HDLgE9_sdhkAE9UylNpvbguulI_GYL4DXA3xAOaPcRz6V4Na0XM36NVvmHqlbw_r26g7VPjVojfynRUcWS2D2SOuy9uOvxz8GJGiGBLlqqGT09WatQYX72NJy80sck--pnWezCdZkbCTT328_gErA==",
+width: 189,
+format: "jpg",
+bytes: 8149,
+height: 192
+}
+},
+owner: "Didier Descouens",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/de/Fa%C3%A7ade_de_la_cath%C3%A9drale_Saint-%C3%89tienne_de_Toulouse.jpg",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Fa%C3%A7ade_de_la_cath%C3%A9drale_Saint-%C3%89tienne_de_Toulouse.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Ambulatory_ceiling_-_Cathedral_Saint-Etienne_in_Toulouse.jpg",
+attribution_text: "PierreSelim",
+license_text: "CC BY 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXu3laDK2M6o96IMddXjPz1pA6DZdJdvpX9DxYYBAsL85KZnhTJM0dbz5rNlCIl5K2J7lxQVZyzZRGXgcSg1EQkXamWbPA5WCPnxazhS3g9ZMksHXXKAcO7P7qoYKqJoOfqTxa5NVKMl0iQKr7bk6LJAeBl8cy3JFLzUJdsFuYUQ-hu7yg_hoT-5WQzSZJnE5ueHkXlYUA_ZXHo4yPCDq849qxveKr1bcZ87hoL8YNbqSNmn_UwvV1bdYZy4RNaLfckbINPsMJOFIyhHteMMRsovz3kcNOtUgUT19a4dIFD8w=",
+width: 640,
+format: "jpg",
+bytes: 54375,
+height: 424
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Ambulatory_ceiling_-_Cathedral_Saint-Etienne_in_Toulouse.jpg",
+width: 5064,
+format: "jpg",
+bytes: 18529328,
+height: 3357
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXOLFq4q4Mk8iDDXCtWHJhKJtYL3fj-OpP-uJkvv4qKDVWc0_aRdL3SKxpAtSgPMU1Vvjqlse3e2Cc6mCMIoPE-W-X3gyluIBV_B_U44A_LcbrkQOOvEkgNdBFqluc6Od964TgPMm0ErUqAppYO7lcn-k0koupbFawOLT0qLZDWKQqHONutljhq_wQPXK2J56Uq8XfrHaLGggt1kduXMM6mj2Rdwjt4La4G8cV6IezRqVHHyqGer-cw5A1TD5vEAEJczNbsAglaUIHmQQ4kGvz6Q==",
+width: 192,
+format: "jpg",
+bytes: 7464,
+height: 127
+}
+},
+owner: "PierreSelim",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Ambulatory_ceiling_-_Cathedral_Saint-Etienne_in_Toulouse.jpg",
+caption: "Ambulatory ceiling - Cathedral Saint-Etienne",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Ambulatory_ceiling_-_Cathedral_Saint-Etienne_in_Toulouse.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Toulouse_Capitole_Night_Wikimedia_Commons.jpg",
+attribution_text: "Benh LIEU SONG",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXkCA1GAcK6SegF4DNaxd9tkRes2DpXeTid-yHkrHndCbBt0xMoSd3qJtfrhJyYdIIfHBV0jpPl5gANjQ5sa-p68RjcLFB7Yi630T6qJXGvoUyhrOV8z0xco_H0eKW8ylOyeFPyhfWchOVys3TGA7oajpMG10LaBtbn6jJOTTEBrk9X10ssQPARfyESIzBHoesbpSxygCWn_JUU3O1gxJqyQweM87reSscP9gcatHEwx8aMo-FSKubCoJ96eFEPsv8_PTYr4IHgrNjBiiVE-c2mD_4oxuQJE0G2BzEWCSWoRE=",
+width: 640,
+format: "jpg",
+bytes: 34149,
+height: 384
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Toulouse_Capitole_Night_Wikimedia_Commons.jpg",
+width: 5067,
+format: "jpg",
+bytes: 3199947,
+height: 3046
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXWC8xV_-kwmowoy2oO8EAoeF-ulklhLNcWsVMJqTsPTUY3HCwH-x9vbReWTTWXuioSFnOdD7srGHV5sVFwr2D_U_2ZERnKo5hxo8I_nHdxIHqvpM8cEjLFmHU6bKuW8NMi9FV3XkkQec_zQ1rAdWzjT55l7A5gpyM7DzkjTTY_lD4fpG0rYVo3W-P_QUeK-CKF9b72-RvQnYGwgxDFkZiMz5Pkyk8HWWkhvAhMfB3rdl9MMznlHQb_76P68EVMemk-1GvH6EEhbcwmFPVi8NQ3Q==",
+width: 192,
+format: "jpg",
+bytes: 4858,
+height: 115
+}
+},
+owner: "Benh LIEU SONG",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Toulouse_Capitole_Night_Wikimedia_Commons.jpg",
+caption: "The Capitole and its square at night",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Toulouse_Capitole_Night_Wikimedia_Commons.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_Augustin,_l%27aile_Darcy_-_Viollet-le-duc.jpg",
+attribution_text: "Didier Descouens",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXiujBDuFjwHqQYuy7KR7uzs-YaNKiHNXZeUqmWRPpqWyGNnne4szj_jAiTFqVgdElFHbxv5HR_SyCmK73f6gfeB32rheXFQMtqrWE_23Albndvl9RxDeDu1s5Yn-tbHCxrkE0CR3zTfsy-BWIt-7b8wbqjKBwmaX54ydV_Jt-5hxCp8ypWGrqYVfXs8R-ZLMFfMJCpR3xF-Qtd6aIZ9svM5kwKxitz6ORoTZ7lEA8LegEzAIClM6vN2n--tFHKK_VkdVKuybyQ-u1tc9tK-LOibVAxXtHGlOC3fwEL08Pr-U=",
+width: 640,
+format: "jpg",
+bytes: 50653,
+height: 399
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mus%C3%A9e_des_Augustin%2C_l%27aile_Darcy_-_Viollet-le-duc.jpg",
+width: 6303,
+format: "jpg",
+bytes: 20927133,
+height: 3933
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXDzsfoVShsGKpo0XrKb7G2GEvIlF-B2lYVv0ORII-EWEFTh9ucnlWJCBpATk9mrOV_3cdd7on0oN8DwJXNPTSBGOscL9rGFJR4QdMpL8tYDi3GgMv8XrQqxjXuSfA5ww_PQD8ORaBiRUXibrgwsmsG04EK3izkHKHSamv3Ac_bq21bnOFo2oMGkStDxm83n5nhCV1hig66DDNCk0SxnQaV5ISn1_D6cQCPuD4ZId2VIs-tF_BOBulFL_0FhhF4p6QdM8erim6xGbnMQICUN4BwA==",
+width: 192,
+format: "jpg",
+bytes: 7292,
+height: 119
+}
+},
+owner: "Didier Descouens",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mus%C3%A9e_des_Augustin%2C_l%27aile_Darcy_-_Viollet-le-duc.jpg",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_Augustin,_l%27aile_Darcy_-_Viollet-le-duc.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/4.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Ariane_5_at_Cite_de_l%27Espace_1.jpg",
+attribution_text: "Photograph by Mike Peel (www.mikepeel.net).",
+license_text: "CC BY-SA 4.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 4.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXAUdsf3E9ExfhRGQxnOHNmCK1NIVh8bjrjR7WN2myBH3AwGz-vqZXb6aiWaT9VdwQtSfqkXk2wD6acpMwPeJ98_BVkJxGFUyvFNrGnk5VW37LPlIvolGcxO4YsfnobIGqzoisalsxuIMBNXW1Q-4wIiHiodLYD949qSfPgBxq7ZKx-AuWrEw1B8bz5OB-PAT8gx_4badHiyLoPssaQhCW14Vwh1_kwoT01_IrWiMvwGrD7tmm16i7os6hCzZN_RK8spKrfZJWIg52FNPRkm8CPmi-Ipaadj81BQ9wCDqei98=",
+width: 426,
+format: "jpg",
+bytes: 26417,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/6/68/Ariane_5_at_Cite_de_l%27Espace_1.jpg",
+width: 2592,
+format: "jpg",
+bytes: 3388123,
+height: 3888
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXekV7zbI-dRhH3yNDGVt2COA2128YseGO5ICUz4D9lDlYIxFbFNALnuMrFbf6c4bZwzmhjv_szJzBk3qqe6cnc-qeyXizqE6qWuSn738oONODpTnieL8oKPUB890F9yaF3B23t3Q3hGUa_NYAr4qSQG3AQCPhPd1PBkBoPDVyK-ntndszXPIvKieLFVuSxTHvMng7aFsjdpbK0LbamEG78ZHatlm3pOiZCctYnK5inHT-wUboRVKfwjy_ivBuwN3ka4PE8iSINVgSQzlCv5OXyQ==",
+width: 128,
+format: "jpg",
+bytes: 4019,
+height: 192
+}
+},
+owner: "Photograph by Mike Peel (www.mikepeel.net).",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/6/68/Ariane_5_at_Cite_de_l%27Espace_1.jpg",
+caption: "An Ariane 5 rocket, with models of Saturn and Jupiter in the foreground, at Cité de l'Espace in Toulouse.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:Ariane_5_at_Cite_de_l%27Espace_1.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:ST_vs_LOU_-_21.jpg",
+attribution_text: "PierreSelim",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX1UuS8hOzj_CbapO73iXwS37-ZHpuLzZUGkpDkW5tvNf1c9cyO47Xsz65ELedMZ8l6riStJE8NJzBCJ6c0339Dis98f12CWuyMhtGzwXNYRaIwR6UctUMA52ggw3U49Vbgqnem6SQO65f5-V764LhPtA7rRZYjZ2BrO_rCF2o5kl9xM2VPhAZM35wa6g-tTUGxwCyv-m_rfGlvvio5XcmOoD7bLsMMpnNNM9bsgn7CN10GOZxSIgS5wWM9D7nqPEVSgaUmpn4YNGZD9xpKjMzqg6GD-r5XSdVOMy205wYdqE=",
+width: 640,
+format: "jpg",
+bytes: 68746,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/2/2b/ST_vs_LOU_-_21.jpg",
+width: 4608,
+format: "jpg",
+bytes: 12218296,
+height: 3456
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXJDjH4DQ-bLL9AF7yaRKqXGqGz3VnWdxkb61cGFcrZono6Azx1oGsCWb6uszqra-_CRPDn7womAEx79z-MnUIsnLPSwPt45AWnwxBP8h40Okf-lF6zrGgThlFk7QXD-xPiBG48BfpfNjU2xMN9vve3uIfoLwWZquqI8ovtc9hXqAQ1Ba1i_TWxxyIW_pffvgypaF0hEBJToFl8KkojljtdK3tOmPTEIk0XZh5J5YtzIzKBjzszEkw4RVYhg_aOoON54_0AH0u9WegORuqWkVGeQ==",
+width: 192,
+format: "jpg",
+bytes: 12092,
+height: 144
+}
+},
+owner: "PierreSelim",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/2/2b/ST_vs_LOU_-_21.jpg",
+caption: "Rugby union match in Toulouse.",
+source_id: "wikivoyage",
+owner_url: "https://commons.wikimedia.org/wiki/File:ST_vs_LOU_-_21.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Montage_Toulouse_3.jpg",
+attribution_text: "See above. Compilation by Milou34",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQX1fEsQokJECExqNn6cZVrNfoVZO7N98M0cnVaOFoopqW7Tdi_VrZ5CsbgywRWO8eembKTTM9MXpJBP9aILjvHznHufBPcHh1brH-jVnCqS7npYns_GY3lNnkGIvZTOkNQao0wbHISzOYRMHw8G0BzsDvQeNd35hHm-ndtB3HaRp4095HrQcFzZuGzO6j9DVhQ3pI-phYUHhgCtFArpKiJdzKeuE_GF7YOnv9C3y1ypg_kCPXrsSyBIg-iCrZX2KIKPuVYC0uIM_VGhufGOnOFUiZnpELgA1nn_7k9dp4cIdA=",
+width: 533,
+format: "jpg",
+bytes: 62166,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Montage_Toulouse_3.jpg",
+width: 800,
+format: "jpg",
+bytes: 1057067,
+height: 960
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXGAJB9T_C0B45ujexqv9NegxPjMONhHggxv4wNN_-jX2NP8o9F8BkidomWAci4Ol6GjDYEzuqYoPr3XP6llT0fqG1BX_4qqEp74_-1m7g-K0YUiz5IOWvRmDxr-BmigLJ0qTl3E6pmFk9EGWuVpynvjRuk_3NOSVWS6x62KiyO0_KKpM-nZBMtzHPtONw1_kCZHQc5Ao30DoMQFwE-xFbdHO_H3HRKVTFEBZTW1oqvEjVfWr26IjdrDHRsIKRqaZFwXvVGBL4yCFbK1i-DKYozw==",
+width: 160,
+format: "jpg",
+bytes: 9884,
+height: 192
+}
+},
+owner: "See above. Compilation by Milou34",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Montage_Toulouse_3.jpg",
+caption: "image",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Montage_Toulouse_3.jpg"
+},
+{
+attribution: {
+license_link: "http://creativecommons.org/licenses/by-sa/3.0",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Amphitheatre-Toulouse_2.JPG",
+attribution_text: "Traumrune",
+license_text: "CC BY-SA 3.0",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 3.0",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXEwWf_9CAuWyRKl0z29qtf-RaRFHrEm3Fy2Oj1TXnrH7Q8EiQtgLN_6nNqvE_TONjEDIlEYV-p4u8vETit6Pl9IbOAgh2EdEEA7NgvlEa7Aw-fX77_DOAZeBQ5QcNNKjaqpWMl1a4YtJJYhFNeA4FnY2Lb7hfNIIq-_uTSCiswa4SXfSUJUKo1aRP6S49pz9ndJECwrHXsVSBn4sTVZkqLowz-Y0Mc7BZ8FQ_L-bcHIFE8WS61_zRSUBdwdC6THU-xuAJg-fr7IqVPQOQxwYpCOkMU4khzrirTV3EWIRqX6c=",
+width: 480,
+format: "jpg",
+bytes: 56331,
+height: 640
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/6/62/Amphitheatre-Toulouse_2.JPG",
+width: 2448,
+format: "jpg",
+bytes: 1723067,
+height: 3264
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXpuoCR1LUaxJVybF2lyDOPag5dKbYr4bBZWiO-gC7B8QfNtzmapWqpv5OYYzN7ZLItJrfD6XSTjCkVp9r8LintwNEj7V2KKRk7G9DZ1M83xQ2rqpzDsZkzP7TCOLyNan9N4Bsoi9RJu913yIhA623dZTIKfct49hVtqc7acMDyj-NzqpwJHgyMdRnZHvYIRu0aA41K9HirqBgzMdMxnWg_BNtT1Nrk5D-iYpdlHfI5OZwyvdQAwBNJCDR1QbPqDZmSAhEBjoU7ZDHZkUDAGfeYQ==",
+width: 144,
+format: "jpg",
+bytes: 7855,
+height: 192
+}
+},
+owner: "Traumrune",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/6/62/Amphitheatre-Toulouse_2.JPG",
+caption: "Vomitorium at the Roman amphitheatre in Toulouse",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Amphitheatre-Toulouse_2.JPG"
+},
+{
+attribution: {
+license_link: "https://creativecommons.org/licenses/by-sa/2.5",
+attribution_link: "https://commons.wikimedia.org/wiki/File:Capitole_de_Toulouse.jpg",
+attribution_text: "No machine-readable author provided. Eric Pouhier assumed (based on copyright claims).",
+license_text: "CC BY-SA 2.5",
+format: "{attribution} / {license}"
+},
+license: "CC BY-SA 2.5",
+sizes: {
+medium: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXqiyI6S3Vl6yURthSU15UTT_xw9479aph6VvDQuXIDBW8XFeYjplqkFUduStzAIbX5DgTywh8TguELCwRoEWnjXd3fg8HVYshO13dZYOyM4kly_WIbVgF0Iu4bZxoiGjiX2B_D53LfxFM7d9hPGDED_ElHIV4Z6alM8y_c1qO7XyLeqQVbp74VkRSm3n0BYfkWStXwcShcJLuUBjThN1YMbMSRb9hl8oWySP28jSZ1VK8Zo1Ft18vbFkPkKBjv0ZovwgAInkGTJj0VDmfT7-08dPhLUa4gQE0flJlDzbSoHY=",
+width: 640,
+format: "jpg",
+bytes: 81337,
+height: 480
+},
+original: {
+url: "https://upload.wikimedia.org/wikipedia/commons/8/80/Capitole_de_Toulouse.jpg",
+width: 800,
+format: "jpg",
+bytes: 338525,
+height: 600
+},
+thumbnail: {
+url: "http://api-images-www.triposo.com/20181213/gAAAAABc7PQXwQa6btDYQ7SN_-INTCUTxh1bAI_pzvXPifv1xPMeBYOo0hqF-RVrnj222TzAYTNvKpKbXFzg7PyCaLJqaHyQnj9aoUJK-rFKHzKU89UfnX-m6pREIhPW5m8OxPe1JOXF5ixLvYQrk2VaMpnPZp_TaRAgfSUPTP9UwFn7x6bdFk1QVAXBnFSQPB97wfpJ30KIYUa6jGsHQnP1uLqgD6Qgwrb5Z1eH3XN_GBiRiZ5h_U9qNFOZGRK_lp2WHIxVHmfl-idJCs7Eb4Lqkvth7JNqfg==",
+width: 192,
+format: "jpg",
+bytes: 10168,
+height: 144
+}
+},
+owner: "No machine-readable author provided. Eric Pouhier assumed (based on copyright claims).",
+source_url: "https://upload.wikimedia.org/wikipedia/commons/8/80/Capitole_de_Toulouse.jpg",
+caption: "The Capitole de Toulouse, Toulouse's city hall, is an example of the 18th-century architectural projects in the city.",
+source_id: "wikipedia",
+owner_url: "https://commons.wikimedia.org/wiki/File:Capitole_de_Toulouse.jpg"
+}
+],
+type: "city"
+}
+],
+estimated_total: 1,
+more: true
+}
