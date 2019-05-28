@@ -4,7 +4,7 @@ class DestinationsController < ApplicationController
       @destinations = Destination.all
     else
       location = params["/destinations"]["location"]
-      @destinations = Destination.near(location, 1000)
+      @destinations = Destination.near(location, 1500).last(5)
     end
   end
 
