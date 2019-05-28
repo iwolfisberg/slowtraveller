@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 2019_05_28_124749) do
-=======
 ActiveRecord::Schema.define(version: 2019_05_28_085656) do
->>>>>>> dec99ef6e75dc9107c0f1ccfb4b6175a3dd1827e
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,11 +22,8 @@ ActiveRecord::Schema.define(version: 2019_05_28_085656) do
     t.string "photo_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-<<<<<<< HEAD
-=======
     t.string "category"
     t.float "score"
->>>>>>> dec99ef6e75dc9107c0f1ccfb4b6175a3dd1827e
     t.float "latitude"
     t.float "longitude"
   end
