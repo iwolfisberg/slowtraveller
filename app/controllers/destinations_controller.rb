@@ -38,8 +38,8 @@ class DestinationsController < ApplicationController
       @duration_driving = driving_route["duration"]["text"]
       @departure_driving = driving_route["start_address"]
       @arrival_driving = driving_route["end_address"]
-      # km = driving_route["distance"]["value"]
-      # @carbon = carbon_emissions("driving", km)
+      km = driving_route["distance"]["value"]
+      @carbon = carbon_emissions("driving", km)
     else
       @duration = @route["routes"][0]["legs"][0]["duration"]["text"]
       @departure = @route["routes"][0]["legs"][0]["start_address"]
