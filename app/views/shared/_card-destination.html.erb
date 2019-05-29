@@ -14,8 +14,8 @@
       <% end %>
     </div>
     <div class="card-destination-info">
-      <p>From <%= @origin %></p>
-      <p>At <%= @departure_time %></p>
+      <p>From <%= @departure %></p>
+      <p>At <%= @departure_time %>, <%= @departure_day_user %></p>
       <p>To <%= @arrival %></p>
       <p>At <%= @arrival_time %></p>
     </div>
@@ -61,3 +61,4 @@
     <% end %>
   </div>
 </div>
+

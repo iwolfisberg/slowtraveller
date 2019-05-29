@@ -14,7 +14,7 @@
 
   <div class="main-cards">
     <% @destinations.each do |destination| %>
-      <%= link_to destination_path(destination), id:"link_destination" do %>
+      <%= link_to destination_path(destination, location: @location, day: @day, time: @time), id:"link_destination" do %>
         <div class="destination-card">
           <div class="destination-photo">
             <%= image_tag destination.photo_url, height: 120, crop: :scale, alt: destination.name, class: "destination-image" %>
