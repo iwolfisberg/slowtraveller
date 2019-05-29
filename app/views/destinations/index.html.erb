@@ -26,6 +26,7 @@
               <div class="destination-infos">
                 <h2><%= destination.name %> (<%= destination.country %>)</h2>
                 <p><%= destination.description %></p>
+                <%= link_to "Add to favorites", favorites_path(dest: destination), method: :post %>
               </div>
             </div>
           <% end %>
