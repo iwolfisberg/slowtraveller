@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'json'
+require 'yaml'
 
 class DestinationsController < ApplicationController
   def index
@@ -15,6 +16,7 @@ class DestinationsController < ApplicationController
 
   def show
     @destination = Destination.find(params[:id])
+
     origin = params[:location]
     @departure_day_user = params[:day]
     date_array = @departure_day_user.split("-").map! { |date| date.to_i }
@@ -36,6 +38,8 @@ class DestinationsController < ApplicationController
       @duration_driving = driving_route["duration"]["text"]
       @departure_driving = driving_route["start_address"]
       @arrival_driving = driving_route["end_address"]
+      km = driving_route["distance"]["value"] / 1000
+      @carbon = carbon_emissions("driving", km)
     else
       @duration = @route["routes"][0]["legs"][0]["duration"]["text"]
       @departure = @route["routes"][0]["legs"][0]["start_address"]
@@ -43,6 +47,31 @@ class DestinationsController < ApplicationController
       @arrival = @route["routes"][0]["legs"][0]["end_address"]
       @arrival_time = @route["routes"][0]["legs"][0]["arrival_time"]["text"]
       @steps = @route["routes"][0]["legs"][0]["steps"]
+      @carbon = total_carbon(@steps) / 1000
     end
   end
+
+  private
+
+  # Calcul le C02 d'une étape en fonction du mode de transport et de la distance en km (en g C02 / passager)
+  def carbon_emissions(mode, km)
+    carbon_factors = YAML.load_file('db/carbon.yml')
+    return carbon_factors[mode] * km
+  end
+
+  # Calcul le C02 total d'un voyage en plusieurs étapes (en g CO2 / passager)
+  def total_carbon(steps)
+    total_carbon = 0
+    steps.each do |step|
+      km = step["distance"]["value"] / 1000
+      if step["travel_mode"] == "TRANSIT"
+        mode = step["transit_details"]["line"]["vehicle"]["type"].downcase
+      else
+        mode = step["travel_mode"].downcase
+      end
+    total_carbon += carbon_emissions(mode, km)
+    end
+    return total_carbon
+  end
 end
+
