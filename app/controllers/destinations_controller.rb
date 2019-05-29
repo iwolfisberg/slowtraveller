@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'json'
+require 'yaml'
 
 class DestinationsController < ApplicationController
   def index
@@ -31,9 +32,8 @@ class DestinationsController < ApplicationController
     @distance = route["legs"][0]["distance"]["text"]
     @departure_time = route["legs"][0]["departure_time"]["text"]
     @arrival_time = route["legs"][0]["arrival_time"]["text"]
-
     @steps = route["legs"][0]["steps"]
-
+    @carbon = total_carbon(@steps)
 
     url_scraping = "https://www.rome2rio.com/fr/map/#{@origin.split(',').first}/#{@arrival.split(",").first}"
     html_file = open(url_scraping).read
@@ -43,4 +43,27 @@ class DestinationsController < ApplicationController
       @price_estimation << element.text.strip
     end
   end
+
+  private
+
+  def total_carbon(steps)
+    total_carbon = 0
+    steps.each do |step|
+      km = step["distance"]["value"] / 1000
+      if step["travel_mode"] == "TRANSIT"
+        mode = step["transit_details"]["line"]["vehicle"]["type"].downcase
+      else
+        mode = step["travel_mode"].downcase
+      end
+    total_carbon += carbon_emissions(mode, km)
+    end
+    return total_carbon
+  end
+
+  def carbon_emissions(mode, km)
+    carbon_factors = YAML.load_file('/Users/justine/code/iwolfisberg/slowtraveller/config/locales/carbon.yml')
+    return carbon_factors[mode] * km
+  end
 end
+
+
