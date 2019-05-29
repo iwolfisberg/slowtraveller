@@ -26,6 +26,11 @@
               <div class="destination-infos">
                 <h2><%= destination.name %> (<%= destination.country %>)</h2>
                 <p><%= destination.description %></p>
+                <% if Favorite.where(user: current_user).where(destination: destination).exists? %>
+                  <div class="favorite-added">Already in your Favorites</div>
+                <% else %>
+                  <%= link_to "Add to favorites", favorites_path(dest: destination), method: :post %>
+                <% end %>
               </div>
             </div>
           <% end %>
