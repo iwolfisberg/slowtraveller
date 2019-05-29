@@ -1,6 +1,7 @@
 <div class="main-container">
-  <h1>Destinations#index</h1>
-  <p>Find me in app/views/destinations/index.html.erb</p>
+  <div>
+    <h1>Slow traveller</h1>
+  </div>
 
   <div class="form">
     <div class="col-sm-12">
@@ -11,10 +12,10 @@
     </div>
   </div>
 
-
-  <div class="cards-destination">
-      <% @destinations.each do |destination| %>
-        <%= link_to destination_path(destination), class: "cards-destination-link" do %>
+  <div class="main-card>
+    <% @destinations.each do |destination| %>
+      <%= link_to destination_path(destination), class: "cards-destination-link" do %>
+      <div class="destination-card">
         <div class="destination-photo">
           <%= image_tag destination.photo_url, alt: destination.name, class: "destination-image" %>
         </div>
@@ -22,8 +23,8 @@
           <h1><%= destination.name %> (<%= destination.country %>)</h1>
           <p><%= destination.description %></p>
         </div>
-        <% end %>
+      </div>
       <% end %>
+    <% end %>
   </div>
 </div>
-
