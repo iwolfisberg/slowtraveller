@@ -9,5 +9,9 @@
 
   <br>
   <br>
-  <%= render 'shared/card-destination' %>
+  <% if @route["routes"][0] %>
+    <%= render 'shared/card-destination' %>
+  <% else %>
+    <%= render 'shared/card-destination-driving' %>
+  <% end %>
 </div>

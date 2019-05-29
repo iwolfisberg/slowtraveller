@@ -15,7 +15,7 @@
     <div class="results">
         <% @destinations.each do |destination| %>
       <div class="result">
-        <p><%= link_to destination.name, destination_path(destination) %></p>
+        <p><%= link_to destination.name, destination_path(destination, location: @location, day: @day, time: @time) %></p>
       </div>
         <% end %>
     </div>
