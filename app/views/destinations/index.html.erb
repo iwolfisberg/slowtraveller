@@ -12,18 +12,18 @@
     </div>
   </div>
 
-  <div class="main-card>
+  <div class="main-cards">
     <% @destinations.each do |destination| %>
-      <%= link_to destination_path(destination), class: "cards-destination-link" do %>
-      <div class="destination-card">
-        <div class="destination-photo">
-          <%= image_tag destination.photo_url, alt: destination.name, class: "destination-image" %>
+      <%= link_to destination_path(destination), id:"link_destination" do %>
+        <div class="destination-card">
+          <div class="destination-photo">
+            <%= image_tag destination.photo_url, height: 120, crop: :scale, alt: destination.name, class: "destination-image" %>
+          </div>
+          <div class="destination-infos">
+            <h2><%= destination.name %> (<%= destination.country %>)</h2>
+            <p><%= destination.description %></p>
+          </div>
         </div>
-        <div class="destination-infos">
-          <h1><%= destination.name %> (<%= destination.country %>)</h1>
-          <p><%= destination.description %></p>
-        </div>
-      </div>
       <% end %>
     <% end %>
   </div>

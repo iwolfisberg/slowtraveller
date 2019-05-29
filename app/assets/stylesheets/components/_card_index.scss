@@ -1,28 +1,35 @@
-.destination-card {
-  background: white;
-  overflow: hidden;
-  width: 500px;
-  height: 120px;
-  display: flex;
-  align-items: center;
+.main-cards {
+  margin-top: 20px;
 }
 
-.destination-photo {
-  height: 100%;
-  width: 120px;
-  object-fit: cover;
+.destination-card {
+  background: white;
+  width: 500px;
+  height: 120px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+.destination-image {
+  width: 100%;
+}
+
+#link_destination {
+  color: black;
 }
 
 .destination-infos h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 0;
 }
 
 .destination-infos p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
   opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
+}
+
+.destination-card .destination-infos {
+  padding: 16px;
 }
