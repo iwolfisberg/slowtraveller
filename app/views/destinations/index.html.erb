@@ -3,14 +3,7 @@
     <h1>Slow traveller</h1>
   </div>
 
-  <div class="form">
-    <div class="col-sm-12">
-      <div id="destinations">
-        <h3>You are a slow traveller</h3>
-        <%= render 'shared/form_research' %>
-      </div>
-    </div>
-  </div>
+  <%= render 'shared/form_research' %>
 
   <div class="text">
     <% if params["/destinations"] == nil %>

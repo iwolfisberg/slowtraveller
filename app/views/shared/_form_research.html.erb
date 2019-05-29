@@ -1,6 +1,15 @@
-<%= simple_form_for destinations_path, method: :get do |f| %>
-  <%= f.input 'location', label: "Current position" %>
-  <%= f.input 'departure_day', label: "Day of departure", input_html: {class: "datepicker"} %>
-  <%= f.input 'departure_time', label: "Departure time", input_html: {class: "timepicker"} %>
-  <%= f.submit "Submit", class: "btn-primary" %>
-<% end %>
+
+
+<div class="form">
+    <div class="col-sm-12">
+      <div id="destinations">
+        <h3>You are a slow traveller</h3>
+        <%= simple_form_for destinations_path, method: :get do |f| %>
+          <%= f.input 'location', label: "Current position" %>
+          <%= f.input 'departure_day', label: "Day of departure", input_html: {class: "datepicker"} %>
+          <%= f.input 'departure_time', label: "Departure time", input_html: {class: "timepicker"} %>
+          <%= f.submit "Submit", class: "btn-primary" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
