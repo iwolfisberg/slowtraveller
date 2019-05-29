@@ -4,9 +4,7 @@ require 'yaml'
 
 class DestinationsController < ApplicationController
   def index
-    if params["/destinations"].blank? || params["/destinations"]["location"].blank?
-      @destinations = Destination.all
-    else
+    if params["/destinations"] != nil
       @location = params["/destinations"]["location"]
       @day = params["/destinations"]["departure_day"]
       @time = params["/destinations"]["departure_time"]
