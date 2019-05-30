@@ -18,7 +18,7 @@ class DestinationsController < ApplicationController
         @routes_transit = parse_api(url_transit)
 
         results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit) } unless @routes_transit.keys[0] == "available_travel_modes"
-        destinations_array << results
+        destinations_array << results unless results.nil?
       end
       @destinations_array = destinations_array.first(5)
     end
