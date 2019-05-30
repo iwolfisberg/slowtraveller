@@ -11,39 +11,28 @@ class DestinationsController < ApplicationController
       day = params["/destinations"]["departure_day"]
       time = params["/destinations"]["departure_time"]
 
-      destinations = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 1500).take(10)
-
-      @destinations = {}
-      i = 1
-      destinations.each do |destination|
+      destinations_results = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 1500).take(10)
+      @destinations = []
+      destinations_results.each do |destination|
         url_transit = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
         @routes_transit = parse_api(url_transit)
 
-        unless @routes_transit.keys[0] == "available_travel_modes"
-          info_destination = []
-          @routes_transit["routes"].each do |route|
-            steps = route["legs"][0]["steps"]
-            info_destination << {
-                                  duration: route["legs"][0]["duration"]["text"],
-                                  carbon: total_carbon(steps) / 1000,
-                                  connections: route["legs"][0]["steps"].size,
-                                  departure_time: route["legs"][0]["departure_time"]["text"],
-                                  arrival_time: route["legs"][0]["arrival_time"]["text"],
-                                  departure: route["legs"][0]["start_address"],
-                                  arrival: route["legs"][0]["end_address"]
-                                }
-          end
-          @destinations[i] = destination, info_destination
-        end
-        i += 1
+        results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit) } unless @routes_transit.keys[0] == "available_travel_modes"
+        @destinations << results
       end
-      @destinations = @destinations.first(5)
+      @destinations = @destinations.first(2)
     end
   end
 
-
   def show
-    @destination = Destination.find(params[:id])
+    @chosen_destination = Destination.find(params[:id])
+    journey = params[:journey]
+    @steps = journey["steps"]
+    @destination = journey["arrival"]
+    @origin = journey["departure"]
+    @carbon = journey["carbon"]
+    @arrival_time = journey["arrival_time"]
+    @departure_time = journey["departure_time"]
   end
 
   private
@@ -83,5 +72,41 @@ class DestinationsController < ApplicationController
     route = JSON.parse(route_serialized)
     return route
   end
-end
 
+  def get_journey(routes_transit)
+    journey_results = []
+    routes_transit["routes"].each do |journey|
+      journey_results << {
+                          duration: journey["legs"][0]["duration"]["text"],
+                          carbon: total_carbon(journey["legs"][0]["steps"]) / 1000,
+                          connections: journey["legs"][0]["steps"].size,
+                          departure_time: journey["legs"][0]["departure_time"]["text"],
+                          arrival_time: journey["legs"][0]["arrival_time"]["text"],
+                          departure: journey["legs"][0]["start_address"],
+                          arrival: journey["legs"][0]["end_address"],
+                          steps: get_steps(journey["legs"][0]["steps"])
+                        }
+    end
+    journey_results
+  end
+
+  def get_steps(steps)
+    steps_results = []
+    steps.each do |step|
+      unless step["travel_mode"] == "WALKING"
+        steps_results << {
+                          icon: step["transit_details"]["line"]["vehicle"]["icon"],
+                          arrival_time: step["transit_details"]["arrival_time"]["text"],
+                          arrival: step["transit_details"]["arrival_stop"]["name"],
+                          departure_time: step["transit_details"]["departure_time"]["text"],
+                          departure: step["transit_details"]["departure_stop"]["name"],
+                          duration: step["duration"]["text"],
+                          html_instructions: step["html_instructions"],
+                          agency: step["transit_details"]["line"]["agencies"][0]["name"],
+                          agency_url: step["transit_details"]["line"]["agencies"][0]["url"]
+                        }
+        end
+      end
+    steps_results
+  end
+end
