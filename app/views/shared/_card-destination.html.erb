@@ -2,14 +2,13 @@
   <!-- Les infos générales d'un trajet particulier -->
   <div class="card-destination-show-general">
     <div class="card-destination-carbon">
-      <% @distance %>
       <i class="fas fa-leaf"></i>
       <p><%= @carbon %> kg CO2</p>
     </div>
     <div class="card-destination-transit-icon">
       <% @steps.each do |step| %>
         <% unless step["travel_mode"] == "WALKING" %>
-          <%= image_tag (step["transit_details"]["line"]["vehicle"]["icon"]), width: 20, height: 20 %>
+          <%= image_tag (step["icon"]), width: 20, height: 20 %>
         <% end %>
       <% end %>
     </div>
@@ -33,31 +32,29 @@
     <div class="circle-bottom"></div>
     <!-- barre latérale -->
     <% @steps.each do |step| %>
-      <% unless step["travel_mode"] == "WALKING" %>
-          <!-- icones -->
-          <div class="card-destination-details-icon">
-            <%= image_tag (step["transit_details"]["line"]["vehicle"]["icon"]), width: 30, height: 30, class: "icon" %>
+        <!-- icones -->
+        <div class="card-destination-details-icon">
+          <%= image_tag (step[:icon]), width: 30, height: 30, class: "icon" %>
+        </div>
+        <!-- icones -->
+        <!-- connections -->
+        <div class="card-destination-details-connections">
+          <p><%= step[:departure_time] %> - <%= step[:departure] %></p>
+          <div class="in-between">
+            <span class="duration-in-between"><%= step[:duration_step] %></span>
+            <span class="duration-in-between"><%= step[:html_instructions] %></span>
           </div>
-          <!-- icones -->
-          <!-- connections -->
-          <div class="card-destination-details-connections">
-            <p><%= step["transit_details"]["departure_time"]["text"] %> - <%= step["transit_details"]["departure_stop"]["name"] %></p>
-            <div class="in-between">
-              <span class="duration-in-between"><%= step["duration"]["text"] %></span>
-              <span class="duration-in-between"><%= step["html_instructions"] %></span>
-            </div>
-            <p><%= step["transit_details"]["arrival_time"]["text"] %> - <%= step["transit_details"]["arrival_stop"]["name"] %></p>
-          </div>
-          <!-- connections -->
-          <!-- Lien exploitant -->
-          <div class="card-destination-details-link">
-            <p>Buy your ticket here:</p>
-            <%= link_to step["transit_details"]["line"]["agencies"][0]["url"] do %>
-              <%= step["transit_details"]["line"]["agencies"][0]["name"] %>
-            <% end %>
-          </div>
-          <!-- Lien exploitant -->
-      <% end %>
+          <p><%= step[:arrival_time] %> - <%= step[:arrival] %></p>
+        </div>
+        <!-- connections -->
+        <!-- Lien exploitant -->
+        <div class="card-destination-details-link">
+          <p>Buy your ticket here:</p>
+          <%= link_to step[:agency_url] do %>
+            <%= step[:agency] %>
+          <% end %>
+        </div>
+        <!-- Lien exploitant -->
     <% end %>
   </div>
 </div>

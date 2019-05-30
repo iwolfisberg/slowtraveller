@@ -1,17 +1,13 @@
 <div class="main-container">
   <div class="destination">
     <div class="destination-description">
-      <h1><%= @destination.name %> (<%= @destination.country %>)</h1>
-      <p><%= @destination.description %></p>
+      <h1><%= @chosen_destination.name %> (<%= @chosen_destination.country %>)</h1>
+      <p><%= @chosen_destination.description %></p>
     </div>
-    <%= image_tag @destination.photo_url, alt: @destination.name, class: "destination-image" %>
+    <%= image_tag @chosen_destination.photo_url, alt: @chosen_destination.name, class: "destination-image" %>
   </div>
 
   <br>
   <br>
-  <% if @route["routes"][0] %>
-    <%= render 'shared/card-destination' %>
-  <% else %>
-    <%= render 'shared/card-destination-driving' %>
-  <% end %>
+  <%= render 'shared/card-destination' %>
 </div>
