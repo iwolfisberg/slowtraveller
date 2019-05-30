@@ -9,7 +9,6 @@
 
 </div>
 
-
 <div class="main-container">
 
   <div class="text">
@@ -23,15 +22,17 @@
                 <%= image_tag destination[1][0].photo_url, height: 120, crop: :scale, alt: destination[1][0].name, class: "destination-image" %>
               </div>
               <div class="destination-infos">
-                <h2><%= destination[1][0].name %> (<%= destination[1][0].country %>)</h2>
-                <p><%= destination[1][0].description %></p>
+                <div>
+                  <h2><%= destination[1][0].name %> (<%= destination[1][0].country %>)</h2>
+                  <p><%= destination[1][0].description %></p>
+                </div>
                 <% if Favorite.where(user: current_user).where(destination: destination).exists? %>
                   <div class="favorite-added">Already in your Favorites</div>
                 <% else %>
-                  <%= link_to "Add to favorites", favorites_path(dest: destination), method: :post %>
+                  <%= link_to "Add to favorites", favorites_path(dest: destination), method: :post, class: "favorite-add" %>
                 <% end %>
+                </div>
               </div>
-            </div>
             <% destination[1][1].sort_by{ |dest| dest[:carbon] }.each do |destination_info| %>
               <div class="destination-infos-details">
                 <p><i class="fas fa-leaf"></i> <%= destination_info[:carbon] %> kg CO2</p>
