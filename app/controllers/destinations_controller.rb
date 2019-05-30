@@ -12,15 +12,15 @@ class DestinationsController < ApplicationController
       time = params["/destinations"]["departure_time"]
 
       destinations_results = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 1500).take(10)
-      @destinations = []
+      destinations_array = []
       destinations_results.each do |destination|
         url_transit = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
         @routes_transit = parse_api(url_transit)
 
         results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit) } unless @routes_transit.keys[0] == "available_travel_modes"
-        @destinations << results
+        destinations_array << results
       end
-      @destinations = @destinations.first(5)
+      @destinations_array = destinations_array.first(5)
     end
   end
 

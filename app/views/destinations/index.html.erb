@@ -16,7 +16,7 @@
       <%= render 'shared/home_logout' %>
     <% else %>
       <div class="main-cards">
-        <% @destinations.each do |destination| %>
+        <% @destinations_array.each do |destination| %>
             <div class="destination-card">
               <div class="destination-photo">
                 <%= image_tag destination[:photo_url], height: 120, crop: :scale, alt: destination[:name], class: "destination-image" %>
