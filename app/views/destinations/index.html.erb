@@ -1,20 +1,20 @@
-<div class="main-container">
-  <div>
-    <h1>Slow traveller</h1>
+
+
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+
+  <div class="main-container">
+    <h1>It's more about the journey than the destination</h1>
+    <div><%= render 'shared/form_research' %></div>
   </div>
 
-  <div class="form">
-    <div class="col-sm-12">
-      <div id="destinations">
-        <h3>You are a slow traveller</h3>
-        <%= render 'shared/form_research' %>
-      </div>
-    </div>
-  </div>
+</div>
+
+
+<div class="main-container">
 
   <div class="text">
     <% if params["/destinations"] == nil %>
-      <%= render 'shared/text_index' %>
+      <%= render 'shared/home_logout' %>
     <% else %>
       <div class="main-cards">
         <% @destinations.each do |destination| %>
@@ -25,6 +25,11 @@
               <div class="destination-infos">
                 <h2><%= destination[1][0].name %> (<%= destination[1][0].country %>)</h2>
                 <p><%= destination[1][0].description %></p>
+                <% if Favorite.where(user: current_user).where(destination: destination).exists? %>
+                  <div class="favorite-added">Already in your Favorites</div>
+                <% else %>
+                  <%= link_to "Add to favorites", favorites_path(dest: destination), method: :post %>
+                <% end %>
               </div>
             </div>
             <% destination[1][1].sort_by{ |dest| dest[:carbon] }.each do |destination_info| %>
@@ -43,4 +48,5 @@
       </div>
     <% end %>
   </div>
+
 </div>

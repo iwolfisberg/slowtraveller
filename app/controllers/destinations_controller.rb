@@ -3,6 +3,8 @@ require 'json'
 require 'yaml'
 
 class DestinationsController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:index, :show]
+
   def index
     if params["/destinations"] != nil
       location = params["/destinations"]["location"]
