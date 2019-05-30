@@ -1,10 +1,9 @@
 class FavoritesController < ApplicationController
   def create
-    destination = params["dest"]
+    destination = params["dest"].to_i
     Favorite.create!(
       user: current_user,
-      destination_id: destination,
-      redirect_to: list_favorites_path
+      destination_id: destination
     )
   end
 

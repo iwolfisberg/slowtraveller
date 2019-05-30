@@ -20,11 +20,15 @@
   color: black;
 }
 
+.destination-infos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .destination-infos h2 {
   font-size: 18px;
   font-weight: bold;
-  display: flex;
-  flex-direction: column;
 }
 
 .destination-infos p {
@@ -38,18 +42,21 @@
 }
 
 .favorite-added {
+  width: 220px;
   color: #5151ef;
-  padding: 6px 10px;
+  padding: 4px;
   text-align: center;
   font-size: 16px;
-  border: 2px solid #5151ef;
+  border: 1px solid #5151ef;
 }
 
 .favorite-add {
+  width: 160px;
   background-color: #5151ef;
   color: white;
-  font-size: 12py;
-  padding: 4px 25px;
+  text-align: center;
+  font-size: 16px;
+  padding: 4px;
 }
 
 .favorite-add:hover {
