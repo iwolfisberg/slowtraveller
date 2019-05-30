@@ -7,48 +7,43 @@ class DestinationsController < ApplicationController
 
   def index
     if params["/destinations"] != nil
-      @location = params["/destinations"]["location"]
-      @day = params["/destinations"]["departure_day"]
-      @time = params["/destinations"]["departure_time"]
-      @destinations = Destination.near(@location, 1500).last(5)
+      location = params["/destinations"]["location"]
+      day = params["/destinations"]["departure_day"]
+      time = params["/destinations"]["departure_time"]
+
+      destinations = Destination.order(score: :desc).near(location, 1500).take(10)
+
+      @destinations = {}
+      i = 1
+      destinations.each do |destination|
+        url_transit = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
+        @routes_transit = parse_api(url_transit)
+
+        unless @routes_transit.keys[0] == "available_travel_modes"
+          info_destination = []
+          @routes_transit["routes"].each do |route|
+            steps = route["legs"][0]["steps"]
+            info_destination << {
+                                  duration: route["legs"][0]["duration"]["text"],
+                                  carbon: total_carbon(steps) / 1000,
+                                  connections: route["legs"][0]["steps"].size,
+                                  departure_time: route["legs"][0]["departure_time"]["text"],
+                                  arrival_time: route["legs"][0]["arrival_time"]["text"],
+                                  departure: route["legs"][0]["start_address"],
+                                  arrival: route["legs"][0]["end_address"]
+                                }
+          end
+          @destinations[i] = destination, info_destination
+        end
+        i += 1
+      end
+      @destinations = @destinations.first(5)
     end
   end
 
+
   def show
     @destination = Destination.find(params[:id])
-
-    origin = params[:location]
-    @departure_day_user = params[:day]
-    date_array = @departure_day_user.split("-").map! { |date| date.to_i }
-    departure_time_user = params[:time]
-    date_hour = Date.new(date_array[0], date_array[1], date_array[2]).to_datetime + Time.parse(departure_time_user).seconds_since_midnight.seconds
-    start_date = DateTime.parse("1970-01-01")
-    elapsed_seconds = ((date_hour - start_date) * 24 * 60 * 60).to_i
-
-    url = "https://maps.googleapis.com/maps/api/directions/json?origin=#{origin}&destination=#{@destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{elapsed_seconds}&mode=transit&key=#{ENV['GOOGLE_API_KEY']}"
-    route_serialized = open(url).read
-    @route = JSON.parse(route_serialized)
-
-    if @route.keys[0] == "available_travel_modes"
-      driving_url = "https://maps.googleapis.com/maps/api/directions/json?origin=#{origin}&destination=#{@destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&mode=driving&key=#{ENV['GOOGLE_API_KEY']}"
-      driving_route_serialized = open(driving_url).read
-      driving_route = JSON.parse(driving_route_serialized)["routes"][0]["legs"][0]
-
-      @distance_driving = driving_route["distance"]["text"]
-      @duration_driving = driving_route["duration"]["text"]
-      @departure_driving = driving_route["start_address"]
-      @arrival_driving = driving_route["end_address"]
-      km = driving_route["distance"]["value"] / 1000
-      @carbon = carbon_emissions("driving", km)
-    else
-      @duration = @route["routes"][0]["legs"][0]["duration"]["text"]
-      @departure = @route["routes"][0]["legs"][0]["start_address"]
-      @departure_time = @route["routes"][0]["legs"][0]["departure_time"]["text"]
-      @arrival = @route["routes"][0]["legs"][0]["end_address"]
-      @arrival_time = @route["routes"][0]["legs"][0]["arrival_time"]["text"]
-      @steps = @route["routes"][0]["legs"][0]["steps"]
-      @carbon = total_carbon(@steps) / 1000
-    end
   end
 
   private
@@ -72,6 +67,21 @@ class DestinationsController < ApplicationController
     total_carbon += carbon_emissions(mode, km)
     end
     return total_carbon
+  end
+
+  # methode pour calculer heure et jour de départ pour l'url de l'api
+  def departure_time(day, time)
+    date_array = day.split("-").map! { |date| date.to_i }
+    date_hour = Date.new(date_array[0], date_array[1], date_array[2]).to_datetime + Time.parse(time).seconds_since_midnight.seconds
+    start_date = DateTime.parse("1970-01-01")
+    elapsed_seconds = ((date_hour - start_date) * 24 * 60 * 60).to_i
+    return elapsed_seconds
+  end
+
+  def parse_api(url)
+    route_serialized = open(url).read
+    route = JSON.parse(route_serialized)
+    return route
   end
 end
 
