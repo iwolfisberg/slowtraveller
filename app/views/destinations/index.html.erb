@@ -28,7 +28,7 @@
                 <% if Favorite.where(user: current_user).where(destination: destination[:id]).exists? %>
                   <div class="favorite-added">Already in your Favorites</div>
                 <% else %>
-                  <%= link_to "Add to favorites", favorites_path(dest: destination), method: :post %>
+                  <%= link_to "Add to favorites", favorites_path(dest: destination[:id]), method: :post %>
                 <% end %>
               </div>
             </div>
