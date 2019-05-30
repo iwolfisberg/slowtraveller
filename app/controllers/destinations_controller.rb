@@ -26,13 +26,8 @@ class DestinationsController < ApplicationController
 
   def show
     @chosen_destination = Destination.find(params[:id])
-    journey = params[:journey]
-    @steps = journey["steps"]
-    @destination = journey["arrival"]
-    @origin = journey["departure"]
-    @carbon = journey["carbon"]
-    @arrival_time = journey["arrival_time"]
-    @departure_time = journey["departure_time"]
+    @journey = params[:journey]
+    @steps = @journey["steps"]
   end
 
   private
