@@ -6,4 +6,8 @@ class FavoritesController < ApplicationController
       destination_id: destination
     )
   end
+
+  def list
+    @favorites = Favorite.where(user: current_user)
+  end
 end
