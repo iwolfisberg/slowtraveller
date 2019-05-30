@@ -8,7 +8,7 @@
     <div class="card-destination-transit-icon">
       <% @steps.each do |step| %>
         <% unless step["travel_mode"] == "WALKING" %>
-          <%= image_tag (step["transit_details"]["line"]["vehicle"]["icon"]), width: 20, height: 20 %>
+          <%= image_tag (step["icon"]), width: 20, height: 20 %>
         <% end %>
       <% end %>
     </div>
