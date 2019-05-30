@@ -31,8 +31,8 @@
                 <% else %>
                   <%= link_to "Add to favorites", favorites_path(dest: destination), method: :post, class: "favorite-add" %>
                 <% end %>
-                </div>
               </div>
+            </div>
             <% destination[1][1].sort_by{ |dest| dest[:carbon] }.each do |destination_info| %>
               <div class="destination-infos-details">
                 <p><i class="fas fa-leaf"></i> <%= destination_info[:carbon] %> kg CO2</p>
