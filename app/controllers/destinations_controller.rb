@@ -20,7 +20,7 @@ class DestinationsController < ApplicationController
         results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit) } unless @routes_transit.keys[0] == "available_travel_modes"
         @destinations << results
       end
-      @destinations = @destinations.first(2)
+      @destinations = @destinations.first(5)
     end
   end
 
@@ -79,7 +79,7 @@ class DestinationsController < ApplicationController
       journey_results << {
                           duration: journey["legs"][0]["duration"]["text"],
                           carbon: total_carbon(journey["legs"][0]["steps"]) / 1000,
-                          connections: journey["legs"][0]["steps"].size,
+                          connections: get_steps(journey["legs"][0]["steps"]).size,
                           departure_time: journey["legs"][0]["departure_time"]["text"],
                           arrival_time: journey["legs"][0]["arrival_time"]["text"],
                           departure: journey["legs"][0]["start_address"],
