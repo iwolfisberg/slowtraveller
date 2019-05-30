@@ -26,7 +26,9 @@ class DestinationsController < ApplicationController
                                   carbon: total_carbon(steps) / 1000,
                                   connections: route["legs"][0]["steps"].size,
                                   departure_time: route["legs"][0]["departure_time"]["text"],
-                                  arrival_time: route["legs"][0]["arrival_time"]["text"]
+                                  arrival_time: route["legs"][0]["arrival_time"]["text"],
+                                  departure: route["legs"][0]["start_address"],
+                                  arrival: route["legs"][0]["end_address"]
                                 }
           end
           @destinations[i] = destination, info_destination
@@ -40,33 +42,6 @@ class DestinationsController < ApplicationController
 
   def show
     @destination = Destination.find(params[:id])
-
-
-
-  #   url = "https://maps.googleapis.com/maps/api/directions/json?origin=#{origin}&destination=#{@destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{elapsed_seconds}&mode=transit&key=#{ENV['GOOGLE_API_KEY']}"
-  #   route_serialized = open(url).read
-  #   @route = JSON.parse(route_serialized)
-
-  #   if @route.keys[0] == "available_travel_modes"
-  #     driving_url = "https://maps.googleapis.com/maps/api/directions/json?origin=#{origin}&destination=#{@destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&mode=driving&key=#{ENV['GOOGLE_API_KEY']}"
-  #     driving_route_serialized = open(driving_url).read
-  #     driving_route = JSON.parse(driving_route_serialized)["routes"][0]["legs"][0]
-
-  #     @distance_driving = driving_route["distance"]["text"]
-  #     @duration_driving = driving_route["duration"]["text"]
-  #     @departure_driving = driving_route["start_address"]
-  #     @arrival_driving = driving_route["end_address"]
-  #     km = driving_route["distance"]["value"] / 1000
-  #     @carbon = carbon_emissions("driving", km)
-  #   else
-  #     @duration = @route["routes"][0]["legs"][0]["duration"]["text"]
-  #     @departure = @route["routes"][0]["legs"][0]["start_address"]
-  #     @departure_time = @route["routes"][0]["legs"][0]["departure_time"]["text"]
-  #     @arrival = @route["routes"][0]["legs"][0]["end_address"]
-  #     @arrival_time = @route["routes"][0]["legs"][0]["arrival_time"]["text"]
-  #     @steps = @route["routes"][0]["legs"][0]["steps"]
-  #     @carbon = total_carbon(@steps) / 1000
-  #   end
   end
 
   private

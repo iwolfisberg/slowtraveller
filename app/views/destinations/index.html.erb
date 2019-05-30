@@ -36,7 +36,7 @@
                   <p class="in-between duration-in-between"><%= destination_info[:connections] %> connections</p>
                   <p><%= destination_info[:arrival_time] %></p>
                 </div>
-                <%= link_to "See details", destination_path(destination), target: :_blank, class: "btn btn-secondary" %>
+                <%= link_to "See details", destination_path(destination[1][0]), target: :_blank, class: "btn btn-secondary" %>
               </div>
           <% end %>
         <% end %>
