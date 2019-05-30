@@ -11,7 +11,7 @@ class DestinationsController < ApplicationController
       day = params["/destinations"]["departure_day"]
       time = params["/destinations"]["departure_time"]
 
-      destinations = Destination.order(score: :desc).near(location, 1500).take(10)
+      destinations = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 1500).take(10)
 
       @destinations = {}
       i = 1
