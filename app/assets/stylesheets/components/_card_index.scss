@@ -1,6 +1,8 @@
-.main-cards {
+.destination-cards {
   margin-top: 20px;
 }
+
+// visuel des cartes avec seulement la destination
 
 .destination-card {
   background: white;
@@ -9,6 +11,21 @@
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: 30% auto;
+  .destination-infos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 16px;
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.4;
+      opacity: .7;
+    }
+  }
 }
 
 .destination-image {
@@ -16,30 +33,39 @@
   height: 150px;
 }
 
-#link_destination {
-  color: black;
+
+// visuel des parcours d'une destination
+
+.destination-journeys {
+  display: none;
+  margin-bottom: 20px;
+  .destination-journey {
+    background: white;
+    width: 750px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 3px;
+    .carbon_footprint {
+      padding: 13px;
+      border-radius: 50%;
+      color: orange; // a modifier en fonction couleur background
+      font-weight: bold;
+      width: 45%;
+      text-align: center;
+      border: 1px solid orange;
+    }
+    .see-details {
+      width: 135px;
+    }
+  }
 }
 
-.destination-infos {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.destination-infos h2 {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.destination-infos p {
-  font-size: 14px;
-  line-height: 1.4;
-  opacity: .7;
-}
-
-.destination-card .destination-infos {
-  padding: 16px;
-}
+// lien pour favorites
 
 .favorite-added {
   width: 220px;
@@ -64,6 +90,3 @@
   background-color: #8f8fe0;
 }
 
-.destination-journeys {
-  display: none;
-}

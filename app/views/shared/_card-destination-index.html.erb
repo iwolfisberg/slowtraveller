@@ -1,0 +1,28 @@
+<div class="destination-cards">
+  <% @destinations_array.each do |destination| %>
+    <div class="destination-card">
+      <div class="destination-photo">
+        <%= image_tag destination[:photo_url], height: 120, crop: :scale, alt: destination[:name], class: "destination-image" %>
+      </div>
+      <div class="destination-infos">
+        <h2><%= destination[:name] %> (<%= destination[:country] %>)</h2>
+        <p><%= destination[:description] %></p>
+        <% if Favorite.where(user: current_user).where(destination: destination[:id]).exists? %>
+          <div class="favorite-added">Already in your Favorites</div>
+        <% else %>
+          <%= link_to "Add to favorites", favorites_path(dest: destination[:id]), method: :post, class: "favorite-add" %>
+        <% end %>
+      </div>
+    </div>
+    <div class="destination-journeys">
+      <% destination[:journeys].each do |journey| %>
+        <div class="destination-journey">
+          <p class="carbon_footprint"><%= journey[:carbon] %> kg CO2</p>
+          <p>Total duration:<br><%= journey[:duration] %></p>
+          <p>N° of connections:<br><%= journey[:connections] %></p>
+          <%= link_to "See details", destination_path(destination[:id], journey: journey), class: "see-details favorite-add" %>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>

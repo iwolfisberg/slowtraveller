@@ -1,5 +1,3 @@
-
-
 <div class="banner">
   <div class="main-container">
     <h1>It's more about the journey than the destination</h1>
@@ -8,40 +6,10 @@
 
 </div>
 
-<div class="main-container">
-
-  <div class="text">
-    <% if params["/destinations"] == nil %>
-      <%= render 'shared/home_logout' %>
-    <% else %>
-      <div class="main-cards">
-        <% @destinations_array.each do |destination| %>
-            <div class="destination-card">
-              <div class="destination-photo">
-                <%= image_tag destination[:photo_url], height: 120, crop: :scale, alt: destination[:name], class: "destination-image" %>
-              </div>
-              <div class="destination-infos">
-                <h2><%= destination[:name] %> (<%= destination[:country] %>)</h2>
-                <p><%= destination[:description] %></p>
-                <% if Favorite.where(user: current_user).where(destination: destination[:id]).exists? %>
-                  <div class="favorite-added">Already in your Favorites</div>
-                <% else %>
-                  <%= link_to "Add to favorites", favorites_path(dest: destination[:id]), method: :post %>
-                <% end %>
-              </div>
-            </div>
-            <div class="destination-journeys">
-              <% destination[:journeys].each do |journey| %>
-                <div class="destination-journey">
-                  <p><%= journey[:duration] %></p>
-                  <p><%= journey[:carbon] %> kg Co2</p>
-                  <p><%= journey[:connections] %> connections</p>
-                  <%= link_to "see more", destination_path(destination[:id], journey: journey) %>
-                </div>
-              <% end %>
-            </div>
-          <% end %>
-      </div>
-    <% end %>
-  </div>
+<div class="main-container content-index">
+  <% if params["/destinations"] == nil %>
+    <%= render 'shared/home_logout' %>
+  <% else %>
+    <%= render 'shared/card-destination-index' %>
+  <% end %>
 </div>
