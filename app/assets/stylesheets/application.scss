@@ -12,6 +12,17 @@
 @import "components/index";
 @import "pages/index";
 
+html {
+    height: 100%;
+}
+body {
+    background-color: orange; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, yellow, red);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 .main-container {
   width: 1000px;
@@ -21,7 +32,6 @@
   grid-template-columns: 1fr;
   justify-items: center;
 }
-
 
 p {
   margin: 0;
@@ -34,7 +44,6 @@ a {
 a:hover {
   text-decoration: none;
 }
-
 
 @media(max-width: 992px) {
   .main-container {
