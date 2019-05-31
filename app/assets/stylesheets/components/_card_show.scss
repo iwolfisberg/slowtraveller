@@ -1,12 +1,18 @@
 .destination {
-  display: grid;
-  grid-template-columns: 60% auto;
-  grid-column-gap: 10px;
+  display: flex;
+  justify-content: space-between;
   color: white;
 }
 
+#button-show {
+  width: 200px;
+  padding: 4px 15px;
+}
+
 .destination-image {
-  width: 100%;
+  width: 430px !important;
+  height: 100% !important;
+  object-fit: cover;
 }
 
 // layout cards
@@ -25,12 +31,49 @@
 }
 
 .card-destination-show-general {
-  grid-template-columns: 15% 30% 40% 15%;
+  grid-template-columns: 25% 25% 40% 10%;
   justify-items: center;
   align-items: center;
+  padding: 10px;
+  position: relative;
   .card-destination-transit-icon {
     display: flex;
     justify-content: space-between;
+  }
+  .card-destination-carbon {
+    display: flex;
+    align-items: center;
+    p {
+      font-size: 33px;
+      color: $green-carbon;
+      line-height: 88%;
+      font-weight: bold;
+    }
+    .fa-leaf {
+      color: $green-carbon;
+      font-size: 53px;
+      margin-right: 10px;
+    }
+  }
+  .card-destination-info {
+    p {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .card-destination-info-grey {
+      font-size: 14px;
+      opacity: .7;
+      font-weight: normal;
+      font-style: italic;
+    }
+  }
+  .card-destination-price {
+    text-align: center;
+    p {
+      font-weight: bold;
+      opacity: .6;
+      font-size: 25px;
+    }
   }
 }
 
@@ -39,7 +82,6 @@
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
   padding: 10px;
-  // display: none;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   margin-bottom: 20px;
@@ -59,6 +101,7 @@
     }
   }
 }
+
 
 .in-between {
   display: inline-block;
@@ -101,6 +144,30 @@
   bottom: 7px;
   left: 21px;
   z-index: 1;
+}
+
+#barre-carbone {
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 84%;
+  position: absolute;
+  left: 205px;
+}
+
+#barre-icons {
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 84%;
+  position: absolute;
+  left: 388px;
+}
+
+#barre-prix {
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 84%;
+  position: absolute;
+  right: 87px;
 }
 
 @media(max-width: 992px) {

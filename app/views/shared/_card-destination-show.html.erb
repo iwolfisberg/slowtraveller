@@ -3,7 +3,7 @@
   <div class="card-destination-show-general">
     <div class="card-destination-carbon">
       <i class="fas fa-leaf"></i>
-      <p><%= @journey["carbon"] %> kg CO2</p>
+      <p><%= @journey["carbon"] %> kg<br>CO2</p>
     </div>
     <div class="card-destination-transit-icon">
       <% @steps.each do |step| %>
@@ -12,13 +12,16 @@
     </div>
     <div class="card-destination-info">
       <p>From <%= @journey["departure"] %></p>
-      <p>Departure: <%= @journey["departure_time"] %></p>
+      <p class="card-destination-info-grey">Departure <%= @journey["departure_time"] %></p>
       <p>To <%= @journey["arrival"] %></p>
-      <p>Arrival: <%= @journey["arrival_time"] %></p>
+      <p class="card-destination-info-grey">Arrival <%= @journey["arrival_time"] %></p>
     </div>
     <div class="card-destination-price">
       <p>130 CHF</p>
     </div>
+    <div id="barre-carbone"></div>
+    <div id="barre-icons"></div>
+    <div id="barre-prix"></div>
   </div>
 
 
