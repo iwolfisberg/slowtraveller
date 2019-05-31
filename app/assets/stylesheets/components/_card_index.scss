@@ -1,5 +1,8 @@
 .destination-cards {
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 }
 
 // visuel des cartes avec seulement la destination
