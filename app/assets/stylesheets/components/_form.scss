@@ -1,17 +1,30 @@
 .form-banner {
+  height: 60vh;
   display: flex;
   justify-content: space-between;
   color: white;
-}
-
-.form {
-
-  .button {
-    width: 100%
+  h1 {
+    margin-bottom: 30px;
+  }
+  h2 {
+    margin-bottom: 30px;
+    font-weight: 200;
+  }
+  img {
+    height: 100%;
   }
 }
 
-.form-image {
+.form-box {
+  width : 60%;
+}
 
-
+.form {
+  background-color: $yellow;
+  padding: 10px;
+  border-radius: 5px;
+  width : 300px;
+  .button {
+    width: 100%
+  }
 }
