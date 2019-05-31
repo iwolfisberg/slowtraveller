@@ -3,16 +3,18 @@
     <div class="form-box">
       <h1>Slow traveller</h1>
       <h2>It's more about the journey than the destination</h2>
-      <div class="form"><%= render 'shared/form_research' %></div>
+      <div class="form-search">
+        <%= render 'shared/form_research' %>
+      </div>
     </div>
     <%= image_tag("slow_traveller.png", class: "image-banner") %>
   </div>
-</div>
 
-<div class="main-container content-index">
-  <% if params["/destinations"] == nil %>
-    <%= render 'shared/home_logout' %>
-  <% else %>
-    <%= render 'shared/card-destination-index' %>
-  <% end %>
+  <div class="content-index">
+    <% if params["/destinations"] == nil %>
+      <%= render 'shared/home_logout' %>
+    <% else %>
+      <%= render 'shared/card-destination-index' %>
+    <% end %>
+  </div>
 </div>

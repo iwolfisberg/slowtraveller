@@ -1,5 +1,6 @@
 .form-banner {
-  height: 60vh;
+  margin: 30px 0px;
+  height: 500px;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -19,9 +20,9 @@
   width : 60%;
 }
 
-.form {
+.form-search {
   background-color: $yellow;
-  padding: 10px;
+  padding: 15px 5px;
   border-radius: 5px;
   width : 300px;
   .button {
