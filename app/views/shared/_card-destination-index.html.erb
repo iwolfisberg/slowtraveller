@@ -2,7 +2,7 @@
   <% @destinations_array.each do |destination| %>
     <div class="destination-card">
       <div class="destination-photo">
-        <%= image_tag destination[:photo_url], height: 120, crop: :scale, alt: destination[:name], class: "destination-image" %>
+        <%= image_tag destination[:photo_url], height: 120, crop: :scale, alt: destination[:name], class: "destination-image-index" %>
       </div>
       <div class="destination-infos">
         <h2><%= destination[:name] %> (<%= destination[:country] %>)</h2>

@@ -1,8 +1,10 @@
 <div class="main-container">
   <div class="destination">
     <div class="destination-description">
-      <h1><%= @chosen_destination.name %> (<%= @chosen_destination.country %>)</h1>
+      <h2><%= @chosen_destination.name %> (<%= @chosen_destination.country %>)</h2>
       <p><%= @chosen_destination.description %></p>
+      <br>
+      <%= link_to "TO KNOW MORE", "#", class: "button", id: "button-show" %>
     </div>
     <%= image_tag @chosen_destination.photo_url, alt: @chosen_destination.name, class: "destination-image" %>
   </div>
