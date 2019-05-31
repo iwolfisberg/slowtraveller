@@ -1,0 +1,22 @@
+.article {
+  margin: 70px 0;
+  height: 180px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.article-text {
+  width: 65%;
+  color: white;
+  p {
+    font-size: 20px;
+  }
+}
+
+.article-image {
+  height: 100%;
+  width: 30%;
+  object-fit: cover;
+  border-radius: 5px;
+}
