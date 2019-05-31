@@ -12,10 +12,6 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
 .logo {
   font-family: $logo-traveller;
   color: $gray;
@@ -25,3 +21,16 @@
     color: #52d87a;
   }
 }
+
+.navbar-item {
+  margin: 0 18px;
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+  .navbar-link {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+}
+
