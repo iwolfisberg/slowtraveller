@@ -23,40 +23,43 @@
     <div id="barre-icons"></div>
     <div id="barre-prix"></div>
   </div>
+</div>
 
 
-  <!-- Les détails d'un trajet particulier -->
-  <div class="card-destination-show-details">
-    <!-- barre latérale -->
-    <div class="circle-top"></div>
-    <div class="vertical-line"></div>
-    <div class="circle-bottom"></div>
-    <!-- barre latérale -->
-    <% @steps.each do |step| %>
-        <!-- icones -->
-        <div class="card-destination-details-icon">
-          <%= image_tag (step[:icon]), width: 30, height: 30, class: "icon" %>
-        </div>
-        <!-- icones -->
-        <!-- connections -->
+<!-- Les détails d'un trajet particulier -->
+<div class="card-destination-show-details">
+  <!-- barre latérale -->
+<!--   <div class="vertical-line"></div>
+ -->  <!-- barre latérale -->
+  <% @steps.each do |step| %>
+    <!-- icones -->
+    <div class="card-destination-details">
+      <div class="card-destination-icon">
+        <%= image_tag (step[:icon]), width: 30, height: 30, class: "icon" %>
+      </div>
+      <!-- icones -->
+      <!-- connections -->
         <div class="card-destination-details-connections">
-          <p><%= step[:departure_time] %> - <%= step[:departure] %></p>
-          <div class="in-between">
-            <span class="duration-in-between"><%= step[:duration_step] %></span>
-            <span class="duration-in-between"><%= step[:html_instructions] %></span>
-          </div>
-          <p><%= step[:arrival_time] %> - <%= step[:arrival] %></p>
+          <p class="bold"><%= step[:departure] %></p>
+          <p class="italic">Departure <%= step[:departure_time] %></p>
+          <br>
+          <p class="italic">Arrival <%= step[:arrival_time] %></p>
+          <p class="bold"><%= step[:arrival] %></p>
         </div>
         <!-- connections -->
+        <div class="card-destination-details-instructions">
+          <p class="italic"><%= step[:duration_step] %></p>
+          <p class="italic"><%= step[:html_instructions] %></p>
+        </div>
         <!-- Lien exploitant -->
         <div class="card-destination-details-link">
-          <p>Buy your ticket here:</p>
-          <%= link_to step[:agency_url] do %>
+          <p class="bold">Buy your ticket here</p>
+          <%= link_to step[:agency_url], class: "link-agency" do %>
             <%= step[:agency] %>
           <% end %>
         </div>
         <!-- Lien exploitant -->
-    <% end %>
-  </div>
+    </div>
+  <% end %>
 </div>
 

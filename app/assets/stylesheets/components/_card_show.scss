@@ -19,12 +19,11 @@
 
 .cards-destination-show {
   width:800px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
 }
 
-.card-destination-show-general, .card-destination-show-details {
+.card-destination-show-general {
   background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 3px;
   display: grid;
   padding: 10px;
@@ -56,8 +55,8 @@
     }
   }
   .card-destination-info {
+    justify-self: start;
     p {
-      font-size: 16px;
       font-weight: bold;
     }
     .card-destination-info-grey {
@@ -77,6 +76,22 @@
   }
 }
 
+
+.card-destination-show-details {
+  width:800px;
+  margin: 0 auto 20px auto;
+  background-color: white;
+  border-radius: 3px;
+  padding: 45px 0 10px 0;
+  .card-destination-details {
+    display: grid;
+    grid-template-columns: 10% 30% 30% 30%;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+}
+
 .destination-infos-details {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -87,63 +102,35 @@
   margin-bottom: 20px;
 }
 
-.card-destination-show-details {
-  background-color: rgba(255, 255, 255, .7);
-  grid-template-columns: 5% 70% 25%;
-  align-items: center;
-  grid-row-gap: 10px;
-  display: grid;
-  position: relative;
-  .card-destination-details-icon {
-    z-index: 20;
-    .icon {
-      background-color: white;
-    }
-  }
+.bold {
+  font-weight: bold;
 }
 
-
-.in-between {
-  display: inline-block;
-  margin-left: 15px;
-  .duration-in-between {
-    font-size: 10px;
-    color: $gray;
+.card-destination-details-connections {
+  .italic {
+    font-style: italic;
     opacity: .7;
-    margin-right: 15px;
   }
 }
 
-.vertical-line {
-  width: 3px; /* Line width */
-  background-color: black; /* Line color */
-  height: 92%;
-  position: absolute;
-  top: 11px;
-  left: 23px;
-  z-index: 1;
+.card-destination-details-instructions {
+  justify-self: start;
+  .italic {
+    font-style: italic;
+    opacity: .7;
+    font-size: 14px;
+  }
 }
 
-.circle-top {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: black;
-  position: absolute;
-  top: 7px;
-  left: 21px;
-  z-index: 1;
-}
-
-.circle-bottom {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: black;
-  position: absolute;
-  bottom: 7px;
-  left: 21px;
-  z-index: 1;
+.card-destination-details-link {
+  border: 1px solid $gray;
+  padding: 15px 5px;
+  .link-agency {
+    color: black;
+  }
+  .link-agency:hover {
+    opacity: .7;
+  }
 }
 
 #barre-carbone {
@@ -170,10 +157,3 @@
   right: 87px;
 }
 
-@media(max-width: 992px) {
-
-}
-
-@media(max-width: 768px) {
-
-}
