@@ -7,16 +7,14 @@
     </div>
     <div class="card-destination-transit-icon">
       <% @steps.each do |step| %>
-        <% unless step["travel_mode"] == "WALKING" %>
-          <%= image_tag (step["icon"]), width: 20, height: 20 %>
-        <% end %>
+        <%= image_tag (step["icon"]), width: 50, height: 50 %>
       <% end %>
     </div>
     <div class="card-destination-info">
       <p>From <%= @journey["departure"] %></p>
-      <p>At <%= @journey["departure_time"] %></p>
+      <p>Departure: <%= @journey["departure_time"] %></p>
       <p>To <%= @journey["arrival"] %></p>
-      <p>At <%= @journey["arrival_time"] %></p>
+      <p>Arrival: <%= @journey["arrival_time"] %></p>
     </div>
     <div class="card-destination-price">
       <p>130 CHF</p>
