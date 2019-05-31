@@ -1,5 +1,5 @@
 export const initCardDetailsOnClick = () => {
-  const cards = document.querySelectorAll('.fa-arrow-circle-down')
+  const cards = document.querySelectorAll('.destination-card')
   // const x = document.querySelector(".destination-journeys");
   cards.forEach((card) => {
     const x = card.nextElementSibling;

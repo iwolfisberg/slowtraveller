@@ -1,6 +1,6 @@
 .button {
   width: 160px;
-  background-color: rgb(235, 90, 57);
+  background-color: $orange-button;
   color: white;
   text-align: center;
   font-size: 16px;
@@ -10,5 +10,6 @@
 }
 
 .button:hover {
-  background-color: rgb(236, 110, 59);
+  background-color: $orange-button-hover;
+  color: white;
 }
