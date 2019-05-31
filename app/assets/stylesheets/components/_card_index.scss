@@ -8,6 +8,7 @@
   background: white;
   width: 750px;
   height: 150px;
+  border-radius: 5px;
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: 30% auto;
@@ -24,6 +25,15 @@
       font-size: 14px;
       line-height: 1.4;
       opacity: .7;
+    }
+    .link-card-index {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .fa-arrow-circle-down {
+        font-size: 30px;
+        margin-right: 10px;
+      }
     }
   }
 }
