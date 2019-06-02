@@ -10,12 +10,14 @@
         <% if Favorite.where(user: current_user).where(destination: destination[:id]).exists? %>
           <div class="link-card-index">
             <i class="fas fa-arrow-circle-down"></i>
-            <span class="favorite-added">Already in your Favorites</span>
+            <i class="fas fa-heart favorite"></i>
           </div>
         <% else %>
           <div class="link-card-index">
             <i class="fas fa-arrow-circle-down"></i>
-            <%= link_to "Add to favorites", favorites_path(dest: destination[:id]), method: :post, class: "see-details button" %>
+            <%= link_to favorites_path(dest: destination[:id]), method: :post do %>
+              <i class="far fa-heart not-favorite"></i>
+            <% end %>
           </div>
         <% end %>
       </div>
