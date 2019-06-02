@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :favorites, only: [:create] do
     collection do
       get "list"
+      delete "list/:id", to: "favorites#destroy"
     end
   end
 end

@@ -10,7 +10,9 @@
         <% if Favorite.where(user: current_user).where(destination: destination[:id]).exists? %>
           <div class="link-card-index">
             <i class="fas fa-arrow-circle-down"></i>
-            <i class="fas fa-heart favorite"></i>
+            <%= link_to list_favorites_path(Favorite.where(user: current_user).where(destination: destination[:id]), dest: destination[:id]), method: :delete do %>
+              <i class="fas fa-heart favorite"></i>
+            <% end %>
           </div>
         <% else %>
           <div class="link-card-index">

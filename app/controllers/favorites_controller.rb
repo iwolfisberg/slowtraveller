@@ -10,4 +10,10 @@ class FavoritesController < ApplicationController
   def list
     @favorites = Favorite.where(user: current_user)
   end
+
+  def destroy
+    destination = params["dest"].to_i
+    favorite = Favorite.where(user: current_user).where(destination: destination[:id])
+    favorite.delete
+  end
 end
