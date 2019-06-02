@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_29_143835) do
+ActiveRecord::Schema.define(version: 2019_06_02_090532) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,18 @@ ActiveRecord::Schema.define(version: 2019_05_29_143835) do
     t.index ["user_id"], name: "index_favorites_on_user_id"
   end
 
+  create_table "steps", force: :cascade do |t|
+    t.bigint "user_id"
+    t.bigint "destination_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "carbon"
+    t.string "departure"
+    t.string "arrival"
+    t.index ["destination_id"], name: "index_steps_on_destination_id"
+    t.index ["user_id"], name: "index_steps_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -51,4 +63,6 @@ ActiveRecord::Schema.define(version: 2019_05_29_143835) do
 
   add_foreign_key "favorites", "destinations"
   add_foreign_key "favorites", "users"
+  add_foreign_key "steps", "destinations"
+  add_foreign_key "steps", "users"
 end
