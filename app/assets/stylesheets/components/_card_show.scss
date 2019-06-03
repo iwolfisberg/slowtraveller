@@ -53,6 +53,9 @@
   .card-destination-transit-icon {
     display: flex;
     justify-content: space-between;
+    p {
+      font-size: 20px;
+    }
   }
   .card-destination-carbon {
     display: flex;
@@ -104,6 +107,9 @@
     justify-items: center;
     align-items: center;
     margin-bottom: 35px;
+  }
+  .card-destination-icon {
+    font-size: 30px;
   }
 }
 

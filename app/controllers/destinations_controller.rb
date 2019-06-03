@@ -28,6 +28,7 @@ class DestinationsController < ApplicationController
     @chosen_destination = Destination.find(params[:id])
     @journey = params[:journey]
     @steps = @journey["steps"]
+
     @plane_difference = carbon_equivalent(@journey["carbon"], "plane").to_i - @journey["carbon"].to_i
     @burger_equivalent = carbon_equivalent(@journey["carbon"], "burger").to_i
     @shower_equivalent = carbon_equivalent(@journey["carbon"], "shower").to_i
@@ -124,7 +125,7 @@ class DestinationsController < ApplicationController
       unless step["travel_mode"] == "WALKING"
         steps_results << {
                           mode: mode(step),
-                          icon: step["transit_details"]["line"]["vehicle"]["icon"],
+                          icon: icone(mode(step)),
                           arrival_time: step["transit_details"]["arrival_time"]["text"],
                           arrival: step["transit_details"]["arrival_stop"]["name"],
                           departure_time: step["transit_details"]["departure_time"]["text"],
