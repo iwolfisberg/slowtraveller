@@ -23,7 +23,10 @@
     <div class="destination-journeys">
       <% destination[:journeys].each do |journey| %>
         <div class="destination-journey">
-          <p class="carbon_footprint"><%= journey[:carbon] %> kg CO2</p>
+          <div class="carbon_footprint">
+           <i class="fas fa-leaf"></i>
+           <p><%= journey[:carbon] %> kg CO2</p>
+          </div>
           <div class="times">
             <p>dep: <%= journey[:departure_time]%></p>
             <p>arr: <%= journey[:arrival_time]%></p>

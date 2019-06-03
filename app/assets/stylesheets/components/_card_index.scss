@@ -69,13 +69,16 @@
     border-radius: 3px;
     padding: 0 16px;
     .carbon_footprint {
-      padding: 13px;
-      border-radius: 50%;
-      color: $orange-button;
-      font-weight: bold;
-      width: 45%;
+      display: flex;
+      color: $green;
       text-align: center;
-      border: 1px solid $orange-button;
+      i {
+        font-size: 35px;
+        padding-right: 6px;
+      }
+      p {
+        font-weight: bold;
+      }
     }
     .see-details {
       width: 135px;
