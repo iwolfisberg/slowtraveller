@@ -17,7 +17,7 @@ class DestinationsController < ApplicationController
         url_transit = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
         @routes_transit = parse_api(url_transit)
 
-        results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit) } unless @routes_transit.keys[0] == "available_travel_modes"
+        results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit, day, time) } unless @routes_transit.keys[0] == "available_travel_modes"
         destinations_array << results unless results.nil?
       end
       @destinations_array = destinations_array.first(5)
@@ -83,7 +83,7 @@ class DestinationsController < ApplicationController
     return icones[mode]
   end
 
-  # Calcull de l'heure et jour de départ pour l'url de l'api Google
+  # Calcul de l'heure et jour de départ pour l'url de l'api Google
   def departure_time(day, time)
     date_array = day.split("-").map! { |date| date.to_i }
     date_hour = Date.new(date_array[0], date_array[1], date_array[2]).to_datetime + Time.parse(time).seconds_since_midnight.seconds
@@ -98,7 +98,7 @@ class DestinationsController < ApplicationController
     return route
   end
 
-  def get_journey(routes_transit)
+  def get_journey(routes_transit, day_user, time_user)
     journey_results = []
     routes_transit["routes"].each do |journey|
       journey_results << {
@@ -106,11 +106,13 @@ class DestinationsController < ApplicationController
                           duration: seconds_to_hmin(journey["legs"][0]["duration"]["value"]),
                           carbon: total_carbon(journey["legs"][0]["steps"]) / 1000,
                           connections: get_steps(journey["legs"][0]["steps"]).size - 1,
-                          departure_time: journey["legs"][0]["departure_time"]["text"],
-                          arrival_time: journey["legs"][0]["arrival_time"]["text"],
+                          departure_time: seconds_to_hm(journey["legs"][0]["departure_time"]["value"]),
+                          arrival_time: seconds_to_hm(journey["legs"][0]["arrival_time"]["value"]),
                           departure: journey["legs"][0]["start_address"],
                           arrival: journey["legs"][0]["end_address"],
-                          steps: get_steps(journey["legs"][0]["steps"])
+                          steps: get_steps(journey["legs"][0]["steps"]),
+                          departure_day: find_google_date(day_user, time_user, seconds_to_hm(journey["legs"][0]["departure_time"]["value"])),
+                          arrival_day: find_google_date(day_user, time_user, seconds_to_hm(journey["legs"][0]["arrival_time"]["value"]))
                         }
     end
     journey_results
@@ -141,10 +143,22 @@ class DestinationsController < ApplicationController
     Time.at(seconds).utc.strftime("%Hh %Mmin")
   end
 
+  def seconds_to_hm(seconds)
+    Time.at(seconds).utc.strftime("%H:%M")
+  end
+
   def date_departure(date, time)
     date_array = date.split("-").map! { |date| date.to_i } #donne la date sous forme d'array d'integer
     time_array = time.split("-").map! { |time| time.to_i } #idem pour heure
-    DateTime.new(date_array[0], date_array[1], date_array[2], time_array[0], time_array[1]) #donne la date sous format DateTime: 2019-06-22T22:22:00+00:00
+    time_array << 0 if time_array.size == 1
+    user_date = DateTime.new(date_array[0], date_array[1], date_array[2], time_array[0], time_array[1]) #donne la date sous format DateTime: 2019-06-22T22:22:00+00:00
+    user_date
+  end
 
+  def find_google_date(date, time_a, time_b)
+    user_date = date_departure(date, time_a)
+    google_date = date_departure(date, time_b)
+    google_date += 1 if google_date < user_date
+    google_date.strftime("%d.%m.%Y")
   end
 end
