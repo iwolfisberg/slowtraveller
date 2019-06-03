@@ -9,4 +9,9 @@ Rails.application.routes.draw do
       # delete "list/:id", to: "favorites#destroy"
     end
   end
+  resources :steps, only: [:create] do
+    collection do
+      get "traveldiary"
+    end
+  end
 end
