@@ -43,17 +43,33 @@ class DestinationsController < ApplicationController
     total_carbon = 0
     steps.each do |step|
       km = step["distance"]["value"] / 1000
-      if step["travel_mode"] == "TRANSIT"
-        mode = step["transit_details"]["line"]["vehicle"]["type"].downcase
-      else
-        mode = step["travel_mode"].downcase
-      end
-    total_carbon += carbon_emissions(mode, km)
+      mode = mode(step)
+      total_carbon += carbon_emissions(mode, km)
     end
     return total_carbon
   end
 
-  # calcull de l'heure et jour de départ pour l'url de l'api Google
+  # Obtenir le mode d'un step
+  def mode(step)
+    if step["travel_mode"] == "TRANSIT"
+      mode = step["transit_details"]["line"]["vehicle"]["type"].downcase
+    else
+      mode = step["travel_mode"].downcase
+    end
+  end
+
+  # Résumé des modes de transport d'un parcours
+  def modes(journey)
+    modes = []
+    steps = get_steps(journey["legs"][0]["steps"])
+    steps.each do |step|
+      mode = mode(step)
+      modes << mode unless modes.include?(mode)
+    end
+    return modes
+  end
+
+  # Calcull de l'heure et jour de départ pour l'url de l'api Google
   def departure_time(day, time)
     date_array = day.split("-").map! { |date| date.to_i }
     date_hour = Date.new(date_array[0], date_array[1], date_array[2]).to_datetime + Time.parse(time).seconds_since_midnight.seconds
