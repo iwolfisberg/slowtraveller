@@ -59,9 +59,8 @@ class DestinationsController < ApplicationController
   end
 
   # Résumé des modes de transport d'un parcours
-  def modes(journey)
+  def modes(steps)
     modes = []
-    steps = get_steps(journey["legs"][0]["steps"])
     steps.each do |step|
       mode = mode(step)
       modes << mode unless modes.include?(mode)
@@ -88,6 +87,7 @@ class DestinationsController < ApplicationController
     journey_results = []
     routes_transit["routes"].each do |journey|
       journey_results << {
+                          modes: modes(journey["legs"][0]["steps"]),
                           duration: journey["legs"][0]["duration"]["text"],
                           carbon: total_carbon(journey["legs"][0]["steps"]) / 1000,
                           connections: get_steps(journey["legs"][0]["steps"]).size - 1,
@@ -106,6 +106,7 @@ class DestinationsController < ApplicationController
     steps.each do |step|
       unless step["travel_mode"] == "WALKING"
         steps_results << {
+                          mode: mode(step),
                           icon: step["transit_details"]["line"]["vehicle"]["icon"],
                           arrival_time: step["transit_details"]["arrival_time"]["text"],
                           arrival: step["transit_details"]["arrival_stop"]["name"],
