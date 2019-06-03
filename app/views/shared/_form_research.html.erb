@@ -1,5 +1,5 @@
 <div class="col-sm-12 form">
-  <%= simple_form_for destinations_path, method: "GET" do |f| %>
+  <%= simple_form_for destinations_path, method: :get do |f| %>
     <%= f.input 'location', label: false, placeholder: "Departure position", input_html: { class: "mb-2 mr-sm-2" } %>
     <%= f.input 'departure_day', label: false, placeholder: "Departure day", input_html: {class: "datepicker mb-2 mr-sm-2"} %>
     <%= f.input 'departure_time', label: false, placeholder: "Departure time", input_html: {class: "timepicker mb-2 mr-sm-2"} %>
