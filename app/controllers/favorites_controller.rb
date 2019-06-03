@@ -1,10 +1,13 @@
 class FavoritesController < ApplicationController
   def create
-    destination = params["dest"].to_i
-    Favorite.create!(
+    @destination_id = params["dest"].to_i
+    @favorite = Favorite.create!(
       user: current_user,
-      destination_id: destination
+      destination_id: @destination_id
     )
+    respond_to do |format|
+      format.js
+    end
   end
 
   def list
@@ -12,8 +15,11 @@ class FavoritesController < ApplicationController
   end
 
   def destroy
-    destination = params["dest"].to_i
-    favorite = Favorite.where(user: current_user).where(destination: destination[:id])
-    favorite.delete
+    favorite = Favorite.find(params[:id])
+    @destination = favorite.destination
+    favorite.destroy
+    respond_to do |format|
+      format.js
+    end
   end
 end

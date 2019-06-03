@@ -8,5 +8,5 @@ initCardDetailsOnClick();
 // import { initNavbarWhenScroll } from '../components/navbar'
 // initNavbarWhenScroll();
 
-import { initOnClickRemoveAddFavorites } from '../components/favorite_click'
-initOnClickRemoveAddFavorites();
+// import { initOnClickRemoveAddFavorites } from '../components/favorite_click'
+// initOnClickRemoveAddFavorites();
