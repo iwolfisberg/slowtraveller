@@ -28,9 +28,17 @@ class DestinationsController < ApplicationController
     @chosen_destination = Destination.find(params[:id])
     @journey = params[:journey]
     @steps = @journey["steps"]
+    @plane_difference = carbon_equivalent(@journey["carbon"], "plane").to_i - @journey["carbon"].to_i
+    @burger_equivalent = carbon_equivalent(@journey["carbon"], "burger").to_i
+    @shower_equivalent = carbon_equivalent(@journey["carbon"], "shower").to_i
   end
 
   private
+
+  # Calcul l'équivalence de l'emprunte carbone du trajet avec le nombre de km en avion, le nombre de burger et le nombre de douche
+  def carbon_equivalent(carbon_amount, comparator)
+    carbon_amount.to_i * 1000.fdiv(YAML.load_file('db/carbon.yml')[comparator])
+  end
 
   # Calcul le C02 d'une étape en fonction du mode de transport et de la distance en km (en g C02 / passager)
   def carbon_emissions(mode, km)
@@ -43,17 +51,39 @@ class DestinationsController < ApplicationController
     total_carbon = 0
     steps.each do |step|
       km = step["distance"]["value"] / 1000
-      if step["travel_mode"] == "TRANSIT"
-        mode = step["transit_details"]["line"]["vehicle"]["type"].downcase
-      else
-        mode = step["travel_mode"].downcase
-      end
-    total_carbon += carbon_emissions(mode, km)
+      mode = mode(step)
+      total_carbon += carbon_emissions(mode, km)
     end
     return total_carbon
   end
 
-  # methode pour calculer heure et jour de départ pour l'url de l'api
+  # Obtenir le mode d'un step
+  def mode(step)
+    if step["travel_mode"] == "TRANSIT"
+      mode = step["transit_details"]["line"]["vehicle"]["type"].downcase
+    else
+      mode = step["travel_mode"].downcase
+    end
+  end
+
+  # Résumé des modes de transport d'un parcours (en icones)
+  def modes_icones(steps)
+    icones = []
+    steps.each do |step|
+      mode = mode(step)
+      icone = icone(mode)
+      icones << icone unless mode == "walking"
+    end
+    return icones
+  end
+
+  # Retourne un icone fontawsome par mode de transport
+  def icone(mode)
+    icones = YAML.load_file('db/icones.yml')
+    return icones[mode]
+  end
+
+  # Calcull de l'heure et jour de départ pour l'url de l'api Google
   def departure_time(day, time)
     date_array = day.split("-").map! { |date| date.to_i }
     date_hour = Date.new(date_array[0], date_array[1], date_array[2]).to_datetime + Time.parse(time).seconds_since_midnight.seconds
@@ -72,9 +102,10 @@ class DestinationsController < ApplicationController
     journey_results = []
     routes_transit["routes"].each do |journey|
       journey_results << {
-                          duration: journey["legs"][0]["duration"]["text"],
+                          modes_icones: modes_icones(journey["legs"][0]["steps"]),
+                          duration: seconds_to_hmin(journey["legs"][0]["duration"]["value"]),
                           carbon: total_carbon(journey["legs"][0]["steps"]) / 1000,
-                          connections: get_steps(journey["legs"][0]["steps"]).size,
+                          connections: get_steps(journey["legs"][0]["steps"]).size - 1,
                           departure_time: journey["legs"][0]["departure_time"]["text"],
                           arrival_time: journey["legs"][0]["arrival_time"]["text"],
                           departure: journey["legs"][0]["start_address"],
@@ -90,6 +121,7 @@ class DestinationsController < ApplicationController
     steps.each do |step|
       unless step["travel_mode"] == "WALKING"
         steps_results << {
+                          mode: mode(step),
                           icon: step["transit_details"]["line"]["vehicle"]["icon"],
                           arrival_time: step["transit_details"]["arrival_time"]["text"],
                           arrival: step["transit_details"]["arrival_stop"]["name"],
@@ -103,5 +135,9 @@ class DestinationsController < ApplicationController
         end
       end
     steps_results
+  end
+
+  def seconds_to_hmin(seconds)
+    Time.at(seconds).utc.strftime("%Hh %Mmin")
   end
 end

@@ -1,12 +1,11 @@
 // Import Google fonts
+@import url("https://fonts.googleapis.com/css?family=Lobster|Roboto:100,300,400,500,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lobster|Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Lobster|Pacifico&display=swap");
 
 // Define fonts for body and headers
-$body-font: "Helvetica", "sans-serif";
-$headers-font: "Helvetica", "sans-serif";
-$logo-slow: 'Pacifico', "cursive";
-$logo-traveller: 'Crimson Text', "serif";
+$body-font: "Roboto", "cursive";
+$headers-font: "Lobster", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {

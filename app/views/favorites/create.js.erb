@@ -1,0 +1,9 @@
+function AddFavorite(favoriteId) {
+  const linkDiv = document.querySelector("[data-destination-id='<%= @destination_id %>']")
+                          .querySelector("#favorite");
+  const linkDivParent = linkDiv.parentNode;
+  linkDivParent.removeChild(linkDiv);
+  linkDivParent.insertAdjacentHTML("beforeend", `<a id='not-favorite' data-remote='true' rel='nofollow' data-method='delete' href=/favorites/${favoriteId}><i class='fas fa-heart favorite'></i></a>`);
+}
+
+AddFavorite("<%= @favorite.id %>");

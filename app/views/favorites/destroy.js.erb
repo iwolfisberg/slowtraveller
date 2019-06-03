@@ -1,0 +1,13 @@
+function deleteFavorite(destinationId) {
+  const linkDivDelete = document.querySelector("[data-destination-id='<%= @destination.id %>']")
+                                .querySelector("#not-favorite");
+  const linkDivParentDelete = linkDivDelete.parentNode;
+  linkDivParentDelete.removeChild(linkDivDelete);
+  linkDivParentDelete.insertAdjacentHTML("beforeend", `<a id='favorite' data-remote='true' rel='nofollow' data-method='post' href='/favorites?dest=${destinationId}'><i class='far fa-heart favorite'></i></a>`)
+};
+
+deleteFavorite("<%= @destination.id %>");
+
+
+
+

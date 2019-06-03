@@ -1,12 +1,21 @@
 .article {
-  margin: 70px 0;
+  margin: 120px 0 0 0;
   height: 180px;
   display: flex;
   align-items: top;
   justify-content: space-between;
 }
 
-.article-text {
+.article-text-left {
+  width: 65%;
+  color: white;
+  p {
+    font-size: 20px;
+  }
+}
+
+.article-text-right {
+  text-align: right;
   width: 65%;
   color: white;
   p {
@@ -15,8 +24,10 @@
 }
 
 .article-image {
+  margin-bottom: 150px;
   height: 100%;
   width: 30%;
   object-fit: cover;
   border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
