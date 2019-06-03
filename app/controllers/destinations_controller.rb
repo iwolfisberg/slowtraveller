@@ -68,6 +68,22 @@ class DestinationsController < ApplicationController
     return modes
   end
 
+  # Résumé des modes de transport => icones
+  def modes_icones(modes)
+    icones = []
+    modes.each do |mode|
+      icone = icone(mode)
+      icones << icone
+    end
+    return icones
+  end
+
+  # Retourne un icone fontawsome par mode de transport
+  def icone(mode)
+    icones = YAML.load_file('db/icones.yml')
+    return icones[mode]
+  end
+
   # Calcull de l'heure et jour de départ pour l'url de l'api Google
   def departure_time(day, time)
     date_array = day.split("-").map! { |date| date.to_i }
@@ -88,6 +104,7 @@ class DestinationsController < ApplicationController
     routes_transit["routes"].each do |journey|
       journey_results << {
                           modes: modes(journey["legs"][0]["steps"]),
+                          icones: modes_icones(modes(journey["legs"][0]["steps"])),
                           duration: journey["legs"][0]["duration"]["text"],
                           carbon: total_carbon(journey["legs"][0]["steps"]) / 1000,
                           connections: get_steps(journey["legs"][0]["steps"]).size - 1,
