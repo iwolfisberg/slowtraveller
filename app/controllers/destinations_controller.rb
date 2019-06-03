@@ -64,7 +64,7 @@ class DestinationsController < ApplicationController
     steps.each do |step|
       mode = mode(step)
       icone = icone(mode)
-      icones << icone
+      icones << icone unless mode == "walking"
     end
     return icones
   end
@@ -95,7 +95,7 @@ class DestinationsController < ApplicationController
     routes_transit["routes"].each do |journey|
       journey_results << {
                           modes_icones: modes_icones(journey["legs"][0]["steps"]),
-                          duration: journey["legs"][0]["duration"]["text"],
+                          duration: seconds_to_hmin(journey["legs"][0]["duration"]["value"]),
                           carbon: total_carbon(journey["legs"][0]["steps"]) / 1000,
                           connections: get_steps(journey["legs"][0]["steps"]).size - 1,
                           departure_time: journey["legs"][0]["departure_time"]["text"],
@@ -127,5 +127,9 @@ class DestinationsController < ApplicationController
         end
       end
     steps_results
+  end
+
+  def seconds_to_hmin(seconds)
+    Time.at(seconds).utc.strftime("%Hh %Mmin")
   end
 end
