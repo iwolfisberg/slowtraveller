@@ -28,12 +28,12 @@
             <p>dep: <%= journey[:departure_time]%></p>
             <p>arr: <%= journey[:arrival_time]%></p>
           </div>
-          <p>Total duration:<br><%= journey[:duration] %></p>
-          <p>Connections:<br><%= journey[:connections] %></p>
+          <p>Duration:<br><%= journey[:duration] %></p>
           <% journey[:modes_icones].each do |icone| %>
-            <%= icone %>
+            <%= icone.html_safe %>
           <% end %>
-          <%= link_to "See details", destination_path(destination[:id], journey: journey), class: "button" %>
+          <p>xxx CHF</p>
+          <%= link_to "Details", destination_path(destination[:id], journey: journey), class: "button" %>
         </div>
       <% end %>
     </div>

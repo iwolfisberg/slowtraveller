@@ -61,7 +61,7 @@
     width: 750px;
     height: 80px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 15px;
     align-items: center;
     justify-items: center;
@@ -84,6 +84,7 @@
       display: flex;
     }
     .times {
+
     }
   }
 }
