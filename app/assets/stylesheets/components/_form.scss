@@ -33,13 +33,13 @@
   height: 245px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   .form-control {
-    font-family: "Roboto";
+    font-family: $body-font;
     font-weight: 300;
     background-color: white;
     border: 0;
   }
   .button {
-    font-family: "Roboto";
+    font-family: $body-font;
     font-weight: 400;
     width: 100%;
     margin-top: 10px;
