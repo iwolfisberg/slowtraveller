@@ -6,7 +6,8 @@ class StepsController < ApplicationController
       destination_id: info_step[:id],
       carbon: info_step[:journey][:carbon],
       departure: info_step[:journey][:departure],
-      arrival: info_step[:journey][:arrival]
+      arrival: info_step[:journey][:arrival],
+      arrival_day: info_step[:journey][:arrival_day]
     )
     redirect_to traveldiary_steps_path
   end
