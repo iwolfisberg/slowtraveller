@@ -140,4 +140,11 @@ class DestinationsController < ApplicationController
   def seconds_to_hmin(seconds)
     Time.at(seconds).utc.strftime("%Hh %Mmin")
   end
+
+  def date_departure(date, time)
+    date_array = date.split("-").map! { |date| date.to_i } #donne la date sous forme d'array d'integer
+    time_array = time.split("-").map! { |time| time.to_i } #idem pour heure
+    DateTime.new(date_array[0], date_array[1], date_array[2], time_array[0], time_array[1]) #donne la date sous format DateTime: 2019-06-22T22:22:00+00:00
+
+  end
 end
