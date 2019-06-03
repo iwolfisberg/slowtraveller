@@ -1,6 +1,9 @@
 <div class="destination-cards">
   <% @destinations_array.each do |destination| %>
-    <div class="destination-card">
+  <% if Favorite.where(user: current_user).where(destination: destination[:id]).present?
+    favorite_id = Favorite.where(user: current_user).where(destination: destination[:id])[0][:id]
+    end %>
+    <div class="destination-card" data-favorite-id="<%= favorite_id %>" data-destination-id="<%= destination[:id] %>">
       <div class="destination-photo">
         <%= image_tag destination[:photo_url], height: 120, crop: :scale, alt: destination[:name], class: "destination-image-index" %>
       </div>
@@ -10,12 +13,12 @@
         <% if Favorite.where(user: current_user).where(destination: destination[:id]).exists? %>
           <div class="link-card-index">
             <i class="fas fa-arrow-circle-down"></i>
-            <span class="favorite-added">Already in your Favorites</span>
+            <%= render "favorites/favorite_full_heart", favorite: favorite_id %>
           </div>
         <% else %>
           <div class="link-card-index">
             <i class="fas fa-arrow-circle-down"></i>
-            <%= link_to "Add to favorites", favorites_path(dest: destination[:id]), method: :post, class: "see-details button" %>
+            <%= render "favorites/favorite_empty_heart", destination_id: destination[:id] %>
           </div>
         <% end %>
       </div>
