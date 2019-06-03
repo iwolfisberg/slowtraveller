@@ -61,7 +61,7 @@
     width: 750px;
     height: 80px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 15px;
     align-items: center;
     justify-items: center;
@@ -69,28 +69,41 @@
     border-radius: 3px;
     padding: 0 16px;
     .carbon_footprint {
-      padding: 13px;
-      border-radius: 50%;
-      color: $orange-button;
-      font-weight: bold;
-      width: 45%;
+      display: flex;
+      color: $green;
       text-align: center;
-      border: 1px solid $orange-button;
+      i {
+        font-size: 35px;
+        padding-right: 6px;
+      }
+      p {
+        font-weight: bold;
+      }
     }
     .see-details {
       width: 135px;
+    }
+    .icones {
+      display: flex;
+    }
+    .times {
+
     }
   }
 }
 
 // lien pour favorites
-
-.favorite-added {
-  width: 220px;
+.favorite, .not-favorite {
   color: $orange-button;
-  padding: 4px;
-  text-align: center;
-  font-size: 16px;
-  border: 1px solid $orange-button;
+  font-size: 30px;
 }
+
+// .favorite-added {
+//   width: 220px;
+//   color: $orange-button;
+//   padding: 4px;
+//   text-align: center;
+//   font-size: 16px;
+//   border: 1px solid $orange-button;
+// }
 
