@@ -58,20 +58,11 @@ class DestinationsController < ApplicationController
     end
   end
 
-  # Résumé des modes de transport d'un parcours
-  def modes(steps)
-    modes = []
+  # Résumé des modes de transport d'un parcours (en icones)
+  def modes_icones(steps)
+    icones = []
     steps.each do |step|
       mode = mode(step)
-      modes << mode unless modes.include?(mode)
-    end
-    return modes
-  end
-
-  # Résumé des modes de transport => icones
-  def modes_icones(modes)
-    icones = []
-    modes.each do |mode|
       icone = icone(mode)
       icones << icone
     end
@@ -103,8 +94,7 @@ class DestinationsController < ApplicationController
     journey_results = []
     routes_transit["routes"].each do |journey|
       journey_results << {
-                          modes: modes(journey["legs"][0]["steps"]),
-                          icones: modes_icones(modes(journey["legs"][0]["steps"])),
+                          modes_icones: modes_icones(journey["legs"][0]["steps"]),
                           duration: journey["legs"][0]["duration"]["text"],
                           carbon: total_carbon(journey["legs"][0]["steps"]) / 1000,
                           connections: get_steps(journey["legs"][0]["steps"]).size - 1,
