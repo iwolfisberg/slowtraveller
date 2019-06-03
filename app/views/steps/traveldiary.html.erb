@@ -1,0 +1,20 @@
+<div class="main-container">
+  <h1>My travel diary</h1>
+  <p>Carbon total : <%= @carbon_total %></p>
+
+  <div class="main-cards">
+    <% @steps.each do |step| %>
+      <div class="destination-card">
+        <div class="destination-photo">
+          <%= image_tag step.destination.photo_url, height: 120, crop: :scale, alt: step.destination.name, class: "destination-image-index" %>
+        </div>
+        <div class="destination-infos">
+          <h4>From <%= step[:departure] %> to <%= step.destination.name %> (<%= step.destination.country %>)</h2>
+          <p><%= step.destination.description %></p>
+          <p>Carbon: <%= step[:carbon] %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <%= link_to "Find your next step", destinations_path %>
+</div>
