@@ -6,6 +6,7 @@ class DestinationsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index, :show]
 
   def index
+    @location = params[:location] || nil
     if params["/destinations"] != nil
       location = params["/destinations"]["location"]
       day = params["/destinations"]["departure_day"]
