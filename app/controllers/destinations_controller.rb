@@ -6,21 +6,33 @@ class DestinationsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index, :show]
 
   def index
+    @user_destination = params[:user_destination_id]
     if params["/destinations"] != nil
       location = params["/destinations"]["location"]
       day = params["/destinations"]["departure_day"]
       time = params["/destinations"]["departure_time"]
-
-      destinations_results = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 1500).take(10)
-      destinations_array = []
-      destinations_results.each do |destination|
+      @user_destination = params["/destinations"][:user_destination_id]
+      if @user_destination != ""
+        destination = Destination.find(@user_destination.to_i)
+        destinations_array = []
         url_transit = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
         @routes_transit = parse_api(url_transit)
 
         results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit, day, time) } unless @routes_transit.keys[0] == "available_travel_modes"
         destinations_array << results unless results.nil?
+        @destinations_array = destinations_array
+      else
+        destinations_results = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 800).take(20)
+        destinations_array = []
+        destinations_results.each do |destination|
+          url_transit = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
+          @routes_transit = parse_api(url_transit)
+
+          results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit, day, time) } unless @routes_transit.keys[0] == "available_travel_modes"
+          destinations_array << results unless results.nil?
+        end
+        @destinations_array = destinations_array.take(5)
       end
-      @destinations_array = destinations_array.first(5)
     end
   end
 

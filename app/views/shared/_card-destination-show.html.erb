@@ -54,7 +54,7 @@
         <!-- Lien exploitant -->
         <div class="card-destination-details-link">
           <p class="bold">Buy your ticket here</p>
-          <%= link_to step[:agency_url], class: "link-agency" do %>
+          <%= link_to step[:agency_url], target: "_blank", class: "link-agency" do %>
             <%= step[:agency] %>
           <% end %>
         </div>

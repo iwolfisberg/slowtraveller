@@ -1,8 +1,13 @@
 <div class="col-sm-12 form">
   <%= simple_form_for destinations_path, method: :get do |f| %>
+    <%= f.hidden_field :user_destination_id, value: @user_destination %>
     <%= f.input 'location', label: false, placeholder: "Departure position", input_html: { class: "mb-2 mr-sm-2" } %>
     <%= f.input 'departure_day', label: false, placeholder: "Departure day", input_html: {class: "datepicker mb-2 mr-sm-2"} %>
     <%= f.input 'departure_time', label: false, placeholder: "Departure time", input_html: {class: "timepicker mb-2 mr-sm-2"} %>
-    <%= f.submit "FIND DESTINATION", class: "button" %>
+    <% if @user_destination.nil? %>
+      <%= f.submit "FIND DESTINATION", class: "button" %>
+    <% else %>
+      <%= f.submit "FIND JOURNEYS FOR #{Destination.find(@user_destination.to_i).name.upcase}", class: "button" %>
+    <% end %>
   <% end %>
 </div>
