@@ -1,20 +1,34 @@
 <div class="main-container">
-  <h1>My travel diary</h1>
-  <p>Carbon total : <%= @carbon_total %></p>
+  <div class="travel-diary">
+    <h1>My travel diary</h1>
+    <p class="stamp-total-carbon">Carbon total <%= @carbon_total %></p>
 
-  <div class="main-cards">
-    <% @steps.each do |step| %>
-      <div class="destination-card">
-        <div class="destination-photo">
-          <%= image_tag step.destination.photo_url, height: 120, crop: :scale, alt: step.destination.name, class: "destination-image-index" %>
-        </div>
-        <div class="destination-infos">
-          <h4>From <%= step[:departure] %> to <%= step.destination.name %> (<%= step.destination.country %>)</h2>
-          <p><%= step.destination.description %></p>
-          <p>Carbon: <%= step[:carbon] %></p>
+    <div class="steps-grid">
+      <div class="step-card-first">
+        <div class="step-photo-first" style="background-image: url('<%= image_url "slow_traveller_polaroid.jpg" %>');"></div>
+        <div class="step-infos-first">
+          <h3>Departure</h3>
         </div>
       </div>
-    <% end %>
+      <% @steps.each do |step| %>
+        <div class="step-card">
+          <div class="step-photo" style="background-image: url('<%= step.destination.photo_url %>'); alt: <%= step.destination.name %>;"></div>
+          <p class="stamp-destination"><%= step.destination.name %> (<%= step.destination.country %>)</p>
+          <p class="stamp-carbon">Carbon <%= step[:carbon] %></p>
+          <p class="stamp-arrival">Carbon <%= step[:carbon] %></p>
+          <div class="step-infos">
+            <p><%= step.destination.description %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <%= link_to "WHERE NEXT?", destinations_path, class: "step-button", id: "button-show" %>
+    <div>
+      <%= image_tag("wave_background.png", class: "image-background") %>
+    </div>
   </div>
-  <%= link_to "Find your next step", destinations_path %>
 </div>
+
+
+
+
