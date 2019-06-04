@@ -1,17 +1,24 @@
 <div class="main-container">
   <h1>My travel diary</h1>
   <p>Carbon total : <%= @carbon_total %></p>
+  <p><%= link_to "Compensate my carbon footprint", "https://co2.myclimate.org/fr/contribution_calculators/new",target: "_blank" %></p>
 
   <div class="main-cards">
     <% @steps.each do |step| %>
-      <div class="destination-card">
+      <div class="destination-card" data-step-id="<%= step.id %>">
         <div class="destination-photo">
-          <%= image_tag step.destination.photo_url, height: 120, crop: :scale, alt: step.destination.name, class: "destination-image-index" %>
+          <%= image_tag step.destination.photo_url, alt: step.destination.name, class: "destination-image-index" %>
         </div>
         <div class="destination-infos">
           <h4>From <%= step[:departure] %> to <%= step.destination.name %> (<%= step.destination.country %>)</h2>
           <p>Arrival date: <%= step[:arrival_day] %></p>
-          <p><%= step.destination.description %></p>
+          <div class="description-step">
+            <p class="text-description"><%= step.description %></p>
+            <%= link_to edit_step_path(step), remote: true, method: :get, id: "link_edit_description" do %>
+              <i class="fas fa-plus-square"></i>
+            <% end %>
+          </div>
+
           <p>Carbon: <%= step[:carbon] %></p>
         </div>
       </div>
@@ -19,3 +26,5 @@
   </div>
   <%= link_to "Find your next step", destinations_path %>
 </div>
+
+

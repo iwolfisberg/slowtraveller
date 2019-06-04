@@ -1,0 +1,4 @@
+<%= simple_form_for @step, method: :patch do |f| %>
+  <%= f.input :description, as: :text, :input_html => {:rows => 2}, placeholder: @step.description, label:false %>
+  <%= f.submit "YES" %>
+<% end %>
