@@ -25,7 +25,8 @@ def create_destination(country)
     Destination.create!(
       name: destination["name"],
       description: destination["snippet"],
-      photo_url: destination["images"][0]["sizes"]["medium"]["url"],
+      photo_url_medium: destination["images"][0]["sizes"]["medium"]["url"],
+      photo_url_small: destination["images"][0]["sizes"]["thumbnail"]["url"],
       category: destination["type"],
       score: destination["score"],
       latitude: destination["coordinates"]["latitude"],
