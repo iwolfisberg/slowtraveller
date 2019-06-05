@@ -1,0 +1,13 @@
+console.log(`<%= @prices %>`);
+
+function displayPrice() {
+  const parentDiv = document.querySelector("[data-journey-id='<%= params['journey']['departure_time'] %>']")
+  const button = parentDiv.querySelector(".button");
+  parentDiv.removeChild(button);
+  console.log(`<%= @prices %>`);
+};
+
+displayPrice();
+
+
+

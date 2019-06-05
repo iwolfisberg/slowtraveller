@@ -36,11 +36,13 @@
           </div>
           <p>Duration:<br><%= journey[:duration] %></p>
           <div class="icones">
-          <% journey[:modes_icones].each do |icone| %>
-            <p><%= icone.html_safe %> <br></p>
-          <% end %>
+            <% journey[:modes_icones].each do |icone| %>
+              <p><%= icone.html_safe %> <br></p>
+            <% end %>
           </div>
-          <p>xxx CHF</p>
+          <div data-journey-id="<%= journey[:departure_time] %>">
+            <%= link_to "Price", price_destination_path(destination[:id], journey: journey), remote: true, class: "button"%>
+          </div>
           <%= link_to "Details", destination_path(destination[:id], journey: journey), class: "button" %>
         </div>
       <% end %>

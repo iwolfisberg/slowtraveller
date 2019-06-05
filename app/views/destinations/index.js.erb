@@ -1,0 +1,10 @@
+function apiRequestAjax(destinations_array) {
+  const mainContainer = document.querySelector(".main-container");
+  const contentIndex = mainContainer.querySelector(".content-index");
+
+  mainContainer.removeChild(contentIndex);
+  mainContainer.insertAdjacentHTML("beforeend", `<div class="content-index"><%= render 'shared/card-destination-index' %><%= render 'shared/legend_icons' %></div>`);
+};
+
+apiRequestAjax(`<%= @destinations_array %>`)
+
