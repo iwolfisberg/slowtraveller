@@ -11,7 +11,7 @@ class DestinationsController < ApplicationController
     if params["/destinations"] != nil
       location = params["/destinations"]["location"]
       day = params["/destinations"]["departure_day"]
-      time = params["/destinations"]["departure_time"]
+      time = define_departure_time(params["/destinations"]["departure_time"])
       @user_destination_id = params["/destinations"][:user_destination_id]
 
       @destinations_array = ApiRequestService.google_api_request(@user_destination_id, location, day, time)
@@ -33,5 +33,18 @@ class DestinationsController < ApplicationController
   # Calcul l'équivalence de l'emprunte carbone du trajet avec le nombre de km en avion, le nombre de burger et le nombre de douche
   def carbon_equivalent(carbon_amount, comparator)
     carbon_amount.to_i * 1000.fdiv(YAML.load_file('db/carbon.yml')[comparator])
+  end
+
+  def define_departure_time(time_choice)
+    if time_choice == "Morning"
+      time = "08:00"
+    elsif time_choice == "Afternoon"
+      time = "13:00"
+    elsif time_choice == "Evening"
+      time = "17:00"
+    else
+      time = "10:00"
+    end
+    time
   end
 end
