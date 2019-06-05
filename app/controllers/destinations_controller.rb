@@ -14,7 +14,7 @@ class DestinationsController < ApplicationController
       time = params["/destinations"]["departure_time"]
       @user_destination_id = params["/destinations"][:user_destination_id]
 
-      @destinations_array = ApiRequest.google_api_request(@user_destination_id, location, day, time)
+      @destinations_array = ApiRequestService.google_api_request(@user_destination_id, location, day, time)
     end
   end
 

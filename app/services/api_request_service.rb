@@ -1,4 +1,4 @@
-class ApiRequest
+class ApiRequestService
   def self.google_api_request(user_destination_id, location, day, time)
     if user_destination_id != ""
       destination_user_choice = Destination.find(user_destination_id.to_i)
