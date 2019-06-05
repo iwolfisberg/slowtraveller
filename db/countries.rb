@@ -158,7 +158,6 @@ COUNTRIES = [
   "Nauru",
   "Nepal",
   "Netherlands",
-  "Netherlands Antilles",
   "New Caledonia",
   "New Zealand",
   "Nicaragua",

@@ -20,7 +20,7 @@ class ApiRequestService
   def self.parse_api(destination, location, day, time)
     url = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
     routes = JSON.parse(open(url).read)
-    results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(routes, day, time) } unless routes.keys[0] == "available_travel_modes"
+    results = { id: destination.id, name: destination.name, country: destination.country, photo_url_small: destination.photo_url_small, photo_url_medium: destination.photo_url_medium, description: destination.description, journeys: get_journey(routes, day, time) } unless routes.keys[0] == "available_travel_modes"
     results
   end
 

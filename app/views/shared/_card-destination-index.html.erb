@@ -5,7 +5,7 @@
     end %>
     <div class="destination-card" data-favorite-id="<%= favorite_id %>" data-destination-id="<%= destination[:id] %>">
       <div class="destination-photo">
-        <%= image_tag destination[:photo_url], height: 120, crop: :scale, alt: destination[:name], class: "destination-image-index" %>
+        <%= image_tag destination[:photo_url_small], height: 120, crop: :scale, alt: destination[:name], class: "destination-image-index" %>
       </div>
       <div class="destination-infos">
         <h2><%= destination[:name] %> (<%= destination[:country] %>)</h2>

@@ -62,7 +62,7 @@ const fetchResults = (query_location, query_date, query_time) => {
       .then(response => response.json())
       .then(insertResults);
 
-      const results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(@routes_transit) } unless @routes_transit.keys[0] == "available_travel_modes"
+      const results = { id: destination.id, name: destination.name, country: destination.country, photo_url_small: destination.photo_url_small, photo_url_medium: destination.photo_url_medium, description: destination.description, journeys: get_journey(@routes_transit) } unless @routes_transit.keys[0] == "available_travel_modes"
       destinations_array << results unless results.nil?
   });
 };
