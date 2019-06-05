@@ -22,7 +22,7 @@
           <p class="stamp-arrival"><%= step.arrival_day %></p>
           <p class="stamp-carbon">Carbon <%= step[:carbon] %><b> kg CO2</b></p>
           <div class="step-infos text-description">
-            <p><%= step.destination.description %></p>
+            <p><%= step.description %></p>
             <%= link_to edit_step_path(step), remote: true, method: :get, id: "link_edit_description" do %>
               <i class="fas fa-plus-square"></i>
             <% end %>
