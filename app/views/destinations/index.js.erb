@@ -1,3 +1,19 @@
+
+function initCardDetailsOnClick() {
+  const arrows = document.querySelectorAll('.fa-arrow-circle-down')
+  arrows.forEach((arrow) => {
+    arrow.addEventListener('click', (event) => {
+      const e = arrow.parentNode.parentNode.parentNode.nextElementSibling;
+      if (e.style.display) {
+        e.style.display = ((e.style.display != 'none') ? 'none' : 'grid');
+      }
+        else {
+          e.style.display = 'grid'
+      }
+    });
+  });
+};
+
 function apiRequestAjax(destinations_array) {
   const mainContainer = document.querySelector(".main-container");
   const contentIndex = mainContainer.querySelector(".content-index");
@@ -6,5 +22,8 @@ function apiRequestAjax(destinations_array) {
   mainContainer.insertAdjacentHTML("beforeend", `<div class="content-index"><%= render 'shared/card-destination-index' %><%= render 'shared/legend_icons' %></div>`);
 };
 
-apiRequestAjax(`<%= @destinations_array %>`)
+apiRequestAjax(`<%= @destinations_array %>`);
+new Promise(function(resolve, reject) {
+  initCardDetailsOnClick();
+});
 
