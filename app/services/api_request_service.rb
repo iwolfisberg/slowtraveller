@@ -11,7 +11,7 @@ class ApiRequestService
       destinations_results.each do |destination|
         array << parse_api(destination, location, day, time) unless parse_api(destination, location, day, time).nil?
       end
-      array.take(5)
+      array.take(4)
     end
   end
 
