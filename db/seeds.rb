@@ -12,9 +12,6 @@ Destination.destroy_all
 puts "Destroy users"
 User.destroy_all
 
-puts "Creating user"
-toto = User.create!(email: validate1@gmail.com, password: "123456")
-
 def url(country)
  "https://www.triposo.com/api/20181213/location.json?part_of=#{country.capitalize}&tag_labels=city&count=10&order_by=-score&fields=name,coordinates,snippet,country_id,score,type,images#{ENV['TRIPOSO_API_KEY']}"
 end
