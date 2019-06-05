@@ -5,7 +5,7 @@
     <% @favorites.each do |favorite| %>
       <div class="destination-card">
         <div class="destination-photo">
-          <%= image_tag favorite.destination.photo_url, height: 120, crop: :scale, alt: favorite.destination.name, class: "destination-image-index" %>
+          <%= image_tag favorite.destination.photo_url_small, height: 120, crop: :scale, alt: favorite.destination.name, class: "destination-image-index" %>
         </div>
         <div class="destination-infos">
           <h2><%= favorite.destination.name %> (<%= favorite.destination.country %>)</h2>
