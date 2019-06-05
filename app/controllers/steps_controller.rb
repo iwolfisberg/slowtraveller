@@ -27,9 +27,13 @@ class StepsController < ApplicationController
   end
 
   def update
-    step = Step.find(params[:id])
-    step.description = params[:step][:description]
-    step
-    redirect_to traveldiary_steps_path if step.save
+    @step = Step.find(params[:id])
+    @description = params[:step]["description"]
+    @step.description = params[:step][:description]
+    @step.save
+
+    respond_to do |format|
+      format.js
+    end
   end
 end

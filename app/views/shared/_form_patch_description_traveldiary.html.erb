@@ -1,4 +1,4 @@
-<%= simple_form_for @step, method: :patch do |f| %>
+<%= simple_form_for @step, method: :patch, remote: true do |f| %>
   <%= f.input :description, as: :text, :input_html => {:rows => 3}, placeholder: @step.description, label:false %>
-  <%= f.submit "YES" %>
+  <%= f.submit "YES", class: "submit_yes" %>
 <% end %>
