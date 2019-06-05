@@ -15,7 +15,7 @@
           <div class="step-photo" style="background-image: url('<%= step.destination.photo_url %>'); alt: <%= step.destination.name %>;"></div>
           <p class="stamp-destination"><%= step.destination.name %> (<%= step.destination.country %>)</p>
           <p class="stamp-carbon">Carbon <%= step[:carbon] %></p>
-          <p class="stamp-arrival">Carbon <%= step[:carbon] %></p>
+          <p class="stamp-arrival"><%= step.arrival_time %></p>
           <div class="step-infos">
             <p><%= step.destination.description %></p>
           </div>
