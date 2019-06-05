@@ -7,14 +7,14 @@
     </div>
     <div class="card-destination-transit-icon">
       <% @steps.each do |step| %>
-        <%= image_tag (step["icon"]), width: 40, height: 40 %>
+        <p><%= step[:icon].html_safe %> <br></p>
       <% end %>
     </div>
     <div class="card-destination-info">
       <p>From <%= @journey["departure"] %></p>
-      <p class="card-destination-info-grey">Departure <%= @journey["departure_time"] %></p>
+      <p class="card-destination-info-grey">Departure the <%= @journey["departure_day"] %> at <%= @journey["departure_time"] %></p>
       <p>To <%= @journey["arrival"] %></p>
-      <p class="card-destination-info-grey">Arrival <%= @journey["arrival_time"] %></p>
+      <p class="card-destination-info-grey">Arrival the <%= @journey["arrival_day"] %> at <%= @journey["arrival_time"] %></p>
     </div>
     <div class="card-destination-price">
       <p>130 CHF</p>
@@ -35,7 +35,7 @@
     <!-- icones -->
     <div class="card-destination-details">
       <div class="card-destination-icon">
-        <%= image_tag (step[:icon]), width: 30, height: 30, class: "icon" %>
+        <%= step[:icon].html_safe %>
       </div>
       <!-- icones -->
       <!-- connections -->
@@ -54,7 +54,7 @@
         <!-- Lien exploitant -->
         <div class="card-destination-details-link">
           <p class="bold">Buy your ticket here</p>
-          <%= link_to step[:agency_url], class: "link-agency" do %>
+          <%= link_to step[:agency_url], target: "_blank", class: "link-agency" do %>
             <%= step[:agency] %>
           <% end %>
         </div>

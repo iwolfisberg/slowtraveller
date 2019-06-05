@@ -3,7 +3,7 @@ plane: 250
 driving: 240
 walking: 0
 bicycling: 0
-rail: 15
+rail: 30
 metro_rail: 7
 subway: 7
 tram: 7
@@ -12,8 +12,8 @@ heavy_rail: 30
 commuter_train: 30
 high_speed_train: 4
 long_distance_train: 30
-bus: 170
-intercity_bus: 120
+bus: 150
+intercity_bus: 150
 trolleybus: 40
 share_taxi: 150
 ferry: 115

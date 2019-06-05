@@ -31,8 +31,8 @@
            <p><%= journey[:carbon] %> kg CO2</p>
           </div>
           <div class="times">
-            <p>dep: <%= journey[:departure_time]%></p>
-            <p>arr: <%= journey[:arrival_time]%></p>
+            <p>dep: <%= journey[:departure_time]%> <%= journey[:departure_day]%></p>
+            <p>arr: <%= journey[:arrival_time]%> <%= journey[:arrival_day]%></p>
           </div>
           <p>Duration:<br><%= journey[:duration] %></p>
           <div class="icones">

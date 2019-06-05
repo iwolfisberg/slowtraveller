@@ -1,0 +1,17 @@
+function initMarkdown() {
+  const textParentNode = document.querySelector("[data-step-id='<%= @step.id %>']")
+                                .querySelector(".description-step");
+  const textDescription = textParentNode.querySelector(".text-description");
+  const plus = textParentNode.querySelector("#link_edit_description");
+  const textPlaceholder = textDescription.innerHTML;
+  textParentNode.removeChild(textDescription);
+  textParentNode.removeChild(plus);
+  textParentNode.insertAdjacentHTML('afterbegin', `<%= j render partial: 'shared/form_patch_description_traveldiary' %>`)
+  const textArea = textParentNode.querySelector("textarea")
+  textArea.classList.remove("is-valid");
+  textArea.parentNode.classList.remove("form-group");
+};
+
+initMarkdown();
+
+

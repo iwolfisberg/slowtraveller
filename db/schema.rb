@@ -45,6 +45,8 @@ ActiveRecord::Schema.define(version: 2019_06_05_062335) do
     t.integer "carbon"
     t.string "departure"
     t.string "arrival"
+    t.string "arrival_day"
+    t.string "description"
     t.index ["destination_id"], name: "index_steps_on_destination_id"
     t.index ["user_id"], name: "index_steps_on_user_id"
   end

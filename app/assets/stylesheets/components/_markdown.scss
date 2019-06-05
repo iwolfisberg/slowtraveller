@@ -1,0 +1,32 @@
+.description-step {
+  display: flex;
+  justify-content: space-between;
+  .fa-plus-square {
+    color: $green;
+  }
+}
+
+.edit_step {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  .text {
+    flex-grow: 1;
+    margin-right: 10px;
+    textarea {
+      font-family: $body-font;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 100;
+    }
+  }
+  input {
+    font-family: $body-font;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: $green;
+    color: white;
+    height: 30px;
+    width: 40px;
+  }
+}
