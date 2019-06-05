@@ -9,18 +9,20 @@
       </div>
       <div class="destination-infos">
         <h2><%= destination[:name] %> (<%= destination[:country] %>)</h2>
-        <p><%= destination[:description] %></p>
-        <% if Favorite.where(user: current_user).where(destination: destination[:id]).exists? %>
-          <div class="link-card-index">
-            <i class="fas fa-arrow-circle-down"></i>
-            <%= render "favorites/favorite_full_heart", favorite: favorite_id %>
-          </div>
-        <% else %>
-          <div class="link-card-index">
-            <i class="fas fa-arrow-circle-down"></i>
-            <%= render "favorites/favorite_empty_heart", destination_id: destination[:id] %>
-          </div>
-        <% end %>
+        <div class="text-icons">
+          <p><%= Destination.find(destination[:id]).description_extract %></p>
+          <% if Favorite.where(user: current_user).where(destination: destination[:id]).exists? %>
+            <div class="link-card-index">
+              <i class="fas fa-arrow-circle-down"></i>
+              <%= render "favorites/favorite_full_heart", favorite: favorite_id %>
+            </div>
+          <% else %>
+            <div class="link-card-index">
+              <i class="fas fa-arrow-circle-down"></i>
+              <%= render "favorites/favorite_empty_heart", destination_id: destination[:id] %>
+            </div>
+          <% end %>
+        </div>
       </div>
     </div>
     <div class="destination-journeys">
