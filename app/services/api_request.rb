@@ -1,10 +1,4 @@
-require 'open-uri'
-require 'json'
-require 'yaml'
-
-class DestinationsController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:index, :show]
-
+class ApiRequest
   def index
     @user_destination_id = params[:user_destination_id]
 
@@ -30,17 +24,22 @@ class DestinationsController < ApplicationController
     end
   end
 
-  def show
-    @chosen_destination = Destination.find(params[:id])
-    @journey = params[:journey]
-    @steps = @journey["steps"]
-
-    @plane_difference = carbon_equivalent(@journey["carbon"], "plane").to_i - @journey["carbon"].to_i
-    @burger_equivalent = carbon_equivalent(@journey["carbon"], "burger").to_i
-    @shower_equivalent = carbon_equivalent(@journey["carbon"], "shower").to_i
+  def parse_api(destination, location, day, time)
+    results_array = []
+    url = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
+    routes = JSON.parse(open(url).read)
+    results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(routes, day, time) } unless routes.keys[0] == "available_travel_modes"
+    results
   end
 
-  private
+
+
+
+
+
+
+
+
 
   # Calcul l'équivalence de l'emprunte carbone du trajet avec le nombre de km en avion, le nombre de burger et le nombre de douche
   def carbon_equivalent(carbon_amount, comparator)
@@ -99,13 +98,6 @@ class DestinationsController < ApplicationController
     return elapsed_seconds
   end
 
-  def parse_api(destination, location, day, time)
-    results_array = []
-    url = "https://maps.googleapis.com/maps/api/directions/json?origin=#{location}&destination=#{destination.name.mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').downcase.to_s}&departure_time=#{departure_time(day, time)}&mode=transit&alternatives=true&key=#{ENV['GOOGLE_API_KEY']}"
-    routes = JSON.parse(open(url).read)
-    results = { id: destination.id, name: destination.name, country: destination.country, photo_url: destination.photo_url, description: destination.description, journeys: get_journey(routes, day, time) } unless routes.keys[0] == "available_travel_modes"
-    results
-  end
 
   def get_journey(routes_transit, day_user, time_user)
     journey_results = []
@@ -162,12 +154,5 @@ class DestinationsController < ApplicationController
     time_array << 0 if time_array.size == 1
     user_date = DateTime.new(date_array[0], date_array[1], date_array[2], time_array[0], time_array[1]) #donne la date sous format DateTime: 2019-06-22T22:22:00+00:00
     user_date
-  end
-
-  def find_google_date(date, time_a, time_b)
-    user_date = date_departure(date, time_a)
-    google_date = date_departure(date, time_b)
-    google_date += 1 if google_date < user_date
-    google_date.strftime("%d.%m.%Y")
   end
 end
