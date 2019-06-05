@@ -1,10 +1,8 @@
-console.log(`<%= @prices %>`);
-
 function displayPrice() {
   const parentDiv = document.querySelector("[data-journey-id='<%= params['journey']['departure_time'] %>']")
   const button = parentDiv.querySelector(".button");
   parentDiv.removeChild(button);
-  console.log(`<%= @prices %>`);
+  parentDiv.insertAdjacentHTML("beforeend", `<p><%= @prices[0] %> to <%= @prices[1] %> CHF</p>`);
 };
 
 displayPrice();

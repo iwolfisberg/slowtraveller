@@ -32,8 +32,7 @@ class DestinationsController < ApplicationController
   end
 
   def price
-    # @prices = PriceService.calculate_price(params["journey"]["steps"])
-    @prices = [100, 150]
+    @prices = PriceService.calculate_price(params["journey"]["steps"])
     respond_to do |format|
       format.js
     end
