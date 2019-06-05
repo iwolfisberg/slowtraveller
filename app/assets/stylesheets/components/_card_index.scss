@@ -10,29 +10,31 @@
 .destination-card {
   background: white;
   width: 750px;
-  height: 100%;
   border-radius: 5px;
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: 30% auto;
   .destination-infos {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 16px;
+    position: relative;
     h2 {
-      font-size: 18px;
+      padding: 10px 0 0 16px;
+      font-size: 28px;
       font-weight: bold;
+      color: $orange-button;
     }
     p {
-      font-size: 14px;
+      padding: 0 16px 0 16px;
+      font-size: 16px;
       line-height: 1.4;
-      opacity: .7;
+      opacity: .5;
+      font-weight: 300;
     }
     .link-card-index {
+      position: absolute;
+      left: 440px;
+      top: 105px;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
       .fa-arrow-circle-down {
         font-size: 30px;
         margin-right: 10px;
