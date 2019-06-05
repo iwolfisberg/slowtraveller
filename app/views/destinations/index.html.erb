@@ -10,16 +10,12 @@
     <%= image_tag("slow_traveller.png", class: "image-banner") %>
   </div>
 
-  <div class="content-index">
-    <% if params["/destinations"] == nil %>
-      <%= render 'shared/home_logout' %>
-    <% else %>
-      <%= render 'shared/card-destination-index' %>
-      <%= render 'shared/legend_icons' %>
-    <% end %>
-  </div>
-
   <div>
     <%= image_tag("wave_background.png", class: "image-background") %>
   </div>
+
+  <div class="content-index">
+    <%= render 'shared/home_logout' %>
+  </div>
+
 </div>
