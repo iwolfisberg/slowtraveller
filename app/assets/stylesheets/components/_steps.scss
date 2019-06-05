@@ -1,3 +1,7 @@
+.main-container {
+  padding-bottom: 150px !important;
+}
+
 .travel-diary {
   h1 {
     font-size: 90px;
@@ -6,14 +10,19 @@
   }
 }
 
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
 .stamp-total-carbon {
+  height: 90px;
+  margin-top: 53px;
   background-color: rgba(255, 255, 255, 1);
   font-family: $headers-font;
   transform: rotate(-3deg);
-  position: absolute;
-  top: 115px; left: 935px;
   color: $green;
-  font-size: 53px;
+  font-size: 46px;
   font-weight: 700;
   border: 8px double $green;
   display: inline-block;
@@ -21,6 +30,9 @@
   border-radius: 1rem;
   -webkit-mask-size: 944px 604px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  b {
+    font-size: 27px;
+  }
 }
 
 .steps-grid {
@@ -61,7 +73,6 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   margin-top: 50px;
   transform: rotate(-2deg);
-  // overflow: hidden;
 }
 
 .step-photo {
@@ -91,7 +102,7 @@
   font-family: $headers-font;
   transform: rotate(-2deg);
   position: absolute;
-  top: 150px; right: 8px;
+  top: 190px; right: 8px;
   color: $green;
   font-size: 24px;
   font-weight: 700;
@@ -100,6 +111,9 @@
   padding: 0.2rem 0.8rem;
   border-radius: 8px;
   -webkit-mask-size: 944px 604px;
+  b {
+    font-size: 18px;
+  }
 }
 
 .stamp-arrival {
@@ -107,7 +121,7 @@
   font-family: $headers-font;
   transform: rotate(-2deg);
   position: absolute;
-  top: 120px; right: 8px;
+  top: 72px; right: 8px;
   color: $orange-button;
   font-size: 17px;
   font-weight: 700;
@@ -120,12 +134,9 @@
 
 .step-infos {
   p {
-  // margin-top: 9px;
   padding-top: 5px;
   font-weight: 300;
   opacity: 0.4;
-  // height: 50px;
-  // text-overflow: ellipsis !important;
   }
 }
 
@@ -143,5 +154,26 @@
 
 .step-button:hover {
   background-color: $orange-button-hover;
+  color: white;
+}
+
+.step-button-carbon {
+  float: right;
+  margin-top: -32px;
+  margin-right: 85px;
+  background-color: rgba(255, 255, 255, 1);
+  font-family: $headers-font;
+  transform: rotate(-3deg);
+  color: $orange-button;
+  font-size: 17px;
+  font-weight: 700;
+  border: 3px solid $orange-button;
+  padding: 0.2rem 0.8rem;
+  border-radius: 8px;
+}
+
+.step-button-carbon:hover {
+  background-color: $orange-button-hover;
+  border: 3px solid $orange-button-hover;
   color: white;
 }
