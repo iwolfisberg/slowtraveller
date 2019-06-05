@@ -6,12 +6,12 @@ class ApiRequestService
       array << parse_api(destination_user_choice, location, day, time) unless parse_api(destination_user_choice, location, day, time).nil?
       array
     else
-      destinations_results = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 800).take(10)
+      destinations_results = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 800).take(15)
       array = []
       destinations_results.each do |destination|
         array << parse_api(destination, location, day, time) unless parse_api(destination, location, day, time).nil?
       end
-      array.take(3)
+      array.take(5)
     end
   end
 
