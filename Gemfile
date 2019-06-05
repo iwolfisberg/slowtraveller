@@ -18,6 +18,9 @@ gem 'webpacker'
 gem 'geocoder'
 gem 'dotenv-rails'
 
+# Scraping dynamicly
+gem 'watir'
+gem 'webdrivers'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

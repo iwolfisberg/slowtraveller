@@ -1,9 +1,10 @@
 require 'open-uri'
 require 'json'
 require 'yaml'
+require 'price_service'
 
 class DestinationsController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:index, :show]
+  skip_before_action :authenticate_user!, only: [:index, :show, :price]
 
   def index
     @user_destination_id = params[:user_destination_id]
@@ -30,6 +31,14 @@ class DestinationsController < ApplicationController
     @shower_equivalent = carbon_equivalent(@journey["carbon"], "shower").to_i
   end
 
+  def price
+    @prices = PriceService.calculate_price(params["journey"]["steps"])
+    respond_to do |format|
+      format.js
+    end
+  end
+
+  # PRIVATE ===================================================================
   private
 
   # Calcul l'équivalence de l'emprunte carbone du trajet avec le nombre de km en avion, le nombre de burger et le nombre de douche
