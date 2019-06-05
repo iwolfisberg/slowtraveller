@@ -1,7 +1,7 @@
 function initMarkdown() {
   const textParentNode = document.querySelector("[data-step-id='<%= @step.id %>']")
-                                .querySelector(".description-step");
-  const textDescription = textParentNode.querySelector(".text-description");
+                                .querySelector(".step-infos");
+  const textDescription = textParentNode.querySelector(".text-description p");
   const plus = textParentNode.querySelector("#link_edit_description");
   const textPlaceholder = textDescription.innerHTML;
   textParentNode.removeChild(textDescription);

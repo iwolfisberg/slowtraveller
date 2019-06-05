@@ -120,10 +120,11 @@
 
 .step-infos {
   p {
-  margin-top: 9px;
+  // margin-top: 9px;
+  padding-top: 5px;
   font-weight: 300;
   opacity: 0.4;
-  height: 50px;
+  // height: 50px;
   // text-overflow: ellipsis !important;
   }
 }

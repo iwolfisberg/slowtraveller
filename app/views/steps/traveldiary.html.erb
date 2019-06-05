@@ -10,7 +10,7 @@
         <div class="step-infos-first">
           <h3>Departure</h3>
 
-    
+
         </div>
       </div>
       <% @steps.each do |step| %>
@@ -20,7 +20,7 @@
           <p class="stamp-carbon">Carbon <%= step[:carbon] %></p>
           <p class="stamp-arrival"><%= step.arrival_day %></p>
           <div class="step-infos text-description">
-            <p><%= step.destination.description %></p>
+            <p><%= step.description %></p>
             <%= link_to edit_step_path(step), remote: true, method: :get, id: "link_edit_description" do %>
               <i class="fas fa-plus-square"></i>
             <% end %>
