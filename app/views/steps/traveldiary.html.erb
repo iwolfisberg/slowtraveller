@@ -1,8 +1,10 @@
 <div class="main-container">
   <div class="travel-diary">
-    <h1>My travel diary</h1>
-    <p class="stamp-total-carbon">Carbon total <%= @carbon_total %></p>
-    <p><%= link_to "Compensate my carbon footprint", "https://co2.myclimate.org/fr/contribution_calculators/new",target: "_blank" %></p>
+    <div class="head">
+      <h1>My travel diary</h1>
+      <p class="stamp-total-carbon">Carbon total <%= @carbon_total %><b> kg CO2</b></p>
+    </div>
+    <p><%= link_to "Compensate my carbon footprint", "https://co2.myclimate.org/fr/contribution_calculators/new", target: "_blank", class: "step-button-carbon" %></p>
 
     <div class="steps-grid">
       <div class="step-card-first">
@@ -10,15 +12,15 @@
         <div class="step-infos-first">
           <h3>Departure</h3>
 
-    
+
         </div>
       </div>
       <% @steps.each do |step| %>
         <div class="step-card" data-step-id="<%= step.id %>">
           <div class="step-photo" style="background-image: url('<%= step.destination.photo_url %>'); alt: <%= step.destination.name %>;"></div>
           <p class="stamp-destination"><%= step.destination.name %> (<%= step.destination.country %>)</p>
-          <p class="stamp-carbon">Carbon <%= step[:carbon] %></p>
           <p class="stamp-arrival"><%= step.arrival_day %></p>
+          <p class="stamp-carbon">Carbon <%= step[:carbon] %><b> kg CO2</b></p>
           <div class="step-infos text-description">
             <p><%= step.destination.description %></p>
             <%= link_to edit_step_path(step), remote: true, method: :get, id: "link_edit_description" do %>
