@@ -1,7 +1,6 @@
 require 'open-uri'
 require 'json'
 require 'yaml'
-# require 'services/api_request'
 
 class DestinationsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index, :show]
