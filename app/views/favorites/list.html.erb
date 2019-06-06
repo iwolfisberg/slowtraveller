@@ -10,7 +10,7 @@
         <div class="destination-infos">
           <h2><%= favorite.destination.name %> (<%= favorite.destination.country %>)</h2>
           <p><%= favorite.destination.description %></p>
-          <%= link_to "SEARCH JOURNEYS FROM #{favorite.destination.name.}", destinations_path(user_destination_id: favorite.destination.id), class: "button" %>
+          <%= link_to "SEARCH JOURNEYS FROM #{favorite.destination.name}", destinations_path(user_destination_id: favorite.destination.id), class: "button" %>
         </div>
       </div>
     <% end %>
