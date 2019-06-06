@@ -60,6 +60,23 @@
   .card-destination-carbon {
     display: flex;
     align-items: center;
+    color: $green;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: $headers-font;
+    transform: rotate(-2deg);
+    position: relative;
+    top: -14px; right: 27px;
+    font-size: 27px;
+    font-weight: 700;
+    border: 3px solid $green;
+    padding: 0.2rem 0.8rem;
+    border-radius: 8px;
+    i {
+      font-size: 120px;
+      opacity: 0.3px;
+      color: rgba(27, 153, 139, 0.3);
+    }
     p {
       font-size: 33px;
       color: $green-carbon;
@@ -68,7 +85,7 @@
     }
     .fa-leaf {
       color: $green-carbon;
-      font-size: 53px;
+      font-size: 120px;
       margin-right: 10px;
     }
   }
@@ -80,7 +97,7 @@
     .card-destination-info-grey {
       font-size: 14px;
       opacity: .7;
-      font-weight: normal;
+      font-weight: 100;
       font-style: italic;
     }
   }
