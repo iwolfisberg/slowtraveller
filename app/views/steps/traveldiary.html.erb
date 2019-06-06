@@ -19,7 +19,7 @@
       </div>
       <% @steps.each do |step| %>
         <div class="step-card" data-step-id="<%= step.id %>">
-          <div class="step-photo" style="background-image: url('<%= step.destination.photo_url_small %>'); alt: <%= step.destination.name %>;"></div>
+          <div class="step-photo" style="background-image: url('<%= step.destination.photo_url_medium %>'); alt: <%= step.destination.name %>;"></div>
           <p class="stamp-destination"><%= step.destination.name %> (<%= step.destination.country %>)</p>
           <p class="stamp-arrival"><%= step.arrival_day %></p>
           <p class="stamp-carbon">Carbon <%= step[:carbon] %><b> kg CO2</b></p>
