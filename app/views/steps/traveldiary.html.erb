@@ -10,7 +10,7 @@
       <div class="step-card-first">
         <div class="step-photo-first" style="background-image: url('<%= image_url "slow_traveller_polaroid.jpg" %>');"></div>
         <div class="step-infos-first">
-          <h3>Departure</h3>
+          <h3>Departure: <%= @steps.first.departure %></h3>
 
 
         </div>
@@ -30,7 +30,7 @@
         </div>
       <% end %>
     </div>
-    <%= link_to "WHERE NEXT?", destinations_path, class: "step-button", id: "button-show" %>
+    <%= link_to "WHERE NEXT?", destinations_path(location_user: @steps.last.arrival), class: "step-button", id: "button-show" %>
     <div>
       <%= image_tag("wave_background.png", class: "image-background") %>
     </div>
