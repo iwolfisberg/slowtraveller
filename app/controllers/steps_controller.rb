@@ -17,6 +17,7 @@ class StepsController < ApplicationController
     @steps = Step.where(user: current_user)
     @carbon_total = 0
     @steps.each { |step| @carbon_total += step[:carbon] }
+    @location_user = Destination.find(@steps.last.destination_id).name if @steps.size.positive?
   end
 
   def edit
