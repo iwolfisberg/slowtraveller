@@ -17,11 +17,6 @@
   }
 }
 
-#button-show {
-  width: 200px;
-  padding: 4px 15px;
-}
-
 .destination-image {
   width: 430px !important;
   height: 100% !important;
@@ -41,35 +36,50 @@
   background-color: white;
   border-radius: 3px;
   display: grid;
-  padding: 10px;
-}
-
-.card-destination-show-general {
-  grid-template-columns: 25% 25% 40% 10%;
+  padding: 0 10px;
+  grid-template-columns: 25% 25% 38% 12%;
   justify-items: center;
   align-items: center;
-  padding: 10px;
   position: relative;
   .card-destination-transit-icon {
     display: flex;
     justify-content: space-between;
     p {
-      font-size: 20px;
+      font-size: 29px;
     }
   }
   .card-destination-carbon {
+    width: 200px;
     display: flex;
     align-items: center;
-    p {
-      font-size: 33px;
-      color: $green-carbon;
-      line-height: 88%;
-      font-weight: bold;
+    color: $green;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: $headers-font;
+    transform: rotate(-2deg);
+    position: relative;
+    top: -12px; right: 25px;
+    font-size: 27px;
+    font-weight: 700;
+    border: 3px solid $green;
+    border-radius: 8px;
+    padding: 0.2rem 0.8rem;
+    i {
+      font-size: 110px;
+      margin-left: 17px;
+      padding: 5px;
+      opacity: 0.3px;
+      color: rgba(27, 153, 139, 0.3);
     }
-    .fa-leaf {
-      color: $green-carbon;
-      font-size: 53px;
-      margin-right: 10px;
+    p {
+      font-size: 68px;
+      color: $green;
+      line-height: 0.7;
+      font-weight: bold;
+      margin: 5px 0 0 -110px;
+    }
+    b {
+      font-size: 40px;
     }
   }
   .card-destination-info {
@@ -80,16 +90,19 @@
     .card-destination-info-grey {
       font-size: 14px;
       opacity: .7;
-      font-weight: normal;
+      font-weight: 100;
       font-style: italic;
+      margin-bottom: 4px;
     }
   }
   .card-destination-price {
     text-align: center;
     p {
-      font-weight: bold;
-      opacity: .6;
+      font-weight: 500;
+      opacity: 0.5;
       font-size: 25px;
+      line-height: 1.1;
+      color: black;
     }
   }
 }
@@ -144,20 +157,18 @@
   }
 }
 
-.card-destination-details-link {
-  border: 1px solid $gray;
-  padding: 15px 5px;
-  .link-agency {
-    color: black;
-  }
-  .link-agency:hover {
-    opacity: .7;
-  }
+.end-button {
+  margin: 0 auto 40px auto;
+}
+
+#button-show {
+  width: 200px;
+  padding: 4px 15px;
 }
 
 .cards-destination-equivalance {
   width:800px;
-  margin: 0 auto 20px auto;
+  margin-left: 200px;
 }
 
 .card-destination-equivalence-details {
@@ -197,6 +208,6 @@
   background-color: black; /* Line color */
   height: 84%;
   position: absolute;
-  right: 87px;
+  right: 110px;
 }
 

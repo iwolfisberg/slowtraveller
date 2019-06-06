@@ -4,7 +4,7 @@
       <h2><%= @chosen_destination.name %> (<%= @chosen_destination.country %>)</h2>
       <p><%= @chosen_destination.description %></p>
       <br>
-      <%= link_to "TO KNOW MORE", "#", class: "button", id: "button-show" %>
+      <%= link_to "TO KNOW MORE", "#", class: "button" %>
     </div>
     <%= image_tag @chosen_destination.photo_url_medium, alt: @chosen_destination.name, class: "destination-image" %>
   </div>
