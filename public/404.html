@@ -31,6 +31,10 @@
     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
   }
 
+  .rails-default-error-page div.dialog > div > img {
+    height: 50px;
+  }
+
   .rails-default-error-page h1 {
     font-size: 100%;
     color: #730E15;
@@ -56,12 +60,12 @@
 
 <body class="rails-default-error-page">
   <!-- This file lives in public/404.html -->
-  <div class="dialog">
+ <div class="dialog">
     <div>
-      <h1>The page you were looking for doesn't exist.</h1>
-      <p>You may have mistyped the address or the page may have moved.</p>
+      <h1>Oops, the page you were looking for doesn't exist.</h1>
+      <img src="/images/error.png" alt="error">
     </div>
-<!--     <p>If you are the application owner check the logs for more information.</p>
- -->  </div>
+      <p>But we really want you to discover <a href="www.slowtraveller.xyz">SlowTraveller</a></p>
+  </div>
 </body>
 </html>
