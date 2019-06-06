@@ -11,7 +11,7 @@
         <div class="step-photo-first" style="background-image: url('<%= image_url "slow_traveller_polaroid.jpg" %>');"></div>
         <div class="step-infos-first">
           <% if @steps.size.positive? %>
-            <h3>Departure: <%= @steps.first.departure %></h3>
+            <h3>Departure: <%= @first_departure %></h3>
           <% end %>
 
 
@@ -32,7 +32,7 @@
         </div>
       <% end %>
     </div>
-    <%= link_to "WHERE NEXT?", destinations_path(location_user: Destination.find(@steps.last.destination_id).name), class: "step-button", id: "button-show" %>
+    <%= link_to "WHERE NEXT?", destinations_path(location_user: @location_user), class: "step-button", id: "button-show" %>
     <div>
       <%= image_tag("wave_background.png", class: "image-background") %>
     </div>
