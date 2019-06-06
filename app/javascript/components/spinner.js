@@ -3,6 +3,6 @@ export const initSpinner = () => {
   submitSearch.addEventListener("click", (event) => {
     const contentIndex = document.querySelector(".content-index");
     contentIndex.querySelector("#article_one_index").style.margin = '175px 0 0 0';
-    contentIndex.insertAdjacentHTML("afterbegin", `<div class="spinner"><h3 class="text-spinner">Looking for destinations around you !</h3><img class="spinner-train mb-3" src="/assets/train.png"></div>`)
+    contentIndex.insertAdjacentHTML("afterbegin", `<div class="spinner"><h3 class="text-spinner">Looking for destinations around you !</h3><img class="spinner-train mb-3" src="/app/assets/train.png"></div>`)
   });
 };
