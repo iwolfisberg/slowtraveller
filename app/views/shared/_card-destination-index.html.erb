@@ -30,22 +30,24 @@
         <div class="destination-journey">
           <div class="carbon_footprint">
            <i class="fas fa-leaf"></i>
-           <p><%= journey[:carbon] %> kg CO2</p>
+           <p><%= journey[:carbon] %><b>kg CO2</b></p>
           </div>
           <div class="times">
-            <p>dep: <%= journey[:departure_time]%> <%= journey[:departure_day]%></p>
-            <p>arr: <%= journey[:arrival_time]%> <%= journey[:arrival_day]%></p>
+            <p><b>dep. <%= journey[:departure_time]%></b> <%= journey[:departure_day]%></p>
+            <p><b>arr. <%= journey[:arrival_time]%></b> <%= journey[:arrival_day]%></p>
           </div>
-          <p>Duration:<br><%= journey[:duration] %></p>
+          <p>Duration<br><%= journey[:duration] %></p>
           <div class="icones">
             <% journey[:modes_icones].each do |icone| %>
               <p><%= icone.html_safe %> <br></p>
             <% end %>
           </div>
           <div data-journey-id="<%= journey[:departure_time] %>">
-            <%= link_to "Price", price_destination_path(destination[:id], journey: journey), remote: true, class: "button"%>
+            <%= link_to "PRICE", price_destination_path(destination[:id], journey: journey), remote: true, class: "button"%>
           </div>
-          <%= link_to "Details", destination_path(destination[:id], journey: journey), target: "_blank", class: "button" %>
+          <div>
+          <%= link_to "DETAILS", destination_path(destination[:id], journey: journey), target: "_blank", class: "button" %>
+          </div>
         </div>
       <% end %>
     </div>

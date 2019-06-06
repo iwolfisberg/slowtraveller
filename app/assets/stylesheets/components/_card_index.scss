@@ -60,7 +60,7 @@
   .destination-journey {
     background: white;
     width: 750px;
-    height: 80px;
+    height: 90px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 15px;
@@ -73,12 +73,29 @@
       display: flex;
       color: $green;
       text-align: center;
+      background-color: rgba(255, 255, 255, 1);
+      font-family: $headers-font;
+      transform: rotate(-2deg);
+      position: relative;
+      top: -14px; right: 27px;
+      font-size: 27px;
+      font-weight: 700;
+      border: 3px solid $green;
+      padding: 0.2rem 0.8rem;
+      border-radius: 8px;
       i {
-        font-size: 35px;
-        padding-right: 6px;
+        font-size: 60px;
+        opacity: 0.3px;
+        color: rgba(27, 153, 139, 0.3);
       }
       p {
         font-weight: bold;
+        margin: 6px 0 0 -60px;
+        font-size: 30px;
+        line-height: 0.8;
+      }
+      b {
+        font-size: 18px;
       }
     }
     .see-details {
@@ -88,7 +105,10 @@
       display: flex;
     }
     .times {
-
+      font-size: 15px;
+      b {
+        font-weight: bold;
+      }
     }
   }
 }

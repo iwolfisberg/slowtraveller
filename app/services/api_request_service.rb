@@ -1,17 +1,17 @@
 class ApiRequestService
-  def self.google_api_request(user_destination_id, location, day, time)
+  def self.google_api_request(user_destination_id, location, day, time, current_user)
     if user_destination_id != ""
       destination_user_choice = Destination.find(user_destination_id.to_i)
       array = []
       array << parse_api(destination_user_choice, location, day, time) unless parse_api(destination_user_choice, location, day, time).nil?
       array
     else
-      destinations_results = Destination.where.not(name: location.capitalize).order(score: :desc).near(location, 800).take(7)
+      destinations_results = (Destination.where.not(name: location.capitalize).where("score >= ?", 7).near(location, 1000, min_radius: 400) - Step.where(user: current_user).all).take(10)  #.shuffle
       array = []
       destinations_results.each do |destination|
         array << parse_api(destination, location, day, time) unless parse_api(destination, location, day, time).nil?
       end
-      array.take(4)
+      array.take(5)
     end
   end
 

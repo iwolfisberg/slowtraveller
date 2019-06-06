@@ -3,7 +3,7 @@
   <div class="card-destination-show-general">
     <div class="card-destination-carbon">
       <i class="fas fa-leaf"></i>
-      <p><%= @journey["carbon"] %> kg<br>CO2</p>
+      <p><%= @journey["carbon"] %><b>kg<br>CO2</b></p>
     </div>
     <div class="card-destination-transit-icon">
       <% @steps.each do |step| %>
@@ -52,17 +52,14 @@
           <p class="italic"><%= step[:html_instructions] %></p>
         </div>
         <!-- Lien exploitant -->
-        <div class="card-destination-details-link">
-          <p class="bold">Buy your ticket here</p>
-          <%= link_to step[:agency_url], target: "_blank", class: "link-agency" do %>
-            <%= step[:agency] %>
-          <% end %>
+        <div>
+          <%= link_to "BUY YOUR TICKET HERE", step[:agency_url], target: "_blank", class: "button" %>
         </div>
         <!-- Lien exploitant -->
     </div>
   <% end %>
-  <%= link_to "Add to my travel diary", steps_path(info_step: params.to_unsafe_h), method: :post %>
 </div>
+<%= link_to "ADD TO MY TRAVEL DIARY", steps_path(info_step: params.to_unsafe_h), method: :post, class: "button end-button" %>
 
 <div class="card-destination-equivalence">
   <div class="card-destination-equivalence-details">
