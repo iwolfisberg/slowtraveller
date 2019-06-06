@@ -17,6 +17,8 @@ class StepsController < ApplicationController
     @steps = Step.where(user: current_user)
     @carbon_total = 0
     @steps.each { |step| @carbon_total += step[:carbon] }
+    @first_departure = @steps.first["departure"].split(",")[0] if @steps.size.positive?
+    @location_user = Destination.find(@steps.last.destination_id).name if @steps.size.positive?
   end
 
   def edit
@@ -27,9 +29,13 @@ class StepsController < ApplicationController
   end
 
   def update
-    step = Step.find(params[:id])
-    step.description = params[:step][:description]
-    step
-    redirect_to traveldiary_steps_path if step.save
+    @step = Step.find(params[:id])
+    @description = params[:step]["description"]
+    @step.description = params[:step][:description]
+    @step.save
+
+    respond_to do |format|
+      format.js
+    end
   end
 end

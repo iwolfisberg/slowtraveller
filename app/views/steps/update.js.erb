@@ -1,0 +1,9 @@
+function updateDescription() {
+  const textDescription = document.querySelector("[data-step-id='<%= @step.id %>']")
+                                  .querySelector(".text-description");
+  const form = textDescription.querySelector(".edit_step");
+  textDescription.removeChild(form);
+  textDescription.insertAdjacentHTML("beforeend", `<p><%= @description %></p><%= link_to edit_step_path(@step), remote: true, method: :get, id: "link_edit_description" do %><i class="fas fa-plus-square"></i><% end %>`);
+};
+
+updateDescription()
