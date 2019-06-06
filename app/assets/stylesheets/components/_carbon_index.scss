@@ -1,0 +1,25 @@
+.carbon_index_card {
+  width: 365px;
+  position: absolute;
+  top: -220px;
+  right : 0;
+  background-color: rgba(255, 255, 255, 1);
+  transform: rotate(-3deg);
+  color: $green;
+  border: 8px double $green;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  h3 {
+    font-size: 25px;
+  }
+  .carbon_description {
+  }
+  .carbon_value {
+    display: flex;
+    align-items: flex-end;
+    h3 {
+      padding-left: 15px;
+    }
+  }
+}
