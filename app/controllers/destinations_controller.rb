@@ -8,6 +8,7 @@ class DestinationsController < ApplicationController
 
   def index
     @user_destination_id = params[:user_destination_id]
+    @user_location = params[:location_user]
 
     if params["/destinations"] != nil
       location = params["/destinations"]["location"]

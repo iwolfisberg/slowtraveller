@@ -10,14 +10,16 @@
       <div class="step-card-first">
         <div class="step-photo-first" style="background-image: url('<%= image_url "slow_traveller_polaroid.jpg" %>');"></div>
         <div class="step-infos-first">
-          <h3>Departure</h3>
+          <% if @steps.size.positive? %>
+            <h3>Departure: <%= @first_departure %></h3>
+          <% end %>
 
 
         </div>
       </div>
       <% @steps.each do |step| %>
         <div class="step-card" data-step-id="<%= step.id %>">
-          <div class="step-photo" style="background-image: url('<%= step.destination.photo_url_small %>'); alt: <%= step.destination.name %>;"></div>
+          <div class="step-photo" style="background-image: url('<%= step.destination.photo_url_medium %>'); alt: <%= step.destination.name %>;"></div>
           <p class="stamp-destination"><%= step.destination.name %> (<%= step.destination.country %>)</p>
           <p class="stamp-arrival"><%= step.arrival_day %></p>
           <p class="stamp-carbon">Carbon <%= step[:carbon] %><b> kg CO2</b></p>
@@ -30,7 +32,7 @@
         </div>
       <% end %>
     </div>
-    <%= link_to "WHERE NEXT ?", destinations_path, class: "button step-button", id: "button-show" %>
+    <%= link_to "WHERE NEXT ?", destinations_path(location_user: @location_user), class: "button step-button", id: "button-show" %>
     <div>
       <%= image_tag("wave_background.png", class: "image-background") %>
     </div>
