@@ -102,7 +102,7 @@
   font-family: $headers-font;
   transform: rotate(-2deg);
   position: absolute;
-  top: 190px; right: 8px;
+  top: 200px; right: 8px;
   color: $green;
   font-size: 24px;
   font-weight: 700;
@@ -138,23 +138,6 @@
   font-weight: 300;
   opacity: 0.4;
   }
-}
-
-.step-button {
-  width: 160px;
-  background-color: $orange-button;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 4px;
-  border: none;
-  border-radius: 5px;
-  margin-left: 15px;
-}
-
-.step-button:hover {
-  background-color: $orange-button-hover;
-  color: white;
 }
 
 .step-button-carbon {
