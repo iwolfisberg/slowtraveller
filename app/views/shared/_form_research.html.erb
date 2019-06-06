@@ -5,9 +5,9 @@
     <%= f.input 'departure_day', label: false, placeholder: "Departure day", input_html: {class: "datepicker mb-2 mr-sm-2"} %>
     <%= f.input 'departure_time', collection: ["Morning", "Afternoon", "Evening", "Doesn't matter"], label: false, prompt: "Departure time", input_html: {class: "mb-2 mr-sm-2"} %>
     <% if @user_destination_id == "" || @user_destination_id.nil? %>
-      <%= f.submit "FIND DESTINATION", class: "button" %>
+      <%= f.submit "FIND DESTINATION", class: "button submit-search" %>
     <% else %>
-      <%= f.submit "FIND JOURNEYS FOR #{Destination.find(@user_destination_id.to_i).name.upcase}", class: "button" %>
+      <%= f.submit "FIND JOURNEYS FOR #{Destination.find(@user_destination_id.to_i).name.upcase}", class: "button submit-search" %>
     <% end %>
   <% end %>
 </div>
