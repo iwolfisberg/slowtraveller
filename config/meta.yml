@@ -1,5 +1,5 @@
 meta_product_name: "SlowTraveller"
 meta_title: "SlowTraveller - Find your next journey that has the lowest impact on the environment"
-meta_description: "With SlowTraveller, find the next step of your journey and take care of the environment. You don't have to be shared between your love of travelling and sustainability any more. SlowTraveller proposes you various destinations and indicates their carbon footprint. You can then choose what's best for you and the environment."
+meta_description: "With SlowTraveller, find the next step of your journey and take care of the environment. You don't have to choose between your love of travelling and sustainability any more. SlowTraveller proposes you various destinations and indicates their carbon footprint. You can then choose what's best for you and the environment."
 meta_image: "meta_cover.png" # should exist in `app/assets/images/`
 twitter_account: "@product_twitter_account"   # required for Twitter Cards
