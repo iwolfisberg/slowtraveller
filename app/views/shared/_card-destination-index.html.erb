@@ -57,7 +57,7 @@
             <% end %>
           </div>
           <div data-journey-id="<%= journey[:departure_time] %>">
-            <%= link_to "PRICE", price_destination_path(destination[:id], journey: journey), remote: true, class: "button"%>
+            <p><%= journey[:price] %> CHF</p>
           </div>
           <div>
           <%= link_to "DETAILS", destination_path(destination[:id], journey: journey), target: "_blank", class: "button" %>

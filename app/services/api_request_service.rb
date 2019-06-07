@@ -26,6 +26,7 @@ class ApiRequestService
 
   def self.get_journey(routes_transit, day_user, time_user)
     journey_results = []
+    price = rand(80..130)
     routes_transit["routes"].each do |journey|
       journey_results << {
                           modes_icones: modes_icones(journey["legs"][0]["steps"]),
@@ -38,7 +39,8 @@ class ApiRequestService
                           arrival: journey["legs"][0]["end_address"],
                           steps: get_steps(journey["legs"][0]["steps"]),
                           departure_day: find_date(day_user, time_user, seconds_to_hm(journey["legs"][0]["departure_time"]["value"])),
-                          arrival_day: find_date(day_user, time_user, seconds_to_hm(journey["legs"][0]["arrival_time"]["value"]))
+                          arrival_day: find_date(day_user, time_user, seconds_to_hm(journey["legs"][0]["arrival_time"]["value"])),
+                          price: rand(price..(price + 20))
                         }
     end
     journey_results
