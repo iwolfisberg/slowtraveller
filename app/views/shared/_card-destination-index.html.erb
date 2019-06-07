@@ -1,5 +1,19 @@
 <div class="destination-cards">
-  <% @destinations_array.each do |destination| %>
+
+  <div class="carbon_index_card">
+    <div class="carbon_description">
+      <h3>Try to generate less than</h3>
+    </div>
+    <div class="carbon_value">
+      <h2>600 kg CO2</h2>
+      <h3>per year</h3>
+    </div>
+    <div class="carbon_description">
+      <p>(maximum amount of CO2 per person in order to halt climate change)</p>
+    </div>
+  </div>
+
+  <% @destinations_array.first(5).each do |destination| %>
   <% if Favorite.where(user: current_user).where(destination: destination[:id]).present?
     favorite_id = Favorite.where(user: current_user).where(destination: destination[:id])[0][:id]
     end %>
@@ -39,7 +53,7 @@
           <p>Duration<br><%= journey[:duration] %></p>
           <div class="icones">
             <% journey[:modes_icones].each do |icone| %>
-              <p><%= icone.html_safe %> <br></p>
+              <p class="icon"><%= icone.html_safe %> <br></p>
             <% end %>
           </div>
           <div data-journey-id="<%= journey[:departure_time] %>">
@@ -52,4 +66,5 @@
       <% end %>
     </div>
   <% end %>
+  <%= link_to "SEE MORE DESTINATIONS", '#', class: "button" %>
 </div>
