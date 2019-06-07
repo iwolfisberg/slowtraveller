@@ -1,25 +1,25 @@
 # nombre de gramme de CO2 par kilomètre
-plane: 250
-driving: 240
+plane: 285
+driving: 100
 walking: 0
 bicycling: 0
-rail: 30
+rail: 14
 metro_rail: 7
 subway: 7
 tram: 7
 monorail: 7
-heavy_rail: 30
-commuter_train: 30
+heavy_rail: 14
+commuter_train: 14
 high_speed_train: 4
-long_distance_train: 30
-bus: 150
-intercity_bus: 150
-trolleybus: 40
-share_taxi: 150
+long_distance_train: 14
+bus: 68
+intercity_bus: 68
+trolleybus: 20
+share_taxi: 50
 ferry: 115
-cable_car: 30
-gondola_lift: 30
-funicular: 30
+cable_car: 20
+gondola_lift: 20
+funicular: 20
 other: 50
 
 # nombre de gramme de CO2 par unité
