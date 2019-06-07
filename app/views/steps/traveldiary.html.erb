@@ -36,5 +36,25 @@
     <div>
       <%= image_tag("wave_background.png", class: "image-background") %>
     </div>
+
+    <div class="step-carbon-results">
+      <p>My travel</p>
+      <div class="progress-bar">
+        <p><b><%= @carbon_total %></b>kg CO2</p>
+        <div class="progress" style="width: <%= @carbon_total %>px"></div>
+      </div>
+      <p>Maximum amount</p>
+      <div class="progress-bar">
+        <p>600 kg C02</p>
+        <div class="progress" style="width: 600px"></div>
+      </div>
+
+
+    </div>
+
+
+
+
+    </div>
   </div>
 </div>

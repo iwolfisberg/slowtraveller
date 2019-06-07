@@ -1,6 +1,11 @@
+require 'yaml'
+
 class StepsController < ApplicationController
   def create
     info_step = params["info_step"]
+    km_total = 0
+    info_step[:journey][:steps].each { |step| km_total += step[:km].to_i }
+    raise
     @step = Step.create!(
       user: current_user,
       destination_id: info_step[:id],
@@ -8,7 +13,8 @@ class StepsController < ApplicationController
       carbon: info_step[:journey][:carbon],
       departure: info_step[:journey][:departure],
       arrival: info_step[:journey][:arrival],
-      arrival_day: info_step[:journey][:arrival_day]
+      arrival_day: info_step[:journey][:arrival_day],
+      km_total: km_total
     )
     redirect_to traveldiary_steps_path
   end
