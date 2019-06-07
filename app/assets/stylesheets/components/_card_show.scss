@@ -159,7 +159,7 @@
 }
 
 .end-button {
-  margin: 35px auto 40px auto;
+  // margin: 0 auto;
 }
 
 #button-show {
@@ -167,24 +167,27 @@
   padding: 4px 15px;
 }
 
-.cards-destination-equivalance {
+.card-destination-equivalence {
   width:800px;
-  margin-left: 200px;
+  margin: 0 auto 30px auto;
+  .end-button .button {
+    margin: 0 auto;
+  }
 }
 
 .card-destination-equivalence-details {
   background-color: white;
   border-radius: 5px;
-  padding: 10px 0 10px 0;
-  width: 600px;
-  margin: 0 auto 40px auto;
+  padding: 10px;
+  width: 410px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  border: 1px solid $green-carbon;
+  border: 1px solid #1B998B;
+  margin: 0 auto 22px auto;
   p {
     font-family: $body-font;
     text-align: center;
-    color: $green-carbon;
-    font-size: 18px;
+    color: #1B998B;
+    font-size: 17px;
     line-height: 1.5;
   }
   .carbon-plane {
@@ -198,10 +201,12 @@
   margin: 0 auto;
   .burger-shower p {
     font-weight: bold;
+    font-size: 17px;
   }
   #or {
     margin-top: 6px;
     font-weight: bold;
+    font-size: 17px;
   }
 }
 

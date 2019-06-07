@@ -58,23 +58,25 @@
         <!-- Lien exploitant -->
     </div>
   <% end %>
-  <div class="end-button">
-  <%= link_to "ADD TO MY TRAVEL DIARY", steps_path(info_step: params.to_unsafe_h), method: :post, class: "button" %>
-  </div>
+  <!-- <div class="end-button">
+  <%#= link_to "ADD TO MY TRAVEL DIARY", steps_path(info_step: params.to_unsafe_h), method: :post, class: "button" %>
+  </div> -->
 </div>
 
 <div class="card-destination-equivalence">
   <div class="card-destination-equivalence-details">
-    <p>You save <span class="carbon-plane"><%= @plane_difference %> kg CO2</span> compared to a plane flight to go to <%= @journey["arrival"] %>.</p>
-    <p>The amount of carbon you save represent the production of:</p>
-      <div class="burgers-showers">
-        <div class="burger-shower">
+    <p>You save <span class="carbon-plane"><%= @plane_difference %> kg CO2</span> compared to a plane flight to go to <%= @journey["arrival"] %>. The amount of carbon you save represent the production of:</p>
+    <div class="burgers-showers">
+      <div class="burger-shower">
         <p><%= @burger_equivalent %> x  <%= image_tag("hamburger.png", size: "45") %></p>
-        </div>
-        <p id="or">or</p>
-        <div class="burger-shower">
-        <p><%= @shower_equivalent %> x  <%= image_tag("shower.png", size: "45") %></p>
-        </div>
       </div>
+        <p id="or">or</p>
+      <div class="burger-shower">
+        <p><%= @shower_equivalent %> x  <%= image_tag("shower.png", size: "45") %></p>
+      </div>
+      </div>
+  </div>
+  <div class="end-button">
+    <%= link_to "ADD TO MY TRAVEL DIARY", steps_path(info_step: params.to_unsafe_h), method: :post, class: "button" %>
   </div>
 </div>
