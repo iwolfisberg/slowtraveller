@@ -60,7 +60,8 @@ class ApiRequestService
                           duration: step["duration"]["text"],
                           html_instructions: step["html_instructions"],
                           agency: step["transit_details"]["line"]["agencies"][0]["name"],
-                          agency_url: step["transit_details"]["line"]["agencies"][0]["url"]
+                          agency_url: step["transit_details"]["line"]["agencies"][0]["url"],
+                          km: step["distance"]["value"] / 1000
                         }
         end
       end

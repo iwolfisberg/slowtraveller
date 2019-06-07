@@ -1,0 +1,44 @@
+
+.progress-lign {
+  background: none;
+  color: $gray;
+  display:flex;
+  padding: 5px 0 15px 0;
+  i {
+    padding-right: 10px;
+  }
+}
+
+.progress-my-travel{
+  background: $green;
+  height: 15px;
+  border-radius: 4px;
+}
+
+.progress-max{
+  background: $green;
+  height: 15px;
+  border-radius: 4px;
+}
+
+.progress-plane{
+  background: $red;
+  height: 15px;
+  border-radius: 4px;
+}
+
+.value {
+  padding-left: 10px;
+}
+
+.plane {
+  color: $red
+}
+
+.bus {
+  color: $green
+}
+
+.earth {
+  color: $green
+}
