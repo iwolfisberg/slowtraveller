@@ -158,10 +158,6 @@
   }
 }
 
-.end-button {
-  // margin: 0 auto;
-}
-
 #button-show {
   width: 200px;
   padding: 4px 15px;
@@ -170,8 +166,9 @@
 .card-destination-equivalence {
   width:800px;
   margin: 0 auto 30px auto;
-  .end-button .button {
-    margin: 0 auto;
+  .end-button {
+    display: flex;
+    justify-content: center;
   }
 }
 
