@@ -11,7 +11,7 @@
         <div class="step-photo-first" style="background-image: url('<%= image_url "slow_traveller_polaroid.jpg" %>');"></div>
         <div class="step-infos-first">
           <% if @steps.size.positive? %>
-            <h3>Departure: <%= @first_departure %></h3>
+            <h3>Departure:<br><%= @first_departure %></h3>
           <% end %>
 
 
@@ -24,7 +24,7 @@
           <p class="stamp-arrival"><%= step.arrival_day %></p>
           <p class="stamp-carbon">Carbon <%= step[:carbon] %><b> kg CO2</b></p>
           <div class="step-infos text-description">
-            <p><%= step.description %></p>
+            <p><%= step.description_extract %></p>
             <%= link_to edit_step_path(step), remote: true, method: :get, id: "link_edit_description" do %>
               <i class="fas fa-plus-square"></i>
             <% end %>
