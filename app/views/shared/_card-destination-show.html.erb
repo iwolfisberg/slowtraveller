@@ -58,8 +58,10 @@
         <!-- Lien exploitant -->
     </div>
   <% end %>
+  <div class="end-button">
+  <%= link_to "ADD TO MY TRAVEL DIARY", steps_path(info_step: params.to_unsafe_h), method: :post, class: "button" %>
+  </div>
 </div>
-<%= link_to "ADD TO MY TRAVEL DIARY", steps_path(info_step: params.to_unsafe_h), method: :post, class: "button end-button" %>
 
 <div class="card-destination-equivalence">
   <div class="card-destination-equivalence-details">

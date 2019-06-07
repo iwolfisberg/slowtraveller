@@ -5,9 +5,12 @@
   padding: 4px 15px;
   border: none;
   border-radius: 5px;
+  font-weight: 400;
+  font-family: $body-font;
 }
 
 .button:hover {
   background-color: $orange-button-hover;
+  opacity: 0.9;
   color: white;
 }
