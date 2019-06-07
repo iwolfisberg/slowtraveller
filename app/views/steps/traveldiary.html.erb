@@ -4,7 +4,7 @@
       <h1>My travel diary</h1>
       <p class="stamp-total-carbon">Carbon total <%= @carbon_total %><b> kg CO2</b></p>
     </div>
-    <p><%= link_to "Compensate my carbon footprint", "https://co2.myclimate.org/fr/contribution_calculators/new", target: "_blank", class: "step-button-carbon" %></p>
+    <p><%= link_to "Compensate my carbon footprint", "https://co2.myclimate.org/fr/contribution_calculators/new", target: "_blank", class: "step-button-carbon step-button-carbon-top" %></p>
 
     <div class="steps-grid">
       <div class="step-card-first">
@@ -32,34 +32,33 @@
         </div>
       <% end %>
     </div>
+
     <%= link_to "WHERE NEXT ?", destinations_path(location_user: @location_user), class: "button step-button", id: "button-show" %>
+
     <div>
       <%= image_tag("wave_background.png", class: "image-background") %>
     </div>
 
-    <div class="step-carbon-results">
-      <p>My travel</p>
-      <div class="progress-bar">
-        <p><b><%= @carbon_total %></b>kg CO2</p>
-        <div class="progress" style="width: <%= @carbon_total %>px"></div>
-      </div>
-      <p>Maximum amount</p>
-      <div class="progress-bar">
-        <p>600 kg C02</p>
-        <div class="progress" style="width: 600px"></div>
-      </div>
-      <p>Flight equivalent</p>
-      <div class="progress-bar">
-        <p><b><%= @carbon_flight %></b>kg CO2</p>
-        <div class="progress" style="width: <%= @carbon_flight %>px"></div>
+    <h3>Carbon report</h3>
+    <div class="step-carbon-bilan">
+      <span>My travel</span>
+      <div class="progress-lign">
+        <div class="progress-my-travel" style="width: <%= @carbon_total %>px"></div>
+        <p class="value"><%= @carbon_total %>kg CO2</p>
       </div>
 
+      <span>For the same distance by plane</span>
+      <div class="progress-lign">
+        <div class="progress-plane" style="width: <%= @carbon_flight %>px"></div>
+        <p class="value"><%= @carbon_flight %>kg CO2</p>
+      </div>
 
+      <span>Maximum amount of CO2 a person should produce per year to halt climate change</span>
+      <div class="progress-lign">
+        <div class="progress-max" style="width: 600px"></div>
+        <p class="value">600 kg C02</p>
+      </div>
     </div>
-
-
-
-
-    </div>
+    <p><%= link_to "Compensate my carbon footprint", "https://co2.myclimate.org/fr/contribution_calculators/new", target: "_blank", class: "step-button-carbon" %>
   </div>
 </div>
