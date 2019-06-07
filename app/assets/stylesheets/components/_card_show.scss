@@ -173,18 +173,35 @@
 }
 
 .card-destination-equivalence-details {
-  background-color: $orange;
+  background-color: white;
   border-radius: 5px;
-  padding: 20px 0 20px 0;
-  width: 800px;
+  padding: 10px 0 10px 0;
+  width: 600px;
   margin: 0 auto 40px auto;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid $green-carbon;
   p {
-    font-family: $headers-font;
+    font-family: $body-font;
     text-align: center;
-    color: white;
-    font-size: 22px;
+    color: $green-carbon;
+    font-size: 18px;
     line-height: 1.5;
+  }
+  .carbon-plane {
+    font-weight: bold;
+  }
+}
+
+.burgers-showers {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  .burger-shower p {
+    font-weight: bold;
+  }
+  #or {
+    margin-top: 6px;
+    font-weight: bold;
   }
 }
 
