@@ -22,6 +22,10 @@ class StepsController < ApplicationController
     @steps = Step.where(user: current_user)
     @carbon_total = 0
     @steps.each { |step| @carbon_total += step[:carbon] }
+    @km_total = 0
+    @steps.each { |step| @km_total += step[:km] }
+    @carbon_flight = carbon_emissions("plane", @km_total)
+    raise
     @first_departure = @steps.first["departure"].split(",")[0] if @steps.size.positive?
     @location_user = Destination.find(@steps.last.destination_id).name if @steps.size.positive?
   end
@@ -43,4 +47,11 @@ class StepsController < ApplicationController
       format.js
     end
   end
+end
+
+private
+
+# Calcul le C02 en fonction du mode de transport et de la distance en km (en g C02 / passager)
+def carbon_emissions(mode, km)
+  YAML.load_file('db/carbon.yml')[mode] * km
 end
