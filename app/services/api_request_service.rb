@@ -51,9 +51,9 @@ class ApiRequestService
         steps_results << {
                           mode: mode(step),
                           icon: icone(mode(step)),
-                          arrival_time: step["transit_details"]["arrival_time"]["text"],
+                          arrival_time: seconds_to_hm(step["transit_details"]["arrival_time"]["value"]),
                           arrival: step["transit_details"]["arrival_stop"]["name"],
-                          departure_time: step["transit_details"]["departure_time"]["text"],
+                          departure_time: seconds_to_hm(step["transit_details"]["departure_time"]["value"]),
                           departure: step["transit_details"]["departure_stop"]["name"],
                           duration: step["duration"]["text"],
                           html_instructions: step["html_instructions"],

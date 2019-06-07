@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  height: 80px;
+  height: 60px;
   justify-content: space-between;
   background-color: transparent;
   transition: 0.3s background-color ease;
@@ -7,6 +7,15 @@
 
 .navbar-lewagon-white {
   background-color: white;
+  .navbar-brand > .logo {
+    color: $orange-button;
+  }
+  .navbar-collapse > .navbar-nav > .navbar-item {
+    border-bottom: 3px solid $orange-button;
+    .navbar-link {
+      color: $orange-button;
+    }
+  }
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -23,8 +32,7 @@
 
 .navbar-item {
   margin: 0 18px;
-  border-bottom: 3px solid white;
-  padding-bottom: 5px;
+  border-bottom: 2px solid white;
   .navbar-link {
     color: white;
     font-weight: 300;
