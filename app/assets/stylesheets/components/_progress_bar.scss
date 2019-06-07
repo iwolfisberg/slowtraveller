@@ -6,6 +6,7 @@
   padding: 5px 0 15px 0;
   i {
     padding-right: 10px;
+    // color: $orange-button;
   }
 }
 
@@ -22,17 +23,25 @@
 }
 
 .progress-plane{
-  background: $red;
+  background: $orange-button;
   height: 15px;
   border-radius: 4px;
 }
 
 .value {
   padding-left: 10px;
+  font-family: $headers-font;
+  color: #1B998B;
+  font-size: 18px;
+  margin-top: -2px;
+}
+
+.other-color {
+  color: $orange-button;
 }
 
 .plane {
-  color: $red
+  color: $orange-button
 }
 
 .bus {

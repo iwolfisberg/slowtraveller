@@ -162,7 +162,9 @@
 }
 
 .end-button {
-  margin: 35px auto 40px auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 #button-show {
