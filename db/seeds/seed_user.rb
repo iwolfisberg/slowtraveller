@@ -21,6 +21,7 @@ Step.create!(
   carbon: 4,
   arrival_day: "10.04.2019",
   description: destination[0][:description],
+  km: 70,
   )
 
 puts "Creating step 2"
@@ -33,6 +34,7 @@ Step.create!(
   carbon: 5,
   arrival_day: "14.04.2019",
   description: destination[0][:description],
+  km: 150,
   )
 
 puts "Creating step 3"
@@ -45,6 +47,7 @@ Step.create!(
   carbon: 9,
   arrival_day: "20.04.2019",
   description: destination[0][:description],
+  km: 150,
   )
 
 puts "Creating step 4"
@@ -57,6 +60,7 @@ Step.create!(
   carbon: 10,
   arrival_day: "25.04.2019",
   description: destination[0][:description],
+  km: 150,
   )
 
 puts "Creating step 5"
@@ -69,6 +73,7 @@ Step.create!(
   carbon: 8,
   arrival_day: "01.05.2019",
   description: destination[0][:description],
+  km: 150,
   )
 
 puts "Creating step 6"
@@ -81,6 +86,7 @@ Step.create!(
   carbon: 12,
   arrival_day: "25.05.2019",
   description: destination[0][:description],
+  km: 150,
   )
 
 puts "Creating step 7"
@@ -93,6 +99,7 @@ Step.create!(
   carbon: 10,
   arrival_day: "31.05.2019",
   description: destination[0][:description],
+  km: 150,
   )
 
 puts "Creating step 8"
@@ -105,4 +112,5 @@ Step.create!(
   carbon: 5,
   arrival_day: "04.06.2019",
   description: destination[0][:description],
+  km: 150,
   )
