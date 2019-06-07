@@ -13,7 +13,7 @@
     </div>
   </div>
 
-  <% @destinations_array.each do |destination| %>
+  <% @destinations_array.first(5).each do |destination| %>
   <% if Favorite.where(user: current_user).where(destination: destination[:id]).present?
     favorite_id = Favorite.where(user: current_user).where(destination: destination[:id])[0][:id]
     end %>
@@ -53,7 +53,7 @@
           <p>Duration<br><%= journey[:duration] %></p>
           <div class="icones">
             <% journey[:modes_icones].each do |icone| %>
-              <p><%= icone.html_safe %> <br></p>
+              <p class="icon"><%= icone.html_safe %> <br></p>
             <% end %>
           </div>
           <div data-journey-id="<%= journey[:departure_time] %>">
@@ -66,4 +66,5 @@
       <% end %>
     </div>
   <% end %>
+  <%= link_to "SEE MORE DESTINATIONS", '#', class: "button" %>
 </div>

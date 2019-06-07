@@ -38,7 +38,7 @@ class StepsController < ApplicationController
 
   def update
     @step = Step.find(params[:id])
-    @description = params[:step]["description"]
+    @description = @step.description_extract
     @step.description = params[:step][:description]
     @step.save
 

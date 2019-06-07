@@ -1,5 +1,21 @@
-h1 {
-  color: white;
-  font-size: 90px;
-  margin: 40px 0;
+.main-cards > * {
+  width: 750px;
+  margin: 20px auto;
+  h1 {
+    color: white;
+    margin-bottom: 50px;
+  }
+}
+
+.destination-card {
+  background: white;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+.search_with_destination {
+  position: absolute;
+  right: 11px;
+  bottom: 13px;
 }
