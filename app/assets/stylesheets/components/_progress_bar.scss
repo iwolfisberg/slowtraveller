@@ -3,7 +3,10 @@
   background: none;
   color: $gray;
   display:flex;
-  padding-bottom: 15px;
+  padding: 5px 0 15px 0;
+  i {
+    padding-right: 10px;
+  }
 }
 
 .progress-my-travel{
@@ -26,4 +29,16 @@
 
 .value {
   padding-left: 10px;
+}
+
+.plane {
+  color: $red
+}
+
+.bus {
+  color: $green
+}
+
+.earth {
+  color: $green
 }

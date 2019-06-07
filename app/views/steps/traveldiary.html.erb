@@ -39,22 +39,25 @@
       <%= image_tag("wave_background.png", class: "image-background") %>
     </div>
 
-    <h3>Carbon report</h3>
+    <h4>Carbon report</h4>
     <div class="step-carbon-bilan">
       <span>My travel</span>
       <div class="progress-lign">
+        <i class="fas fa-shuttle-van bus"></i>
         <div class="progress-my-travel" style="width: <%= @carbon_total %>px"></div>
         <p class="value"><%= @carbon_total %>kg CO2</p>
       </div>
 
       <span>For the same distance by plane</span>
       <div class="progress-lign">
+        <i class="fas fa-plane plane"></i>
         <div class="progress-plane" style="width: <%= @carbon_flight %>px"></div>
         <p class="value"><%= @carbon_flight %>kg CO2</p>
       </div>
 
       <span>Maximum amount of CO2 a person should produce per year to halt climate change</span>
       <div class="progress-lign">
+        <i class="fas fa-globe-americas earth"></i>
         <div class="progress-max" style="width: 600px"></div>
         <p class="value">600 kg C02</p>
       </div>
