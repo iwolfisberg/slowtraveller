@@ -161,33 +161,52 @@
   }
 }
 
-.end-button {
-  margin: 35px auto 40px auto;
-}
-
 #button-show {
   width: 200px;
   padding: 4px 15px;
 }
 
-.cards-destination-equivalance {
+.card-destination-equivalence {
   width:800px;
-  margin-left: 200px;
+  margin: 0 auto 30px auto;
+  .end-button {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .card-destination-equivalence-details {
-  background-color: $orange;
+  background-color: white;
   border-radius: 5px;
-  padding: 20px 0 20px 0;
-  width: 800px;
-  margin: 0 auto 40px auto;
+  padding: 10px;
+  width: 410px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid #1B998B;
+  margin: 0 auto 22px auto;
   p {
-    font-family: $headers-font;
+    font-family: $body-font;
     text-align: center;
-    color: white;
-    font-size: 22px;
+    color: #1B998B;
+    font-size: 17px;
     line-height: 1.5;
+  }
+  .carbon-plane {
+    font-weight: bold;
+  }
+}
+
+.burgers-showers {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  .burger-shower p {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  #or {
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 17px;
   }
 }
 
