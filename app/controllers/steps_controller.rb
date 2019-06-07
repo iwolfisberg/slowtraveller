@@ -24,8 +24,7 @@ class StepsController < ApplicationController
     @steps.each { |step| @carbon_total += step[:carbon] }
     @km_total = 0
     @steps.each { |step| @km_total += step[:km] }
-    @carbon_flight = carbon_emissions("plane", @km_total)
-    raise
+    @carbon_flight = carbon_emissions("plane", @km_total) / 1000
     @first_departure = @steps.first["departure"].split(",")[0] if @steps.size.positive?
     @location_user = Destination.find(@steps.last.destination_id).name if @steps.size.positive?
   end
