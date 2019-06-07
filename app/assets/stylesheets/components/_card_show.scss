@@ -113,16 +113,17 @@
   margin: 0 auto 30px auto;
   border-radius: 3px;
   .card-destination-details {
+    height: 150px;
     display: grid;
-    grid-template-columns: 10% 25% 34% 30%;
-    justify-items: center;
+    grid-template-columns: 11% 25% 34% 30%;
     align-items: center;
     background: white;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 3px;
-    padding: 10px 10px;
   }
   .card-destination-icon {
+    justify-content: center;
+    display: flex;
     font-size: 30px;
   }
 }
@@ -142,7 +143,9 @@
 }
 
 .card-destination-details-connections {
-  justify-self: start;
+  .departure {
+    margin-bottom: 12px;
+  }
   .italic {
     font-style: italic;
     opacity: .7;
@@ -205,6 +208,10 @@
     font-weight: bold;
     font-size: 17px;
   }
+}
+
+.add-button {
+  margin: 45px 0 60px 0;
 }
 
 #barre-carbone {

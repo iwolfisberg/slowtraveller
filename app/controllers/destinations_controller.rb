@@ -27,7 +27,6 @@ class DestinationsController < ApplicationController
     @chosen_destination = Destination.find(params[:id])
     @journey = params[:journey]
     @steps = @journey["steps"]
-
     @plane_difference = carbon_equivalent(@journey["carbon"], "plane").to_i - @journey["carbon"].to_i
     @burger_equivalent = carbon_equivalent(@journey["carbon"], "burger").to_i
     @shower_equivalent = carbon_equivalent(@journey["carbon"], "shower").to_i
