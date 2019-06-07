@@ -40,11 +40,14 @@
       <!-- icones -->
       <!-- connections -->
         <div class="card-destination-details-connections">
-          <p class="bold"><%= step[:departure] %></p>
-          <p class="italic">Departure <%= step[:departure_time] %></p>
-          <br>
-          <p class="italic">Arrival <%= step[:arrival_time] %></p>
-          <p class="bold"><%= step[:arrival] %></p>
+          <div class="departure">
+            <p class="bold"><%= step[:departure] %></p>
+            <p class="italic">Departure <%= step[:departure_time] %></p>
+          </div>
+          <div>
+            <p class="italic">Arrival <%= step[:arrival_time] %></p>
+            <p class="bold"><%= step[:arrival] %></p>
+          </div>
         </div>
         <!-- connections -->
         <div class="card-destination-details-instructions">
@@ -58,9 +61,10 @@
         <!-- Lien exploitant -->
     </div>
   <% end %>
-  <div class="end-button">
+</div>
+
+<div class="d-flex justify-content-center add-button">
   <%= link_to "ADD TO MY TRAVEL DIARY", steps_path(info_step: params.to_unsafe_h), method: :post, class: "button" %>
-  </div>
 </div>
 
 <div class="card-destination-equivalence">
