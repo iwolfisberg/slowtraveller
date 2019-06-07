@@ -20,7 +20,7 @@ Step.create!(
   arrival: "Bruges, Belgium",
   carbon: 4,
   arrival_day: "10.04.2019",
-  description: destination[0][:description],
+  description: "Boire des bières et manger des gauffres, tout en explorant les belles rues historiques de la ville, rien de mieux ! "
   )
 
 puts "Creating step 2"
@@ -32,19 +32,19 @@ Step.create!(
   arrival: "Rotterdam, Netherlands",
   carbon: 5,
   arrival_day: "14.04.2019",
-  description: destination[0][:description],
+  description: destination[0][:description]
   )
 
 puts "Creating step 3"
-destination = Destination.where(country: "Netherlands", name: "Amsterdam")
+destination = Destination.where(country: "Denmark", name: "Odense")
 Step.create!(
   user_id: justine.id,
   destination_id: destination[0][:id],
   departure: "Rotterdam, Netherlands",
-  arrival: "Amsterdam, Netherlands",
+  arrival: "Odense, Denmark",
   carbon: 9,
   arrival_day: "20.04.2019",
-  description: destination[0][:description],
+  description: destination[0][:description]
   )
 
 puts "Creating step 4"
@@ -52,7 +52,7 @@ destination = Destination.where(country: "Germany", name: "Hamburg")
 Step.create!(
   user_id: justine.id,
   destination_id: destination[0][:id],
-  departure: "Amsterdam, Netherlands",
+  departure: "Odense, Denmark",
   arrival: "Hamburg, Germany",
   carbon: 10,
   arrival_day: "25.04.2019",
@@ -68,7 +68,7 @@ Step.create!(
   arrival: "Berlin, Germany",
   carbon: 8,
   arrival_day: "01.05.2019",
-  description: destination[0][:description],
+  description: "Incroyable vie nocturne ! Les nuits berlinoises ne sont définitivement pas un mythe. Et la journée, plein de choses à voir tout en circulant à vélo dans la ville."
   )
 
 puts "Creating step 6"
@@ -92,7 +92,7 @@ Step.create!(
   arrival: "Zurich, Switzerland",
   carbon: 10,
   arrival_day: "31.05.2019",
-  description: destination[0][:description],
+  description: "Stuttgart a la plus jolie bibliothèque d'Europe ! En plus, les nombreux châteaux dans les environs"
   )
 
 puts "Creating step 8"
