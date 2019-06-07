@@ -20,7 +20,7 @@ Step.create!(
   arrival: "Bruges, Belgium",
   carbon: 4,
   arrival_day: "10.04.2019",
-  description: "Boire des bières et manger des gauffres, tout en explorant les belles rues historiques de la ville, rien de mieux ! "
+  description: "Drinking beers and eating waffles, all while exploring the city's beautiful streets, nothing's better !"
   )
 
 puts "Creating step 2"
@@ -32,7 +32,7 @@ Step.create!(
   arrival: "Rotterdam, Netherlands",
   carbon: 5,
   arrival_day: "14.04.2019",
-  description: destination[0][:description]
+  description: "Rotterdam has the best shopping malls ! I have spent too much of my budget here, but it was worth it =)"
   )
 
 puts "Creating step 3"
@@ -44,7 +44,7 @@ Step.create!(
   arrival: "Odense, Denmark",
   carbon: 9,
   arrival_day: "20.04.2019",
-  description: destination[0][:description]
+  description: "For me who loves to read, Odense was a wonderful place ! I had the chance to discover more about Hans Christian Andersen and his literary works. There is also tons of cute coffee shops in the streets."
   )
 
 puts "Creating step 4"
@@ -56,7 +56,7 @@ Step.create!(
   arrival: "Hamburg, Germany",
   carbon: 10,
   arrival_day: "25.04.2019",
-  description: destination[0][:description],
+  description: "I'm really glad I went to Hamburg, as it is often overlooked for Berlin. Culture is so rich here, so many museums. And people are really nice and helpful. I also went to this great music festival, it was awesome !"
   )
 
 puts "Creating step 5"
@@ -68,7 +68,7 @@ Step.create!(
   arrival: "Berlin, Germany",
   carbon: 8,
   arrival_day: "01.05.2019",
-  description: "Incroyable vie nocturne ! Les nuits berlinoises ne sont définitivement pas un mythe. Et la journée, plein de choses à voir tout en circulant à vélo dans la ville."
+  description: "The nightlife was amazing ! Berlin's nights are completely up to their reputations. And during the day, there's still a lot to do and it's really easy to go everywhere by bike. I especially liked the East Side Gallery"
   )
 
 puts "Creating step 6"
@@ -80,7 +80,7 @@ Step.create!(
   arrival: "Stuttgart, Germany",
   carbon: 12,
   arrival_day: "25.05.2019",
-  description: destination[0][:description],
+  description: "Stuttgart has Europe's nicest library ! Besides, the countless castles around the city make for great day trips. And obviously, the Mercedes-Benz Museum is a must !"
   )
 
 puts "Creating step 7"
@@ -92,7 +92,7 @@ Step.create!(
   arrival: "Zurich, Switzerland",
   carbon: 10,
   arrival_day: "31.05.2019",
-  description: "Stuttgart a la plus jolie bibliothèque d'Europe ! En plus, les nombreux châteaux dans les environs"
+  description: "Before coming to Zurich, I didn't know much about Switzerland. But Zurich should be on everyone's to-do list ! Everyday I went to the lake, it's such a beautiful sight. And obviously, the Rheinfall are quite amazing to see."
   )
 
 puts "Creating step 8"
@@ -104,5 +104,5 @@ Step.create!(
   arrival: "Lausanne, Switzerland",
   carbon: 5,
   arrival_day: "04.06.2019",
-  description: destination[0][:description],
+  description: destination[0][:description]
   )
