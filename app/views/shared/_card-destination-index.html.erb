@@ -53,7 +53,7 @@
           <p>Duration<br><%= journey[:duration] %></p>
           <div class="icones">
             <% journey[:modes_icones].each do |icone| %>
-              <p><%= icone.html_safe %> <br></p>
+              <p class="icon"><%= icone.html_safe %> <br></p>
             <% end %>
           </div>
           <div data-journey-id="<%= journey[:departure_time] %>">
