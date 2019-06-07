@@ -33,7 +33,7 @@ Step.create!(
   arrival: "Rotterdam, Netherlands",
   carbon: 5,
   arrival_day: "14.04.2019",
-  km: 150,
+  km: 180,
   description: "Rotterdam has the best shopping malls ! I have spent too much of my budget here, but it was worth it =)"
   )
 
@@ -46,7 +46,7 @@ Step.create!(
   arrival: "Odense, Denmark",
   carbon: 9,
   arrival_day: "20.04.2019",
-  km: 150,
+  km: 800,
   description: "For me who loves to read, Odense was a wonderful place ! I had the chance to discover more about Hans Christian Andersen and his literary works. There is also tons of cute coffee shops in the streets."
   )
 
@@ -60,7 +60,7 @@ Step.create!(
   carbon: 10,
   arrival_day: "25.04.2019",
   description: "I'm really glad I went to Hamburg, as it is often overlooked for Berlin. Culture is so rich here, so many museums. And people are really nice and helpful. I also went to this great music festival, it was awesome !"
-  km: 150,
+  km: 315,
   )
 
 puts "Creating step 5"
@@ -73,7 +73,7 @@ Step.create!(
   carbon: 8,
   arrival_day: "01.05.2019",
   description: "The nightlife was amazing ! Berlin's nights are completely up to their reputations. And during the day, there's still a lot to do and it's really easy to go everywhere by bike. I especially liked the East Side Gallery"
-  km: 150,
+  km: 290,
   )
 
 puts "Creating step 6"
@@ -86,7 +86,7 @@ Step.create!(
   carbon: 12,
   arrival_day: "25.05.2019",
   description: "Stuttgart has Europe's nicest library ! Besides, the countless castles around the city make for great day trips. And obviously, the Mercedes-Benz Museum is a must !"
-  km: 150,
+  km: 635,
   )
 
 puts "Creating step 7"
@@ -99,7 +99,7 @@ Step.create!(
   carbon: 10,
   arrival_day: "31.05.2019",
   description: "Before coming to Zurich, I didn't know much about Switzerland. But Zurich should be on everyone's to-do list ! Everyday I went to the lake, it's such a beautiful sight. And obviously, the Rheinfall are quite amazing to see."
-  km: 150,
+  km: 220,
   )
 
 puts "Creating step 8"
@@ -112,5 +112,5 @@ Step.create!(
   carbon: 5,
   arrival_day: "04.06.2019",
   description: destination[0][:description]
-  km: 150,
+  km: 220,
   )
