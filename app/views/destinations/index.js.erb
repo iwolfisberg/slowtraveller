@@ -19,6 +19,7 @@ function apiRequestAjax(destinations_array) {
 
   mainContainer.removeChild(contentIndex);
   mainContainer.insertAdjacentHTML("beforeend", `<div class="content-index"><%= render 'shared/card-destination-index' %><%= render 'shared/legend_icons' %></div>`);
+  document.querySelector(".form-banner").style.margin = "30px 0 300px 0"
 };
 
 apiRequestAjax(`<%= @destinations_array %>`);
