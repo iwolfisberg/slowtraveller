@@ -188,10 +188,10 @@
   padding: 10px;
   width: 410px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  border: 1px solid #1B998B;
+  border: 3px solid #1B998B;
   margin: 0 auto 22px auto;
   p {
-    font-family: $body-font;
+    font-family: $headers-font;
     text-align: center;
     color: #1B998B;
     font-size: 17px;
@@ -207,12 +207,10 @@
   justify-content: space-around;
   margin: 0 auto;
   .burger-shower p {
-    font-weight: bold;
     font-size: 17px;
   }
   #or {
     margin-top: 6px;
-    font-weight: bold;
     font-size: 17px;
   }
 }
